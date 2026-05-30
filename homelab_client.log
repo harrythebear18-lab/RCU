@@ -1,0 +1,54 @@
+2026-05-26 23:58:15,481 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-26 23:58:15,533 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-26 23:58:15,534 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-26 23:58:15,534 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-26 23:58:15,535 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-26 23:58:15,535 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-26 23:58:15,535 - HomelabClient - INFO - Starting Homelab Client
+2026-05-26 23:58:15,535 - HomelabClient - INFO - Starting Homelab Client
+2026-05-26 23:58:19,918 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-26 23:58:19,932 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:05:36,047 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:05:36,098 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:05:36,099 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:05:36,099 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:05:36,100 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:05:36,100 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:05:36,100 - HomelabClient - INFO - Starting Homelab Client
+2026-05-27 00:05:36,100 - HomelabClient - INFO - Starting Homelab Client
+2026-05-27 00:05:40,224 - HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:05:40,224 - HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:05:42,409 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:05:42,422 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:55,755 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:11:55,830 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:55,832 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:11:55,832 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:11:55,833 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:55,833 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:55,833 - HomelabClient - INFO - Starting Homelab Client
+2026-05-27 00:11:55,833 - HomelabClient - INFO - Starting Homelab Client
+2026-05-27 00:11:59,930 - HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:11:59,930 - HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:12:02,410 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:12:02,440 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:48,411 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:15:48,463 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:48,465 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:15:48,465 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:15:48,466 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:48,466 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:48,466 - HomelabClient - INFO - Starting Homelab Client
+2026-05-27 00:15:48,466 - HomelabClient - INFO - Starting Homelab Client
+2026-05-27 00:15:52,700 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:15:52,713 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:22:28,308 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:22:28,355 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:22:28,356 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:22:28,356 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:22:28,357 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:22:28,357 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:22:28,357 - HomelabClient - INFO - Starting Homelab Client
+2026-05-27 00:22:28,357 - HomelabClient - INFO - Starting Homelab Client
+2026-05-27 00:22:32,538 - HomelabClient - INFO - Loaded client configuration: client_id=None
+2026-05-27 00:22:32,551 - HomelabClient - ERROR - Failed to get system info: 'sdiskpart' object has no attribute 'total'

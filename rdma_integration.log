@@ -1,0 +1,44 @@
+2026-05-27 00:14:52,406 - RDMAIntegration - ERROR - Failed to save RDMA settings: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:14:52,406 - RDMAIntegration - WARNING - RDMA components not available, creating mock resources
+2026-05-27 00:14:52,415 - RDMAIntegration - INFO - Registered 1 RDMA resources with homelab server
+2026-05-27 00:14:52,415 - RDMAIntegration - INFO - Created mock RDMA resources (RDMA components not available)
+2026-05-27 00:14:52,417 - RDMAIntegration - INFO - RDMA integration monitoring started
+2026-05-27 00:14:52,418 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:15:54,254 - RDMAIntegration - ERROR - Failed to save RDMA settings: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:15:54,254 - RDMAIntegration - WARNING - RDMA components not available, creating mock resources
+2026-05-27 00:15:54,266 - RDMAIntegration - INFO - Registered 1 RDMA resources with homelab server
+2026-05-27 00:15:54,266 - RDMAIntegration - INFO - Created mock RDMA resources (RDMA components not available)
+2026-05-27 00:15:54,267 - RDMAIntegration - INFO - RDMA integration monitoring started
+2026-05-27 00:15:54,268 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:21:32,314 - RDMAIntegration - ERROR - Failed to save RDMA settings: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:21:32,314 - RDMAIntegration - WARNING - RDMA components not available, creating mock resources
+2026-05-27 00:21:32,319 - RDMAIntegration - INFO - Registered 1 RDMA resources with homelab server
+2026-05-27 00:21:32,320 - RDMAIntegration - INFO - Created mock RDMA resources (RDMA components not available)
+2026-05-27 00:21:32,321 - RDMAIntegration - INFO - RDMA integration monitoring started
+2026-05-27 00:21:32,324 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:22:34,145 - RDMAIntegration - ERROR - Failed to save RDMA settings: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:22:34,145 - RDMAIntegration - WARNING - RDMA components not available, creating mock resources
+2026-05-27 00:22:34,157 - RDMAIntegration - INFO - Registered 1 RDMA resources with homelab server
+2026-05-27 00:22:34,157 - RDMAIntegration - INFO - Created mock RDMA resources (RDMA components not available)
+2026-05-27 00:22:34,158 - RDMAIntegration - INFO - RDMA integration monitoring started
+2026-05-27 00:22:34,159 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:25:03,946 - RDMAIntegration - ERROR - Failed to save RDMA settings: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:25:03,946 - RDMAIntegration - WARNING - RDMA components not available, creating mock resources
+2026-05-27 00:25:03,959 - RDMAIntegration - INFO - Registered 1 RDMA resources with homelab server
+2026-05-27 00:25:03,959 - RDMAIntegration - INFO - Created mock RDMA resources (RDMA components not available)
+2026-05-27 00:25:03,960 - RDMAIntegration - INFO - RDMA integration monitoring started
+2026-05-27 00:25:03,962 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:25:13,962 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:25:39,710 - RDMAIntegration - ERROR - Failed to save RDMA settings: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:25:39,710 - RDMAIntegration - WARNING - RDMA components not available, creating mock resources
+2026-05-27 00:25:39,719 - RDMAIntegration - INFO - Registered 1 RDMA resources with homelab server
+2026-05-27 00:25:39,720 - RDMAIntegration - INFO - Created mock RDMA resources (RDMA components not available)
+2026-05-27 00:25:39,720 - RDMAIntegration - INFO - RDMA integration monitoring started
+2026-05-27 00:25:39,722 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:26:08,063 - RDMAIntegration - ERROR - Failed to save RDMA settings: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:26:08,063 - RDMAIntegration - WARNING - RDMA components not available, creating mock resources
+2026-05-27 00:26:08,077 - RDMAIntegration - INFO - Registered 1 RDMA resources with homelab server
+2026-05-27 00:26:08,077 - RDMAIntegration - INFO - Created mock RDMA resources (RDMA components not available)
+2026-05-27 00:26:08,078 - RDMAIntegration - INFO - RDMA integration monitoring started
+2026-05-27 00:26:08,079 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:26:18,080 - RDMAIntegration - ERROR - RDMA monitoring error: 'RDMAIntegration' object has no attribute 'settings'

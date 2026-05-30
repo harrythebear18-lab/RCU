@@ -1,0 +1,30 @@
+{
+  "enabled": false,
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "username": "",
+  "password": "",
+  "from_email": "",
+  "to_emails": [],
+  "use_tls": true,
+  "use_ssl": false,
+  "notification_types": {
+    "critical_alerts": true,
+    "warning_alerts": false,
+    "daily_reports": false,
+    "weekly_reports": true,
+    "system_health": false,
+    "backup_complete": true,
+    "optimization_complete": false
+  },
+  "scheduling": {
+    "daily_report_time": "09:00",
+    "weekly_report_day": "monday",
+    "weekly_report_time": "09:00"
+  },
+  "templates": {
+    "alert_subject": "\ud83d\udea8 System Alert: {alert_type}",
+    "report_subject": "\ud83d\udcca System Report: {report_type}",
+    "backup_subject": "\ud83d\udcbe Backup Complete: {backup_name}"
+  }
+}

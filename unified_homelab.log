@@ -1,0 +1,18 @@
+2026-05-27 00:15:56,077 - UnifiedHomelab - ERROR - Failed to save settings: 'UnifiedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:15:56,125 - UnifiedHomelab - INFO - Initializing unified homelab components...
+2026-05-27 00:15:56,125 - UnifiedHomelab - ERROR - Failed to initialize Homelab Tools: HomelabLauncher.__init__() missing 1 required positional argument: 'root'
+2026-05-27 00:15:57,306 - UnifiedHomelab - INFO - Resource Optimizer components initialized
+2026-05-27 00:15:57,318 - UnifiedHomelab - INFO - Created 5 unified resource pools
+2026-05-27 00:15:57,318 - UnifiedHomelab - INFO - Component initialization complete
+2026-05-27 00:15:57,319 - UnifiedHomelab - WARNING - Resource Optimizer client disconnected
+2026-05-27 00:15:57,319 - UnifiedHomelab - INFO - Unified monitoring started
+2026-05-27 00:22:35,980 - UnifiedHomelab - ERROR - Failed to save settings: 'UnifiedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:22:35,982 - UnifiedHomelab - INFO - Initializing unified homelab components...
+2026-05-27 00:22:35,982 - UnifiedHomelab - ERROR - Failed to initialize Homelab Tools: HomelabLauncher.__init__() missing 1 required positional argument: 'root'
+2026-05-27 00:22:37,159 - UnifiedHomelab - INFO - Resource Optimizer components initialized
+2026-05-27 00:22:37,167 - UnifiedHomelab - INFO - Created 5 unified resource pools
+2026-05-27 00:22:37,167 - UnifiedHomelab - INFO - Component initialization complete
+2026-05-27 00:22:37,168 - UnifiedHomelab - WARNING - Resource Optimizer client disconnected
+2026-05-27 00:22:37,168 - UnifiedHomelab - INFO - Unified monitoring started
+2026-05-27 00:22:39,768 - UnifiedHomelab - INFO - Starting unified homelab system...
+2026-05-27 00:22:39,768 - UnifiedHomelab - INFO - Starting Resource Optimizer server...

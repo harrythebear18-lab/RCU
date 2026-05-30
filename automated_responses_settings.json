@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "auto_approve_critical": true,
+  "auto_approve_high": false,
+  "auto_approve_medium": false,
+  "auto_approve_low": false,
+  "max_responses_per_hour": 10,
+  "response_timeout": 30,
+  "log_all_responses": true,
+  "require_confirmation": true,
+  "safe_mode": true,
+  "excluded_processes": [
+    "system",
+    "csrss",
+    "winlogon",
+    "lsass"
+  ],
+  "backup_before_actions": true
+}

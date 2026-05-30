@@ -1,0 +1,8 @@
+{
+  "tasks": [],
+  "settings": {
+    "auto_start": true,
+    "max_concurrent_tasks": 5,
+    "log_retention_days": 30
+  }
+}

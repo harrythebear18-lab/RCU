@@ -1,0 +1,35 @@
+{
+  "system": {
+    "theme": "dark",
+    "language": "en",
+    "auto_start": false,
+    "notifications": true
+  },
+  "performance": {
+    "cpu_priority": "normal",
+    "memory_limit": "unlimited",
+    "disk_cleanup": true,
+    "temp_cleanup_days": 7
+  },
+  "security": {
+    "auto_lock": false,
+    "session_timeout": 3600,
+    "password_policy": "medium",
+    "audit_logging": true
+  },
+  "network": {
+    "auto_connect": false,
+    "firewall_enabled": true,
+    "proxy_enabled": false,
+    "dns_servers": [
+      "8.8.8.8",
+      "8.8.4.4"
+    ]
+  },
+  "backup": {
+    "auto_backup": false,
+    "backup_interval": "daily",
+    "backup_location": "./backups",
+    "compression": true
+  }
+}

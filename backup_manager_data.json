@@ -1,0 +1,8 @@
+{
+  "backup_history": [],
+  "settings": {
+    "default_backup_dir": "backups",
+    "compression": true,
+    "max_backups": 10
+  }
+}

@@ -1,0 +1,40 @@
+2026-05-26 23:57:57,642 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-26 23:57:57,703 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:05:14,471 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:05:14,551 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:16,351 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:11:16,443 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:16,444 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:11:16,444 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:11:16,444 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:16,444 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:16,445 - Win11RDMAClient - INFO - Starting Windows 11 RDMA Homelab Client
+2026-05-27 00:11:16,445 - Win11RDMAClient - INFO - Starting Windows 11 RDMA Homelab Client
+2026-05-27 00:11:20,579 - Win11RDMAClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:11:20,579 - Win11RDMAClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:11:20,628 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:11:20,695 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:20,696 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:11:20,696 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:11:20,697 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:20,697 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:20,697 - Win11RDMAClient - INFO - Starting Windows 11 RDMA Homelab Client
+2026-05-27 00:11:20,697 - Win11RDMAClient - INFO - Starting Windows 11 RDMA Homelab Client
+2026-05-27 00:11:26,261 - Win11RDMAClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:11:26,261 - Win11RDMAClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:15:07,006 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:15:07,063 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:07,065 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:15:07,065 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:15:07,066 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:07,066 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:07,066 - Win11RDMAClient - INFO - Starting Windows 11 RDMA Homelab Client
+2026-05-27 00:15:07,066 - Win11RDMAClient - INFO - Starting Windows 11 RDMA Homelab Client
+2026-05-27 00:21:46,897 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:21:46,963 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:21:46,964 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:21:46,964 - Win11RDMAClient - INFO - Loaded Windows 11 RDMA client configuration: client_id=None
+2026-05-27 00:21:46,964 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:21:46,964 - Win11RDMAClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:21:46,964 - Win11RDMAClient - INFO - Starting Windows 11 RDMA Homelab Client
+2026-05-27 00:21:46,964 - Win11RDMAClient - INFO - Starting Windows 11 RDMA Homelab Client

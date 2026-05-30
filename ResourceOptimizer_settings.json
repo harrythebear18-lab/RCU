@@ -1,0 +1,81 @@
+{
+  "general": {
+    "auto_start": false,
+    "minimize_to_tray": true,
+    "start_minimized": false,
+    "language": "en_US",
+    "theme": "dark",
+    "auto_save_interval": 300,
+    "enable_notifications": true,
+    "enable_sounds": false
+  },
+  "monitoring": {
+    "update_interval": 2000,
+    "history_retention_days": 7,
+    "enable_cpu_monitoring": true,
+    "enable_gpu_monitoring": true,
+    "enable_ram_monitoring": true,
+    "enable_network_monitoring": false,
+    "enable_disk_monitoring": false,
+    "enable_temperature_monitoring": true
+  },
+  "alerts": {
+    "cpu_threshold_warning": 80.0,
+    "cpu_threshold_critical": 95.0,
+    "ram_threshold_warning": 85.0,
+    "ram_threshold_critical": 95.0,
+    "gpu_threshold_warning": 85.0,
+    "gpu_threshold_critical": 95.0,
+    "temperature_threshold_warning": 75.0,
+    "temperature_threshold_critical": 85.0,
+    "enable_alerts": true,
+    "alert_sound": false,
+    "alert_duration": 5000,
+    "auto_optimization": false
+  },
+  "optimization": {
+    "default_profile": "balanced",
+    "auto_profile_switching": false,
+    "optimization_aggressiveness": "moderate",
+    "enable_process_prioritization": true,
+    "enable_memory_optimization": true,
+    "enable_gpu_optimization": false,
+    "enable_network_optimization": false,
+    "optimization_interval": 30,
+    "backup_profiles": true
+  },
+  "ui": {
+    "window_geometry": {
+      "width": 1200,
+      "height": 800,
+      "x": 0,
+      "y": 0
+    },
+    "show_graphs": true,
+    "graph_history_points": 60,
+    "graph_update_interval": 1000,
+    "compact_mode": false,
+    "show_tooltips": true,
+    "animation_enabled": true,
+    "font_size": 10,
+    "color_scheme": "default"
+  },
+  "data": {
+    "export_format": "json",
+    "auto_export": false,
+    "export_interval": 3600,
+    "compress_exports": true,
+    "max_export_size_mb": 100,
+    "backup_data": true,
+    "backup_retention_days": 30
+  },
+  "advanced": {
+    "debug_mode": false,
+    "verbose_logging": false,
+    "enable_api": false,
+    "api_port": 8080,
+    "enable_plugins": false,
+    "plugin_directory": "",
+    "experimental_features": false
+  }
+}

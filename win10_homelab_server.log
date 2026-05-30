@@ -1,0 +1,164 @@
+2026-05-27 00:14:52,778 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:14:52,778 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 0.8GB total capacity
+2026-05-27 00:14:52,882 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:14:52,927 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:14:52,975 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:14:53,035 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:14:53,035 - Win10HomelabServer - INFO - Initialized 10 Windows 10 resources
+2026-05-27 00:14:53,035 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:14:53,035 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:14:53,037 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:14:53,037 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:14:53,037 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:14:54,310 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:14:54,310 - Win10HomelabServer - INFO - Starting Windows 10 Homelab Server on 0.0.0.0:8080
+2026-05-27 00:14:54,310 - Win10HomelabServer - INFO - Platform: Windows-11-10.0.26200-SP0
+2026-05-27 00:14:54,310 - Win10HomelabServer - INFO - Available Resources: 10
+2026-05-27 00:15:54,521 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:15:54,522 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 0.8GB total capacity
+2026-05-27 00:15:54,624 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:15:54,668 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:15:54,711 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:15:54,769 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:15:54,769 - Win10HomelabServer - INFO - Initialized 10 Windows 10 resources
+2026-05-27 00:15:54,769 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:15:54,769 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:15:54,771 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:15:54,771 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:15:54,772 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:15:56,046 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:15:56,206 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:15:56,206 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:15:56,206 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 0.8GB total capacity
+2026-05-27 00:15:56,206 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 0.8GB total capacity
+2026-05-27 00:15:56,318 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:15:56,318 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:15:56,366 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:15:56,366 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:15:56,410 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:15:56,410 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:15:56,465 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:15:56,465 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:15:56,465 - Win10HomelabServer - INFO - Initialized 10 Windows 10 resources
+2026-05-27 00:15:56,465 - Win10HomelabServer - INFO - Initialized 10 Windows 10 resources
+2026-05-27 00:15:56,465 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:15:56,465 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:15:56,465 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:15:56,465 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:15:56,467 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:15:56,467 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:15:56,468 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:15:56,468 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:15:56,468 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:15:56,468 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:15:57,302 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:15:57,302 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:21:32,662 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:21:32,691 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 1.1GB total capacity
+2026-05-27 00:21:32,794 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:21:32,838 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:21:32,888 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:21:32,951 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:21:32,951 - Win10HomelabServer - INFO - Initialized 12 Windows 10 resources
+2026-05-27 00:21:32,951 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:21:32,951 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:21:32,953 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:21:32,954 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:21:32,954 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:21:34,222 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:21:34,222 - Win10HomelabServer - INFO - Starting Windows 10 Homelab Server on 0.0.0.0:8080
+2026-05-27 00:21:34,223 - Win10HomelabServer - INFO - Platform: Windows-11-10.0.26200-SP0
+2026-05-27 00:21:34,223 - Win10HomelabServer - INFO - Available Resources: 12
+2026-05-27 00:22:34,431 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:22:34,431 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 1.0GB total capacity
+2026-05-27 00:22:34,542 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:22:34,590 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:22:34,638 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:22:34,698 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:22:34,698 - Win10HomelabServer - INFO - Initialized 10 Windows 10 resources
+2026-05-27 00:22:34,698 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:22:34,698 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:22:34,699 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:22:34,700 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:22:34,700 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:22:35,963 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:22:36,050 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:22:36,050 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:22:36,065 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 1.0GB total capacity
+2026-05-27 00:22:36,065 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 1.0GB total capacity
+2026-05-27 00:22:36,172 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:22:36,172 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:22:36,217 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:22:36,217 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:22:36,261 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:22:36,261 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:22:36,318 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:22:36,318 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:22:36,318 - Win10HomelabServer - INFO - Initialized 12 Windows 10 resources
+2026-05-27 00:22:36,318 - Win10HomelabServer - INFO - Initialized 12 Windows 10 resources
+2026-05-27 00:22:36,318 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:22:36,318 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:22:36,318 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:22:36,318 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:22:36,320 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:22:36,320 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:22:36,321 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:22:36,321 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:22:36,321 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:22:36,321 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:22:37,157 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:22:37,157 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:22:39,768 - Win10HomelabServer - INFO - Starting Windows 10 Homelab Server on 0.0.0.0:8080
+2026-05-27 00:22:39,768 - Win10HomelabServer - INFO - Starting Windows 10 Homelab Server on 0.0.0.0:8080
+2026-05-27 00:22:39,768 - Win10HomelabServer - INFO - Platform: Windows-11-10.0.26200-SP0
+2026-05-27 00:22:39,768 - Win10HomelabServer - INFO - Platform: Windows-11-10.0.26200-SP0
+2026-05-27 00:22:39,769 - Win10HomelabServer - INFO - Available Resources: 12
+2026-05-27 00:22:39,769 - Win10HomelabServer - INFO - Available Resources: 12
+2026-05-27 00:25:04,379 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:25:04,412 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 1.0GB total capacity
+2026-05-27 00:25:04,519 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:25:04,567 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:25:04,612 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:25:04,674 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:25:04,674 - Win10HomelabServer - INFO - Initialized 12 Windows 10 resources
+2026-05-27 00:25:04,674 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:25:04,674 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:25:04,676 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:25:04,676 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:25:04,677 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:25:05,940 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:25:05,941 - Win10HomelabServer - INFO - Starting Windows 10 Homelab Server on 0.0.0.0:8080
+2026-05-27 00:25:05,941 - Win10HomelabServer - INFO - Platform: Windows-11-10.0.26200-SP0
+2026-05-27 00:25:05,941 - Win10HomelabServer - INFO - Available Resources: 12
+2026-05-27 00:25:39,985 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:25:39,985 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 1.0GB total capacity
+2026-05-27 00:25:40,072 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:25:40,089 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:25:40,106 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:25:40,138 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:25:40,138 - Win10HomelabServer - INFO - Initialized 10 Windows 10 resources
+2026-05-27 00:25:40,138 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:25:40,138 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:25:40,139 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:25:40,140 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:25:40,140 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:25:41,409 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:25:41,410 - Win10HomelabServer - INFO - Starting Windows 10 Homelab Server on 0.0.0.0:8080
+2026-05-27 00:25:41,410 - Win10HomelabServer - INFO - Platform: Windows-11-10.0.26200-SP0
+2026-05-27 00:25:41,410 - Win10HomelabServer - INFO - Available Resources: 10
+2026-05-27 00:26:08,340 - Win10HomelabServer - INFO - Initializing Windows 10 resources...
+2026-05-27 00:26:08,340 - Win10HomelabServer - INFO - Initialized Win10 eRAM pools with 0.9GB total capacity
+2026-05-27 00:26:08,450 - Win10HomelabServer - INFO - Initialized 1 Win10 eGPU resources
+2026-05-27 00:26:08,498 - Win10HomelabServer - INFO - Initialized Win10 eCPU pools with 6.0 cores total
+2026-05-27 00:26:08,543 - Win10HomelabServer - INFO - Initialized Win10 storage resources
+2026-05-27 00:26:08,607 - Win10HomelabServer - INFO - Initialized Win10 network resources
+2026-05-27 00:26:08,607 - Win10HomelabServer - INFO - Initialized 10 Windows 10 resources
+2026-05-27 00:26:08,607 - Win10HomelabServer - INFO - Initializing RDMA integration...
+2026-05-27 00:26:08,607 - Win10HomelabServer - ERROR - Failed to initialize RDMA integration: 'RDMAIntegration' object has no attribute 'settings'
+2026-05-27 00:26:08,609 - Win10HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:26:08,609 - Win10HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:26:08,609 - Win10HomelabServer - INFO - Windows 10 resource monitoring started
+2026-05-27 00:26:09,860 - Win10HomelabServer - INFO - Windows 10 HTTP server created on 0.0.0.0:8080
+2026-05-27 00:26:09,861 - Win10HomelabServer - INFO - Starting Windows 10 Homelab Server on 0.0.0.0:8080
+2026-05-27 00:26:09,861 - Win10HomelabServer - INFO - Platform: Windows-11-10.0.26200-SP0
+2026-05-27 00:26:09,861 - Win10HomelabServer - INFO - Available Resources: 10

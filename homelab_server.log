@@ -1,0 +1,94 @@
+2026-05-26 23:58:12,409 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-26 23:58:12,471 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-26 23:58:12,490 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-26 23:58:12,510 - HomelabServer - INFO - Initialized storage resources
+2026-05-26 23:58:12,542 - HomelabServer - INFO - Initialized network resources
+2026-05-26 23:58:12,544 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-26 23:58:12,544 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-26 23:58:12,545 - HomelabServer - INFO - Resource monitoring started
+2026-05-26 23:58:12,545 - HomelabServer - INFO - Starting Homelab Server on 0.0.0.0:8080
+2026-05-26 23:58:19,594 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-26 23:58:19,647 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-26 23:58:19,698 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-26 23:58:19,744 - HomelabServer - INFO - Initialized storage resources
+2026-05-26 23:58:19,801 - HomelabServer - INFO - Initialized network resources
+2026-05-26 23:58:19,803 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-26 23:58:19,803 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-26 23:58:19,804 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:05:30,769 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:05:30,826 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:05:30,845 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:05:30,862 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:05:30,897 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:05:30,899 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:05:30,899 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:05:30,899 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:05:30,899 - HomelabServer - INFO - Starting Homelab Server on 0.0.0.0:8080
+2026-05-27 00:05:42,081 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:05:42,143 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:05:42,187 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:05:42,232 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:05:42,292 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:05:42,293 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:05:42,294 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:05:42,294 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:11:50,341 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:11:50,409 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:11:50,459 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:11:50,509 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:11:50,577 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:11:50,579 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:11:50,580 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:11:50,580 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:11:50,580 - HomelabServer - INFO - Starting Homelab Server on 0.0.0.0:8080
+2026-05-27 00:12:02,000 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:12:02,066 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:12:02,114 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:12:02,170 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:12:02,244 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:12:02,246 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:12:02,247 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:12:02,248 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:12:07,503 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:12:07,555 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:12:07,599 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:12:07,646 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:12:07,707 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:12:07,708 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:12:07,708 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:12:07,709 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:12:07,709 - HomelabServer - INFO - Starting Homelab Server on 0.0.0.0:8080
+2026-05-27 00:15:45,265 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:15:45,327 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:15:45,371 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:15:45,414 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:15:45,474 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:15:45,476 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:15:45,476 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:15:45,477 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:15:45,477 - HomelabServer - INFO - Starting Homelab Server on 0.0.0.0:8080
+2026-05-27 00:15:52,346 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:15:52,411 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:15:52,458 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:15:52,512 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:15:52,579 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:15:52,581 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:15:52,582 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:15:52,582 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:22:25,186 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:22:25,242 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:22:25,258 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:22:25,276 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:22:25,306 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:22:25,308 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:22:25,308 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:22:25,308 - HomelabServer - INFO - Resource monitoring started
+2026-05-27 00:22:25,308 - HomelabServer - INFO - Starting Homelab Server on 0.0.0.0:8080
+2026-05-27 00:22:32,211 - HomelabServer - INFO - Initialized 3 eRAM resource pools
+2026-05-27 00:22:32,271 - HomelabServer - INFO - Initialized 1 eGPU resources
+2026-05-27 00:22:32,316 - HomelabServer - INFO - Initialized 3 eCPU resource pools
+2026-05-27 00:22:32,361 - HomelabServer - INFO - Initialized storage resources
+2026-05-27 00:22:32,422 - HomelabServer - INFO - Initialized network resources
+2026-05-27 00:22:32,424 - HomelabServer - INFO - Loaded 0 registered clients
+2026-05-27 00:22:32,425 - HomelabServer - INFO - Loaded 0 API keys
+2026-05-27 00:22:32,425 - HomelabServer - INFO - Resource monitoring started

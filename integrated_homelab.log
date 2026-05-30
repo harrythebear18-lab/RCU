@@ -1,0 +1,144 @@
+2026-05-26 23:06:55,750 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-26 23:06:55,764 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-26 23:06:55,774 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_3754
+2026-05-26 23:06:55,775 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-26 23:06:55,775 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-26 23:06:55,775 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-26 23:06:55,776 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-26 23:06:55,776 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-26 23:07:21,072 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-26 23:07:21,073 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-26 23:07:21,082 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_8187
+2026-05-26 23:07:21,082 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-26 23:07:21,082 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-26 23:07:21,082 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-26 23:07:21,083 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-26 23:07:21,083 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-26 23:57:33,264 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-26 23:57:33,265 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-26 23:57:33,292 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_5228
+2026-05-26 23:57:33,293 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-26 23:57:33,293 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-26 23:57:33,293 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-26 23:57:33,293 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-26 23:57:33,293 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-26 23:57:49,178 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-26 23:57:49,179 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-26 23:57:49,208 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_2997
+2026-05-26 23:57:49,209 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-26 23:57:49,209 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-26 23:57:49,209 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-26 23:57:49,209 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-26 23:57:49,209 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:02:09,112 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:02:09,114 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:02:09,126 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_9876
+2026-05-27 00:02:09,127 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:02:09,127 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:02:09,127 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:02:09,128 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:02:09,128 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:02:53,060 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:02:53,062 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:02:53,091 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_2082
+2026-05-27 00:02:53,092 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:02:53,092 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:02:53,092 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:02:53,092 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:02:53,092 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:04:23,970 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:04:23,971 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:04:24,001 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_4769
+2026-05-27 00:04:24,002 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:04:24,002 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:04:24,002 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:04:24,002 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:04:24,003 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:04:52,148 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:04:52,149 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:04:52,159 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_5560
+2026-05-27 00:04:52,160 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:04:52,160 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:04:52,160 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:04:52,160 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:04:52,160 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:09:38,832 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:09:38,833 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:09:38,845 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_5844
+2026-05-27 00:09:38,845 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:09:38,845 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:09:38,845 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:09:38,846 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:09:38,846 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:10:12,466 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:10:12,467 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:10:12,547 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_6897
+2026-05-27 00:10:12,548 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:10:12,548 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:10:12,548 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:10:12,548 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:10:12,548 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:10:56,100 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:10:56,101 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:10:56,240 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_4368
+2026-05-27 00:10:56,242 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:10:56,242 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:10:56,242 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:10:56,242 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:10:56,242 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:14:02,828 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:14:02,829 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:14:02,860 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_9044
+2026-05-27 00:14:02,861 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:14:02,861 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:14:02,861 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:14:02,862 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:14:02,862 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:14:44,466 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:14:44,467 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:14:44,526 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_2194
+2026-05-27 00:14:44,527 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:14:44,527 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:14:44,527 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:14:44,527 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:14:44,527 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:16:55,451 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:16:55,452 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:16:55,463 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_2100
+2026-05-27 00:16:55,463 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:16:55,463 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:16:55,463 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:16:55,464 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:16:55,464 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:20:42,707 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:20:42,708 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:20:42,737 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_5120
+2026-05-27 00:20:42,738 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:20:42,738 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:20:42,738 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:20:42,738 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:20:42,738 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:21:24,227 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:21:24,228 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:21:24,239 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_5824
+2026-05-27 00:21:24,240 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:21:24,241 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:21:24,241 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:21:24,241 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:21:24,241 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-27 00:23:35,235 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-27 00:23:35,236 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-27 00:23:35,267 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_1520
+2026-05-27 00:23:35,268 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-27 00:23:35,268 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-27 00:23:35,268 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-27 00:23:35,269 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-27 00:23:35,269 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized
+2026-05-30 18:56:16,617 - IntegratedHomelab - ERROR - Failed to save settings: 'IntegratedHomelabSystem' object has no attribute 'settings'
+2026-05-30 18:56:16,619 - IntegratedHomelab - INFO - PC authentication system started
+2026-05-30 18:56:16,629 - IntegratedHomelab - INFO - Local peer registered in resource system: peer_peer_1485
+2026-05-30 18:56:16,629 - IntegratedHomelab - INFO - Loaded resource access for 0 peers
+2026-05-30 18:56:16,630 - IntegratedHomelab - INFO - Resource allocation authentication checks enabled
+2026-05-30 18:56:16,630 - IntegratedHomelab - INFO - Resource sharing with authentication enabled
+2026-05-30 18:56:16,630 - IntegratedHomelab - INFO - Integrated system monitoring started
+2026-05-30 18:56:16,630 - IntegratedHomelab - INFO - Integrated Homelab System with PC Authentication initialized

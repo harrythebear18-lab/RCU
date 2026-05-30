@@ -1,0 +1,54 @@
+2026-05-26 23:57:56,750 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-26 23:57:56,815 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:05:13,529 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:05:13,606 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:08,417 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:11:08,642 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:08,643 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:11:08,643 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:11:08,643 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:08,643 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:08,643 - Win11HomelabClient - INFO - Starting Windows 11 Homelab Client
+2026-05-27 00:11:08,643 - Win11HomelabClient - INFO - Starting Windows 11 Homelab Client
+2026-05-27 00:11:10,838 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:11:10,920 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:10,922 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:11:10,922 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:11:10,923 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:10,923 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:11:10,923 - Win11HomelabClient - INFO - Starting Windows 11 Homelab Client
+2026-05-27 00:11:10,923 - Win11HomelabClient - INFO - Starting Windows 11 Homelab Client
+2026-05-27 00:11:12,778 - Win11HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:11:12,778 - Win11HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:11:15,039 - Win11HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:11:15,039 - Win11HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:12:14,876 - Win11HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:12:14,876 - Win11HomelabClient - INFO - Reconnecting in 60 seconds...
+2026-05-27 00:15:03,699 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:15:03,768 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:03,769 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:15:03,769 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:15:03,770 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:03,770 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:03,770 - Win11HomelabClient - INFO - Starting Windows 11 Homelab Client
+2026-05-27 00:15:03,770 - Win11HomelabClient - INFO - Starting Windows 11 Homelab Client
+2026-05-27 00:15:56,055 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:15:56,056 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:57,305 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:15:57,305 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:15:57,306 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:15:57,306 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:21:43,604 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:21:43,664 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:21:43,666 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:21:43,666 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:21:43,666 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:21:43,666 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:21:43,666 - Win11HomelabClient - INFO - Starting Windows 11 Homelab Client
+2026-05-27 00:21:43,666 - Win11HomelabClient - INFO - Starting Windows 11 Homelab Client
+2026-05-27 00:22:35,966 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:22:35,967 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:22:37,158 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:22:37,158 - Win11HomelabClient - INFO - Loaded Windows 11 client configuration: client_id=None
+2026-05-27 00:22:37,159 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'
+2026-05-27 00:22:37,159 - Win11HomelabClient - ERROR - Failed to get Windows 11 info: 'sdiskpart' object has no attribute 'total'

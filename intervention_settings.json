@@ -1,0 +1,22 @@
+{
+  "enabled": false,
+  "auto_approve_critical": true,
+  "auto_approve_high": true,
+  "auto_approve_medium": false,
+  "auto_approve_low": false,
+  "max_interventions_per_hour": 20,
+  "intervention_timeout": 60,
+  "require_confirmation": false,
+  "safe_mode": true,
+  "excluded_processes": [
+    "system",
+    "csrss",
+    "winlogon",
+    "lsass",
+    "smss"
+  ],
+  "intervention_cooldown": 300,
+  "manual_intervention_threshold": 0.5,
+  "log_all_interventions": true,
+  "enable_notifications": true
+}

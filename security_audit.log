@@ -1,0 +1,15 @@
+2026-05-26 23:41:41,361 - AdvancedSecurity - INFO - Security monitoring started
+2026-05-26 23:41:41,366 - AdvancedSecurity - INFO - AUDIT: test_user - test_action - test_resource - success
+2026-05-26 23:41:41,373 - AdvancedSecurity - INFO - AUDIT: test_user - permission_denied - test_resource - failed
+2026-05-26 23:58:28,428 - AdvancedSecurity - INFO - Security monitoring started
+2026-05-26 23:58:28,453 - AdvancedSecurity - INFO - AUDIT: test_user - test_action - test_resource - success
+2026-05-26 23:58:28,467 - AdvancedSecurity - INFO - AUDIT: test_user - permission_denied - test_resource - failed
+2026-05-27 00:05:50,837 - AdvancedSecurity - INFO - Security monitoring started
+2026-05-27 00:05:50,852 - AdvancedSecurity - INFO - AUDIT: test_user - test_action - test_resource - success
+2026-05-27 00:05:50,868 - AdvancedSecurity - INFO - AUDIT: test_user - permission_denied - test_resource - failed
+2026-05-27 00:16:33,596 - AdvancedSecurity - INFO - Security monitoring started
+2026-05-27 00:16:33,630 - AdvancedSecurity - INFO - AUDIT: test_user - test_action - test_resource - success
+2026-05-27 00:16:33,675 - AdvancedSecurity - INFO - AUDIT: test_user - permission_denied - test_resource - failed
+2026-05-27 00:23:13,466 - AdvancedSecurity - INFO - Security monitoring started
+2026-05-27 00:23:13,476 - AdvancedSecurity - INFO - AUDIT: test_user - test_action - test_resource - success
+2026-05-27 00:23:13,484 - AdvancedSecurity - INFO - AUDIT: test_user - permission_denied - test_resource - failed
