@@ -1,0 +1,40 @@
+# Homelab Tools - Core Dependencies
+# Essential dependencies for Core Services and unified system
+
+# Core system monitoring
+psutil>=5.9.6
+wmi>=1.5.1
+
+# Data processing and visualization  
+matplotlib>=3.8.2
+numpy>=1.26.4
+
+# Network and communication
+requests>=2.31.0
+aiohttp>=3.9.1
+
+# Database and storage
+sqlite3  # Built-in with Python
+
+# Configuration and settings
+configparser>=6.0.0
+pyyaml>=6.0.1
+
+# Logging and monitoring
+colorama>=0.4.6
+
+# Security and encryption
+cryptography>=41.0.8
+
+# Web and API (optional - for future REST API)
+flask>=2.3.3
+flask-cors>=4.0.0
+
+# Windows-specific
+pywin32>=306
+
+# Additional utilities
+click>=8.1.7
+pathlib>=1.0.1
+datetime>=5.3
+jsonschema>=4.20.0

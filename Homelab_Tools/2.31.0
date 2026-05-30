@@ -1,0 +1,17 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting requests
+  Downloading requests-2.34.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting charset_normalizer<4,>=2 (from requests)
+  Downloading charset_normalizer-3.4.7-cp313-cp313-win_amd64.whl.metadata (41 kB)
+Requirement already satisfied: idna<4,>=2.5 in C:\Users\htsou\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from requests) (3.11)
+Collecting urllib3<3,>=1.26 (from requests)
+  Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2023.5.7 (from requests)
+  Downloading certifi-2026.4.22-py3-none-any.whl.metadata (2.5 kB)
+Downloading requests-2.34.0-py3-none-any.whl (73 kB)
+Downloading charset_normalizer-3.4.7-cp313-cp313-win_amd64.whl (158 kB)
+Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+Downloading certifi-2026.4.22-py3-none-any.whl (135 kB)
+Installing collected packages: urllib3, charset_normalizer, certifi, requests
+
+Successfully installed certifi-2026.4.22 charset_normalizer-3.4.7 requests-2.34.0 urllib3-2.7.0

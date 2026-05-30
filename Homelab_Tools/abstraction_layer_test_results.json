@@ -1,0 +1,109 @@
+{
+  "windows_version": {
+    "status": "pass",
+    "tests_passed": 4,
+    "tests_total": 4,
+    "details": {
+      "version_detection": {
+        "status": "pass",
+        "version": "Windows 11",
+        "build_number": 26200
+      },
+      "version_check": {
+        "status": "pass",
+        "is_windows_11": true,
+        "is_windows_10": false
+      },
+      "optimizations": {
+        "status": "pass",
+        "has_system": true,
+        "has_performance": true,
+        "has_network": true,
+        "has_gpu": true
+      },
+      "features": {
+        "status": "pass",
+        "feature_count": 2
+      }
+    }
+  },
+  "data_abstraction": {
+    "status": "pass",
+    "tests_passed": 4,
+    "tests_total": 4,
+    "details": {
+      "layer_creation": {
+        "status": "pass"
+      },
+      "provider_status": {
+        "status": "pass",
+        "providers": {
+          "system": true,
+          "gpu": true,
+          "security": true,
+          "resource_sharing": true,
+          "performance": true
+        },
+        "available_count": 5
+      },
+      "data_retrieval": {
+        "status": "pass",
+        "data_size": 255,
+        "source": "SystemDataProvider"
+      },
+      "multiple_data": {
+        "status": "pass",
+        "cpu_data_available": true,
+        "memory_data_available": true
+      }
+    }
+  },
+  "frontend_backend_mixer": {
+    "status": "pass",
+    "tests_passed": 4,
+    "tests_total": 4,
+    "details": {
+      "mixer_creation": {
+        "status": "pass"
+      },
+      "mixer_start": {
+        "status": "pass"
+      },
+      "component_creation": {
+        "status": "pass",
+        "frontend_created": true,
+        "backend_created": true
+      },
+      "mixer_status": {
+        "status": "pass",
+        "is_running": true,
+        "frontend_count": 1,
+        "backend_count": 1
+      }
+    }
+  },
+  "cross_layer_integration": {
+    "status": "pass",
+    "tests_passed": 3,
+    "tests_total": 3,
+    "details": {
+      "layer_integration": {
+        "status": "pass",
+        "windows_available": true,
+        "data_available": true
+      },
+      "data_flow": {
+        "status": "pass",
+        "system_data_available": true,
+        "windows_opts_available": true
+      },
+      "version_specific": {
+        "status": "pass",
+        "cpu_data_available": true,
+        "windows_opts_available": true
+      }
+    }
+  },
+  "overall_status": "excellent",
+  "test_time": 1778706959.5773869
+}

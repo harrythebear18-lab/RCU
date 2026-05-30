@@ -1,0 +1,192 @@
+{
+  "dashboard_functionality": {
+    "Core Services/unified_dashboard.py": {
+      "passed": true,
+      "message": "Dashboard with GUI components and monitoring",
+      "details": {},
+      "timestamp": 1778705678.3384755
+    },
+    "Core Services/homelab_portal.py": {
+      "passed": true,
+      "message": "Dashboard with GUI components and monitoring",
+      "details": {},
+      "timestamp": 1778705678.3459613
+    }
+  },
+  "launcher_functionality": {
+    "Launch_Homelab_Portal.bat": {
+      "passed": true,
+      "message": "Launcher with proper Windows 10/11 compatibility",
+      "details": {},
+      "timestamp": 1778705678.346656
+    },
+    "Launch_Unified_System.bat": {
+      "passed": true,
+      "message": "Launcher with proper Windows 10/11 compatibility",
+      "details": {},
+      "timestamp": 1778705678.3469543
+    },
+    "Auto_Connect_Launcher.bat": {
+      "passed": true,
+      "message": "Launcher with proper Windows 10/11 compatibility",
+      "details": {},
+      "timestamp": 1778705678.3471978
+    },
+    "Install_Homelab.bat": {
+      "passed": true,
+      "message": "Launcher with proper Windows 10/11 compatibility",
+      "details": {},
+      "timestamp": 1778705678.3475254
+    }
+  },
+  "tool_launching": {
+    "Core Services/homelab_portal.py": {
+      "passed": true,
+      "message": "Tool with proper entry point",
+      "details": {},
+      "timestamp": 1778705678.3552656
+    },
+    "Core Services/rest_api.py": {
+      "passed": true,
+      "message": "Tool with proper entry point",
+      "details": {},
+      "timestamp": 1778705678.3609433
+    },
+    "Core Services/analytics_engine.py": {
+      "passed": true,
+      "message": "Tool with proper entry point",
+      "details": {},
+      "timestamp": 1778705678.366455
+    },
+    "Core Services/automation_framework.py": {
+      "passed": true,
+      "message": "Tool with proper entry point",
+      "details": {},
+      "timestamp": 1778705678.3711314
+    },
+    "Core Services/advanced_security.py": {
+      "passed": true,
+      "message": "Tool with proper entry point",
+      "details": {},
+      "timestamp": 1778705678.375325
+    },
+    "Launch_Homelab_Portal.bat": {
+      "passed": true,
+      "message": "Batch tool with proper structure",
+      "details": {},
+      "timestamp": 1778705678.375703
+    },
+    "Launch_Unified_System.bat": {
+      "passed": true,
+      "message": "Batch tool with proper structure",
+      "details": {},
+      "timestamp": 1778705678.375986
+    },
+    "Install_Homelab.bat": {
+      "passed": true,
+      "message": "Batch tool with proper structure",
+      "details": {},
+      "timestamp": 1778705678.3762488
+    }
+  },
+  "windows_compatibility": {
+    "Windows Version": {
+      "passed": true,
+      "message": "Windows 11+ (10.0.26200)",
+      "details": {},
+      "timestamp": 1778705678.376425
+    },
+    "Env Var: USERPROFILE": {
+      "passed": true,
+      "message": "Available: C:\\Users\\htsou...",
+      "details": {},
+      "timestamp": 1778705678.3764944
+    },
+    "Env Var: PROGRAMFILES": {
+      "passed": true,
+      "message": "Available: C:\\Program Files...",
+      "details": {},
+      "timestamp": 1778705678.3765323
+    },
+    "Env Var: PROGRAMFILES(X86)": {
+      "passed": true,
+      "message": "Available: C:\\Program Files (x86)...",
+      "details": {},
+      "timestamp": 1778705678.3765604
+    },
+    "Env Var: WINDIR": {
+      "passed": true,
+      "message": "Available: C:\\Windows...",
+      "details": {},
+      "timestamp": 1778705678.3765836
+    },
+    "Env Var: TEMP": {
+      "passed": true,
+      "message": "Available: C:\\Users\\htsou\\AppData\\Local\\Temp...",
+      "details": {},
+      "timestamp": 1778705678.3766098
+    },
+    "Env Var: TMP": {
+      "passed": true,
+      "message": "Available: C:\\Users\\htsou\\AppData\\Local\\Temp...",
+      "details": {},
+      "timestamp": 1778705678.3766515
+    },
+    "Admin Rights": {
+      "passed": true,
+      "message": "Admin: False",
+      "details": {},
+      "timestamp": 1778705678.3819733
+    },
+    "PowerShell": {
+      "passed": true,
+      "message": "PowerShell available",
+      "details": {},
+      "timestamp": 1778705679.2663648
+    }
+  },
+  "cross_version_tests": {
+    "Core Services/windows_network_discovery.py": {
+      "passed": true,
+      "message": "Has version detection",
+      "details": {},
+      "timestamp": 1778705679.267149
+    },
+    "Core Services/windows_screen_sharing.py": {
+      "passed": true,
+      "message": "Has version detection",
+      "details": {},
+      "timestamp": 1778705679.2675307
+    },
+    "windows10_setup.bat": {
+      "passed": true,
+      "message": "Has version detection",
+      "details": {},
+      "timestamp": 1778705679.2677505
+    },
+    "windows_universal_deployer.py": {
+      "passed": true,
+      "message": "Universal deployment features",
+      "details": {},
+      "timestamp": 1778705679.277389
+    },
+    "cross_platform_deployer.py": {
+      "passed": true,
+      "message": "Universal deployment features",
+      "details": {},
+      "timestamp": 1778705679.2714999
+    },
+    "deployment_config.py": {
+      "passed": true,
+      "message": "Universal deployment features",
+      "details": {},
+      "timestamp": 1778705679.2736537
+    }
+  },
+  "overall": {
+    "total_tests": 30,
+    "passed": 30,
+    "failed": 0,
+    "success_rate": 100.0
+  }
+}

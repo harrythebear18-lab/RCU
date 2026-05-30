@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "D:/Home Projects/dx11(homelab)"
+		},
+		{
+			"path": "../../CascadeProjects/windsurf-project-5"
+		}
+	],
+	"settings": {
+		"python.languageServer": "None",
+		"diffEditor.renderSideBySide": true
+	}
+}

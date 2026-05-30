@@ -1,0 +1,1102 @@
+{
+  "batch_files": {
+    "Auto_Connect_Launcher.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1358318
+    },
+    "batch_file_template.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1361513
+    },
+    "Cleanup_RAM_Sharing.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1364045
+    },
+    "Create_Desktop_Shortcut.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1366153
+    },
+    "Cross_Version_Setup.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1370742
+    },
+    "first_time_setup.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.137946
+    },
+    "Fix_Windows_Compatibility.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1384056
+    },
+    "GUI_Troubleshooting.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1387908
+    },
+    "Install_Homelab.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1392872
+    },
+    "Launch_Batch_GUI.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1395745
+    },
+    "launch_homelab.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1398726
+    },
+    "Launch_Homelab_Portal.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1403127
+    },
+    "Launch_RAM_Sharing.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1405826
+    },
+    "Launch_Simple_GUI.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.14084
+    },
+    "Launch_Unified_System.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.141046
+    },
+    "map_ram_disk.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1412952
+    },
+    "Map_RAM_Sharing.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1415453
+    },
+    "Quick_Auto_Connect.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.14175
+    },
+    "ram_disk_setup.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.141908
+    },
+    "RAM_Sharing_Menu.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1421957
+    },
+    "setup.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1424346
+    },
+    "Setup_RAM_Sharing.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1426256
+    },
+    "Simple_Launcher.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1427786
+    },
+    "temp_test.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1429045
+    },
+    "Universal_Launcher.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1431577
+    },
+    "windows10_setup.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1433578
+    },
+    "Working_Launcher.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1435342
+    },
+    "RDMA\\windows_build.bat": {
+      "passed": false,
+      "message": "Unquoted variable assignment: set \"WDK_DIR=%ProgramFiles(x86)%\\Windows Kits\\10\\%...",
+      "details": {},
+      "timestamp": 1778705283.1437876
+    },
+    "Subnet Portal\\launch_console_test.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1439815
+    },
+    "Subnet Portal\\launch_console_test_discovery.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1441612
+    },
+    "Subnet Portal\\launch_console_test_minecraft.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.1443188
+    },
+    "Subnet Portal\\launch_console_test_portal.bat": {
+      "passed": true,
+      "message": "Syntax OK",
+      "details": {},
+      "timestamp": 1778705283.144469
+    }
+  },
+  "python_files": {
+    "Auto_RAM_Connect.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1491249
+    },
+    "auto_setup.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1517627
+    },
+    "batch_file_fixer.py": {
+      "passed": false,
+      "message": "Contains hardcoded paths",
+      "details": {},
+      "timestamp": 1778705283.153014
+    },
+    "check_failures.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1535602
+    },
+    "comprehensive_test_suite.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1580226
+    },
+    "cross_platform_deployer.py": {
+      "passed": false,
+      "message": "Syntax error: unexpected character after line continuation character (cross_platform_deployer.py, line 528)",
+      "details": {},
+      "timestamp": 1778705283.160401
+    },
+    "deploy.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1626534
+    },
+    "deployment_config.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.164657
+    },
+    "final_verification_suite.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1673596
+    },
+    "find_failed_python.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.168002
+    },
+    "first_time_setup.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1691105
+    },
+    "homelab_dashboard.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1747315
+    },
+    "homelab_launcher.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1836622
+    },
+    "install_dependencies.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1853359
+    },
+    "Integrated_RAM_Launcher.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1886578
+    },
+    "package_dependencies.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1900554
+    },
+    "phase2_integration_test.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.192401
+    },
+    "RAM_Sharing_GUI.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.1959157
+    },
+    "RAM_Sharing_Simple_GUI.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2008746
+    },
+    "setup.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2022154
+    },
+    "system_integration_test.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2051358
+    },
+    "temp_script_5915.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2057686
+    },
+    "test_bidirectional_sharing.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2082326
+    },
+    "test_core_temps.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2096052
+    },
+    "test_integration.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2105997
+    },
+    "test_portal_file_transfer.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2142432
+    },
+    "test_rdma_windows.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2157056
+    },
+    "test_rest_api.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2185292
+    },
+    "test_temperature.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2201693
+    },
+    "windows_universal_deployer.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.226106
+    },
+    "Backup System\\backup_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2335854
+    },
+    "common\\error_handling.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2361856
+    },
+    "common\\subnet_discovery.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2414594
+    },
+    "common\\subnet_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2444308
+    },
+    "common\\windows_abstraction.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2475743
+    },
+    "common\\windows_compat.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.249848
+    },
+    "Compute Sharing\\compute_client.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2543702
+    },
+    "Compute Sharing\\compute_cluster_gui.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2609704
+    },
+    "Compute Sharing\\compute_server.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2637284
+    },
+    "Container Manager\\container_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.272171
+    },
+    "Core Services\\advanced_security.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.276176
+    },
+    "Core Services\\analytics_engine.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2812784
+    },
+    "Core Services\\auth_service.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2842393
+    },
+    "Core Services\\automation_framework.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2896643
+    },
+    "Core Services\\bidirectional_resource_sharing.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2935154
+    },
+    "Core Services\\config_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.2962823
+    },
+    "Core Services\\data_persistence.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3047187
+    },
+    "Core Services\\ddr4_ram_sharing.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3086934
+    },
+    "Core Services\\event_bus.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.311214
+    },
+    "Core Services\\homelab_portal.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3192105
+    },
+    "Core Services\\identical_hardware_optimizer.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.32368
+    },
+    "Core Services\\intel_ethernet_optimizer.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3263063
+    },
+    "Core Services\\nvidia_gpu_sharing.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3297725
+    },
+    "Core Services\\portal_api_endpoints.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3324304
+    },
+    "Core Services\\rest_api.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.33879
+    },
+    "Core Services\\simple_rest_api.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3398402
+    },
+    "Core Services\\unified_dashboard.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3447142
+    },
+    "Core Services\\unified_monitoring.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3482676
+    },
+    "Core Services\\windows_network_discovery.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3501925
+    },
+    "Core Services\\windows_screen_sharing.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3549783
+    },
+    "Cpu Monitor\\cpu_monitor.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3611732
+    },
+    "Gpu Monitor\\dx12_monitor.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3664787
+    },
+    "Gpu Monitor\\gpu_monitor.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.373771
+    },
+    "Gpu Monitor\\rtx_5060_config.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3760543
+    },
+    "Hybrid Compute\\hybrid_client.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3793163
+    },
+    "Integration_Examples\\core_services_import.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3798928
+    },
+    "Integration_Examples\\cpu_monitor_integration.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.381298
+    },
+    "Integration_Examples\\ram_sharing_integration.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3833833
+    },
+    "Integration_Examples\\__init__.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3836598
+    },
+    "IoT Platform\\iot_platform.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.3951511
+    },
+    "Media Server\\media_server_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4029949
+    },
+    "Network Monitor\\network_monitor.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.409782
+    },
+    "Power Management\\fix_syntax.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4104552
+    },
+    "Power Management\\power_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.418343
+    },
+    "Ram clean up\\aggressive_ram_cleaner.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4223752
+    },
+    "Ram clean up\\launcher.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.424094
+    },
+    "Ram clean up\\memory_jolt.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4268253
+    },
+    "Ram clean up\\ram_cleanup_script.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.428774
+    },
+    "Ram clean up\\ram_monitor_gui.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4421954
+    },
+    "Ram clean up\\soft_ram_cleaner.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.445134
+    },
+    "RDMA\\advanced_dma_service.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4490788
+    },
+    "RDMA\\deployment_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4540188
+    },
+    "RDMA\\fault_tolerance_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4594932
+    },
+    "RDMA\\install.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4619858
+    },
+    "RDMA\\monitoring_system.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4668381
+    },
+    "RDMA\\performance_profiler.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4708495
+    },
+    "RDMA\\raw_network_bypass.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4746656
+    },
+    "RDMA\\rdma_desktop_app.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.481371
+    },
+    "RDMA\\rdma_desktop_app_modern.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.488202
+    },
+    "RDMA\\rdma_latency_test.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4914331
+    },
+    "RDMA\\rdma_modern_tkinter.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.4977505
+    },
+    "RDMA\\rdma_rest_api.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5020149
+    },
+    "RDMA\\realtime_cpu_optimizer.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5071962
+    },
+    "RDMA\\robust_network_layer.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5103073
+    },
+    "RDMA\\security_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5140429
+    },
+    "RDMA\\test_suite.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5175855
+    },
+    "RDMA\\udp_memory_bridge.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.521398
+    },
+    "RDMA\\UI_DEMO_SHOWCASE.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5242686
+    },
+    "RDMA\\ultra_latency_benchmark.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.527873
+    },
+    "RDMA\\ultra_low_latency_userspace.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5314667
+    },
+    "RDMA\\ultra_low_latency_windows.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5347857
+    },
+    "RDMA\\virtual_dma_userspace.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5398095
+    },
+    "RDMA\\virtual_pcie_tunnel.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5437787
+    },
+    "RDMA\\windows_dma_interface.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5487611
+    },
+    "RDMA\\zero_copy_rdmda.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5509326
+    },
+    "RDMA Memory Portal\\memory_client.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5587707
+    },
+    "RDMA Memory Portal\\memory_portal_gui.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5652795
+    },
+    "RDMA Memory Portal\\memory_server.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5689802
+    },
+    "Storage Management\\storage_abstraction.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.574926
+    },
+    "Storage Management\\storage_monitor.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5834665
+    },
+    "Subnet Portal\\console_network_test.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5882418
+    },
+    "Subnet Portal\\fixed_subnet_communication.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.5912647
+    },
+    "Subnet Portal\\network_diagnostics.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.593225
+    },
+    "Subnet Portal\\subnet_portal.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.6058877
+    },
+    "VPN Gateway\\vpn_gateway.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.6124952
+    },
+    "Web Dashboard\\web_dashboard.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.616879
+    },
+    "CI\\CD Pipeline\\cicd_manager.py": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.627138
+    }
+  },
+  "c_cpp_files": {
+    "RDMA\\ultra_low_latency_dma.c": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.627758
+    },
+    "RDMA\\virtual_dma_driver.c": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.6279912
+    },
+    "RDMA\\windows_dma_driver.cpp": {
+      "passed": true,
+      "message": "OK",
+      "details": {},
+      "timestamp": 1778705283.628176
+    }
+  },
+  "core_services": {
+    "Core Services\\advanced_security.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.678238
+    },
+    "Core Services\\analytics_engine.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.6838377
+    },
+    "Core Services\\auth_service.py": {
+      "passed": false,
+      "message": "Import failed: No module named 'event_bus'",
+      "details": {},
+      "timestamp": 1778705283.6847122
+    },
+    "Core Services\\automation_framework.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.7336407
+    },
+    "Core Services\\bidirectional_resource_sharing.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.7499628
+    },
+    "Core Services\\config_manager.py": {
+      "passed": false,
+      "message": "Import failed: No module named 'event_bus'",
+      "details": {},
+      "timestamp": 1778705283.7667127
+    },
+    "Core Services\\data_persistence.py": {
+      "passed": false,
+      "message": "Import failed: No module named 'event_bus'",
+      "details": {},
+      "timestamp": 1778705283.7708392
+    },
+    "Core Services\\ddr4_ram_sharing.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.772319
+    },
+    "Core Services\\event_bus.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.7749872
+    },
+    "Core Services\\homelab_portal.py": {
+      "passed": false,
+      "message": "Import failed: No module named 'event_bus'",
+      "details": {},
+      "timestamp": 1778705283.7762573
+    },
+    "Core Services\\identical_hardware_optimizer.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.7769318
+    },
+    "Core Services\\intel_ethernet_optimizer.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.777443
+    },
+    "Core Services\\nvidia_gpu_sharing.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.777909
+    },
+    "Core Services\\portal_api_endpoints.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.9115708
+    },
+    "Core Services\\rest_api.py": {
+      "passed": false,
+      "message": "Import failed: No module named 'event_bus'",
+      "details": {},
+      "timestamp": 1778705283.915245
+    },
+    "Core Services\\unified_dashboard.py": {
+      "passed": false,
+      "message": "Import failed: No module named 'event_bus'",
+      "details": {},
+      "timestamp": 1778705283.9295578
+    },
+    "Core Services\\unified_monitoring.py": {
+      "passed": false,
+      "message": "Import failed: No module named 'event_bus'",
+      "details": {},
+      "timestamp": 1778705283.9304059
+    },
+    "Core Services\\windows_network_discovery.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.9309628
+    },
+    "Core Services\\windows_screen_sharing.py": {
+      "passed": true,
+      "message": "Import successful",
+      "details": {},
+      "timestamp": 1778705283.944863
+    }
+  },
+  "gui_components": {
+    "tkinter": {
+      "passed": true,
+      "message": "tkinter available",
+      "details": {},
+      "timestamp": 1778705283.9455795
+    },
+    "unified_dashboard": {
+      "passed": false,
+      "message": "Import failed: No module named 'event_bus'",
+      "details": {},
+      "timestamp": 1778705283.9466217
+    }
+  },
+  "paths_and_subdirectories": {
+    "Core Services_directory": {
+      "passed": true,
+      "message": "Core Services directory exists",
+      "details": {},
+      "timestamp": 1778705283.9468806
+    },
+    "Mobile_Interface_directory": {
+      "passed": true,
+      "message": "Mobile_Interface directory exists",
+      "details": {},
+      "timestamp": 1778705283.9469855
+    },
+    "config_directory": {
+      "passed": true,
+      "message": "config directory exists",
+      "details": {},
+      "timestamp": 1778705283.9470644
+    },
+    "data_directory": {
+      "passed": true,
+      "message": "data directory exists",
+      "details": {},
+      "timestamp": 1778705283.9472167
+    },
+    "logs_directory": {
+      "passed": true,
+      "message": "logs directory exists",
+      "details": {},
+      "timestamp": 1778705283.9473464
+    },
+    "space_in_path": {
+      "passed": true,
+      "message": "Space in path test skipped",
+      "details": {},
+      "timestamp": 1778705283.9474702
+    }
+  },
+  "portal_components": {
+    "Portal System": {
+      "passed": true,
+      "message": "All 11 portal components present",
+      "details": {},
+      "timestamp": 1778705283.9453812
+    }
+  },
+  "overall": {
+    "total_files": 180,
+    "passed": 169,
+    "failed": 11,
+    "skipped": 0
+  }
+}

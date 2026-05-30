@@ -1,0 +1,2380 @@
+{
+  "summary": {
+    "total_tools": 64,
+    "passed_tools": 23,
+    "failed_tools": 41,
+    "overall_success_rate": 79.73958333333333,
+    "tool_type_stats": {
+      "core_security": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1
+      },
+      "core_service": {
+        "total": 17,
+        "passed": 0,
+        "failed": 17
+      },
+      "core_api": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0
+      },
+      "core_monitor": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0
+      },
+      "cpu_monitor": {
+        "total": 2,
+        "passed": 0,
+        "failed": 2
+      },
+      "gpu_monitor": {
+        "total": 3,
+        "passed": 3,
+        "failed": 0
+      },
+      "network_monitor": {
+        "total": 5,
+        "passed": 5,
+        "failed": 0
+      },
+      "memory_monitor": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0
+      },
+      "rdma_tool": {
+        "total": 21,
+        "passed": 0,
+        "failed": 21
+      },
+      "utility": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0
+      },
+      "subnet_tool": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "provider_status": {
+      "system": true,
+      "gpu": true
+    },
+    "abstraction_layer_available": true,
+    "verification_time": 1778706817.1628485
+  },
+  "tools": [
+    {
+      "tool_name": "advanced_security",
+      "tool_type": "core_security",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "security_events: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706803.9243808
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706804.0081027
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706804.10882
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "analytics_engine",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706804.9663427
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706804.0081027
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706804.10882
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "auth_service",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706804.9663427
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706805.7577133
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706805.879458
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "automation_framework",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706806.4619956
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706805.7577133
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706805.879458
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "bidirectional_resource_sharing",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706806.4619956
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706807.0661612
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706807.1775734
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "config_manager",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706807.6891274
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706807.0661612
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706807.1775734
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "data_abstraction_layer",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706807.6891274
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706807.0661612
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706807.1775734
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "data_persistence",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706807.6891274
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "ddr4_ram_sharing",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706807.6891274
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "event_bus",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706807.6891274
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "homelab_portal",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706807.6891274
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "identical_hardware_optimizer",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706808.7402558
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "intel_ethernet_optimizer",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706808.7402558
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "nvidia_gpu_sharing",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706808.7402558
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "portal_api_endpoints",
+      "tool_type": "core_api",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706808.7402558
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        }
+      }
+    },
+    {
+      "tool_name": "rest_api",
+      "tool_type": "core_api",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706808.7402558
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        }
+      }
+    },
+    {
+      "tool_name": "simple_rest_api",
+      "tool_type": "core_api",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706808.7402558
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        }
+      }
+    },
+    {
+      "tool_name": "system_data_connector",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706808.7402558
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706808.1435175
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706808.2448826
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "unified_dashboard",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706808.7402558
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706809.3966208
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706809.2513502
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "unified_monitoring",
+      "tool_type": "core_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "gpu_info",
+        "disk_info"
+      ],
+      "status": "PASS",
+      "success_rate": 83.33333333333334,
+      "errors": [
+        "performance_metrics: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706810.0766354
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706809.3966208
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706809.2513502
+        },
+        "performance_metrics": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "gpu_info": {
+          "status": "success",
+          "data_size": 154,
+          "timestamp": 1778706811.4693353
+        },
+        "disk_info": {
+          "status": "success",
+          "data_size": 572,
+          "timestamp": 1778706811.4693503
+        }
+      }
+    },
+    {
+      "tool_name": "windows_network_discovery",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706811.7006738
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706811.7007728
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706811.810461
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "windows_screen_sharing",
+      "tool_type": "core_service",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 60.0,
+      "errors": [
+        "security_events: No data",
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706811.7006738
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706811.7007728
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706811.810461
+        },
+        "security_events": {
+          "status": "failed",
+          "error": "No data"
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "cpu_monitor",
+      "tool_type": "cpu_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "performance_metrics: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706811.7006738
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706811.7007728
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706811.810461
+        },
+        "performance_metrics": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "dx12_monitor",
+      "tool_type": "gpu_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "gpu_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706811.7006738
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706811.7007728
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706811.810461
+        },
+        "gpu_info": {
+          "status": "success",
+          "data_size": 154,
+          "timestamp": 1778706812.642774
+        }
+      }
+    },
+    {
+      "tool_name": "gpu_monitor",
+      "tool_type": "gpu_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "gpu_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706811.7006738
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706811.7007728
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706811.810461
+        },
+        "gpu_info": {
+          "status": "success",
+          "data_size": 154,
+          "timestamp": 1778706812.752504
+        }
+      }
+    },
+    {
+      "tool_name": "rtx_5060_config",
+      "tool_type": "gpu_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "gpu_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "gpu_info": {
+          "status": "success",
+          "data_size": 154,
+          "timestamp": 1778706812.9697874
+        }
+      }
+    },
+    {
+      "tool_name": "network_monitor",
+      "tool_type": "network_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "network_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "network_info": {
+          "status": "success",
+          "data_size": 3652,
+          "timestamp": 1778706812.9703207
+        }
+      }
+    },
+    {
+      "tool_name": "aggressive_ram_cleaner",
+      "tool_type": "memory_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "disk_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "disk_info": {
+          "status": "success",
+          "data_size": 572,
+          "timestamp": 1778706812.9844897
+        }
+      }
+    },
+    {
+      "tool_name": "launcher",
+      "tool_type": "memory_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "disk_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "disk_info": {
+          "status": "success",
+          "data_size": 572,
+          "timestamp": 1778706812.9844897
+        }
+      }
+    },
+    {
+      "tool_name": "memory_jolt",
+      "tool_type": "memory_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "disk_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "disk_info": {
+          "status": "success",
+          "data_size": 572,
+          "timestamp": 1778706812.9844897
+        }
+      }
+    },
+    {
+      "tool_name": "ram_cleanup_script",
+      "tool_type": "memory_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "disk_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "disk_info": {
+          "status": "success",
+          "data_size": 572,
+          "timestamp": 1778706812.9844897
+        }
+      }
+    },
+    {
+      "tool_name": "ram_monitor_gui",
+      "tool_type": "memory_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "disk_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "disk_info": {
+          "status": "success",
+          "data_size": 572,
+          "timestamp": 1778706812.9844897
+        }
+      }
+    },
+    {
+      "tool_name": "soft_ram_cleaner",
+      "tool_type": "memory_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "disk_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "disk_info": {
+          "status": "success",
+          "data_size": 572,
+          "timestamp": 1778706812.9844897
+        }
+      }
+    },
+    {
+      "tool_name": "advanced_dma_service",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "deployment_manager",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "fault_tolerance_manager",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "install",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "monitoring_system",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "performance_profiler",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "raw_network_bypass",
+      "tool_type": "network_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "network_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "network_info": {
+          "status": "success",
+          "data_size": 3652,
+          "timestamp": 1778706812.9703207
+        }
+      }
+    },
+    {
+      "tool_name": "rdma_desktop_app",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "rdma_desktop_app_modern",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "rdma_latency_test",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "rdma_modern_tkinter",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "rdma_rest_api",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "realtime_cpu_optimizer",
+      "tool_type": "cpu_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "performance_metrics: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706812.7530386
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706812.7531126
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706812.8539019
+        },
+        "performance_metrics": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "robust_network_layer",
+      "tool_type": "network_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "network_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706813.9855611
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706813.9856496
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706814.0953443
+        },
+        "network_info": {
+          "status": "success",
+          "data_size": 3652,
+          "timestamp": 1778706814.0956216
+        }
+      }
+    },
+    {
+      "tool_name": "security_manager",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706813.9855611
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706813.9856496
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706814.0953443
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "test_suite",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706813.9855611
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706813.9856496
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706814.0953443
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "udp_memory_bridge",
+      "tool_type": "memory_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "disk_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706813.9855611
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706813.9856496
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706814.0953443
+        },
+        "disk_info": {
+          "status": "success",
+          "data_size": 572,
+          "timestamp": 1778706814.9077463
+        }
+      }
+    },
+    {
+      "tool_name": "UI_DEMO_SHOWCASE",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706815.0643365
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706815.0644
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706815.1741555
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "ultra_latency_benchmark",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706815.0643365
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706815.0644
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706815.1741555
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "ultra_low_latency_userspace",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706815.0643365
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706815.0644
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706815.1741555
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "ultra_low_latency_windows",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "virtual_dma_userspace",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "virtual_pcie_tunnel",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "windows_dma_interface",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "zero_copy_rdmda",
+      "tool_type": "rdma_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "FAIL",
+      "success_rate": 75.0,
+      "errors": [
+        "resource_sharing: No data"
+      ],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "resource_sharing": {
+          "status": "failed",
+          "error": "No data"
+        }
+      }
+    },
+    {
+      "tool_name": "storage_abstraction",
+      "tool_type": "utility",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        }
+      }
+    },
+    {
+      "tool_name": "storage_monitor",
+      "tool_type": "utility",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        }
+      }
+    },
+    {
+      "tool_name": "console_network_test",
+      "tool_type": "network_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "network_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "network_info": {
+          "status": "success",
+          "data_size": 3652,
+          "timestamp": 1778706817.0227914
+        }
+      }
+    },
+    {
+      "tool_name": "fixed_subnet_communication",
+      "tool_type": "subnet_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "network_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "network_info": {
+          "status": "success",
+          "data_size": 3652,
+          "timestamp": 1778706817.0227914
+        }
+      }
+    },
+    {
+      "tool_name": "network_diagnostics",
+      "tool_type": "network_monitor",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "network_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "network_info": {
+          "status": "success",
+          "data_size": 3652,
+          "timestamp": 1778706817.0227914
+        }
+      }
+    },
+    {
+      "tool_name": "subnet_portal",
+      "tool_type": "subnet_tool",
+      "data_connections": [
+        "system_info",
+        "cpu_info",
+        "memory_info",
+        "network_info"
+      ],
+      "status": "PASS",
+      "success_rate": 100.0,
+      "errors": [],
+      "details": {
+        "system_info": {
+          "status": "success",
+          "data_size": 255,
+          "timestamp": 1778706816.2183766
+        },
+        "cpu_info": {
+          "status": "success",
+          "data_size": 220,
+          "timestamp": 1778706816.2184408
+        },
+        "memory_info": {
+          "status": "success",
+          "data_size": 204,
+          "timestamp": 1778706816.3276706
+        },
+        "network_info": {
+          "status": "success",
+          "data_size": 3652,
+          "timestamp": 1778706817.0227914
+        }
+      }
+    }
+  ]
+}

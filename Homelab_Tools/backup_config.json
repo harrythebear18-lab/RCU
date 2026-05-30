@@ -1,0 +1,12 @@
+{
+  "jobs": {},
+  "history": [],
+  "default_backup_dir": "C:\\Users\\htsou\\Backups",
+  "settings": {
+    "retention_days": "30",
+    "compression_enabled": true,
+    "compression_level": "6",
+    "email_notifications": false,
+    "desktop_notifications": true
+  }
+}

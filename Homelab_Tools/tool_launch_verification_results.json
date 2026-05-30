@@ -1,0 +1,270 @@
+{
+  "timestamp": "2026-05-14T10:04:28.361130",
+  "total_tools": 26,
+  "found_tools": 26,
+  "missing_tools": 0,
+  "launchable_tools": 25,
+  "failed_launches": 1,
+  "tool_details": [
+    {
+      "category": "System Monitoring",
+      "name": "CPU Monitor",
+      "path": "CPU Monitor/cpu_monitor.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "System Monitoring",
+      "name": "GPU Monitor",
+      "path": "GPU Monitor/gpu_monitor.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "System Monitoring",
+      "name": "Network Monitor",
+      "path": "Network Monitor/network_monitor.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "System Monitoring",
+      "name": "Storage Monitor",
+      "path": "Storage Monitor/storage_monitor.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "System Monitoring",
+      "name": "RAM Monitor",
+      "path": "Memory Monitor/ram_monitor_gui.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Distributed Computing",
+      "name": "RDMA Desktop App",
+      "path": "RDMA Desktop App/rdma_desktop_app.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Distributed Computing",
+      "name": "RDMA Modern App",
+      "path": "RDMA Desktop App/rdma_modern_tkinter.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Distributed Computing",
+      "name": "RDMA Memory Portal",
+      "path": "Memory Portal/memory_portal_gui.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Distributed Computing",
+      "name": "Hybrid Compute",
+      "path": "Hybrid Compute/hybrid_client.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "Container Manager",
+      "path": "Container Manager/container_manager.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "Backup System",
+      "path": "Core Services/backup_manager.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "Web Dashboard",
+      "path": "Core Services/web_dashboard.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "VPN Gateway",
+      "path": "VPN Gateway/vpn_gateway.py",
+      "type": "python",
+      "found": true,
+      "launchable": false,
+      "status": "Syntax Error - unterminated string literal (detected at line 375) (vpn_gateway.py, line 375)",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "Media Server",
+      "path": "Media Server/media_server_manager.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "CI/CD Pipeline",
+      "path": "CI/CD Pipeline/cicd_manager.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "Power Management",
+      "path": "Power Manager/power_manager.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "IoT Platform",
+      "path": "IoT Platform/iot_platform.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "Subnet Portal",
+      "path": "Subnet Portal/subnet_portal.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "Deployment Config",
+      "path": "deployment_config.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "Infrastructure & Management",
+      "name": "System Integration Test",
+      "path": "system_integration_test.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "RAM Sharing & Storage",
+      "name": "RAM Sharing Manager",
+      "path": "RAM_Sharing_GUI.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "RAM Sharing & Storage",
+      "name": "Simple RAM Sharing",
+      "path": "RAM_Sharing_Simple_GUI.py",
+      "type": "python",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Has main entry point",
+      "error": null
+    },
+    {
+      "category": "RAM Sharing & Storage",
+      "name": "RAM Server Setup",
+      "path": "Setup_RAM_Sharing.bat",
+      "type": "batch",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Valid batch file",
+      "error": null
+    },
+    {
+      "category": "RAM Sharing & Storage",
+      "name": "RAM Client Connect",
+      "path": "Map_RAM_Sharing.bat",
+      "type": "batch",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Valid batch file",
+      "error": null
+    },
+    {
+      "category": "RAM Sharing & Storage",
+      "name": "Windows Compatibility Fix",
+      "path": "Fix_Windows_Compatibility.bat",
+      "type": "batch",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Valid batch file",
+      "error": null
+    },
+    {
+      "category": "RAM Sharing & Storage",
+      "name": "Universal RAM Launcher",
+      "path": "Universal_Launcher.bat",
+      "type": "batch",
+      "found": true,
+      "launchable": true,
+      "status": "Launchable - Valid batch file",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,1541 @@
+{
+  "timestamp": "2026-05-14T10:07:28.293297",
+  "total_tools": 214,
+  "categories": 29,
+  "tool_types": {
+    "python": 174,
+    "batch": 37,
+    "cpp": 3
+  },
+  "categories_detail": {
+    "root": 91,
+    "Backup System": 1,
+    "CI": 1,
+    "common": 5,
+    "Compute Sharing": 3,
+    "Container Manager": 1,
+    "Core Services": 34,
+    "Cpu Monitor": 2,
+    "Gpu Monitor": 3,
+    "Hybrid Compute": 1,
+    "Integration_Examples": 4,
+    "IoT Platform": 1,
+    "Media Server": 1,
+    "Memory Monitor": 1,
+    "Memory Portal": 1,
+    "Network Management": 5,
+    "Network Monitor": 1,
+    "Power Management": 2,
+    "Power Manager": 1,
+    "Ram clean up": 6,
+    "RDMA": 29,
+    "RDMA Desktop App": 2,
+    "RDMA Memory Portal": 3,
+    "setup": 2,
+    "Storage Management": 2,
+    "Storage Monitor": 1,
+    "Subnet Portal": 8,
+    "VPN Gateway": 1,
+    "Web Dashboard": 1
+  },
+  "all_tools": [
+    {
+      "name": "abstraction_layer_integration_test.py",
+      "path": "abstraction_layer_integration_test.py",
+      "type": ".py",
+      "size": 20871,
+      "category": "root"
+    },
+    {
+      "name": "Auto_Connect_Launcher.bat",
+      "path": "Auto_Connect_Launcher.bat",
+      "type": ".bat",
+      "size": 3279,
+      "category": "root"
+    },
+    {
+      "name": "Auto_RAM_Connect.py",
+      "path": "Auto_RAM_Connect.py",
+      "type": ".py",
+      "size": 19519,
+      "category": "root"
+    },
+    {
+      "name": "auto_setup.py",
+      "path": "auto_setup.py",
+      "type": ".py",
+      "size": 13712,
+      "category": "root"
+    },
+    {
+      "name": "batch_file_fixer.py",
+      "path": "batch_file_fixer.py",
+      "type": ".py",
+      "size": 4742,
+      "category": "root"
+    },
+    {
+      "name": "batch_file_template.bat",
+      "path": "batch_file_template.bat",
+      "type": ".bat",
+      "size": 928,
+      "category": "root"
+    },
+    {
+      "name": "check_failures.py",
+      "path": "check_failures.py",
+      "type": ".py",
+      "size": 1158,
+      "category": "root"
+    },
+    {
+      "name": "check_failures_simple.py",
+      "path": "check_failures_simple.py",
+      "type": ".py",
+      "size": 1611,
+      "category": "root"
+    },
+    {
+      "name": "chunked_system_audit.py",
+      "path": "chunked_system_audit.py",
+      "type": ".py",
+      "size": 24915,
+      "category": "root"
+    },
+    {
+      "name": "Cleanup_RAM_Sharing.bat",
+      "path": "Cleanup_RAM_Sharing.bat",
+      "type": ".bat",
+      "size": 755,
+      "category": "root"
+    },
+    {
+      "name": "complete_system_verification.py",
+      "path": "complete_system_verification.py",
+      "type": ".py",
+      "size": 20370,
+      "category": "root"
+    },
+    {
+      "name": "comprehensive_chunked_audit.py",
+      "path": "comprehensive_chunked_audit.py",
+      "type": ".py",
+      "size": 49687,
+      "category": "root"
+    },
+    {
+      "name": "comprehensive_system_audit.py",
+      "path": "comprehensive_system_audit.py",
+      "type": ".py",
+      "size": 41010,
+      "category": "root"
+    },
+    {
+      "name": "comprehensive_system_verification.py",
+      "path": "comprehensive_system_verification.py",
+      "type": ".py",
+      "size": 17714,
+      "category": "root"
+    },
+    {
+      "name": "comprehensive_test_suite.py",
+      "path": "comprehensive_test_suite.py",
+      "type": ".py",
+      "size": 19711,
+      "category": "root"
+    },
+    {
+      "name": "comprehensive_tool_verification.py",
+      "path": "comprehensive_tool_verification.py",
+      "type": ".py",
+      "size": 14346,
+      "category": "root"
+    },
+    {
+      "name": "Create_Desktop_Shortcut.bat",
+      "path": "Create_Desktop_Shortcut.bat",
+      "type": ".bat",
+      "size": 1415,
+      "category": "root"
+    },
+    {
+      "name": "cross_platform_deployer.py",
+      "path": "cross_platform_deployer.py",
+      "type": ".py",
+      "size": 23452,
+      "category": "root"
+    },
+    {
+      "name": "Cross_Version_Setup.bat",
+      "path": "Cross_Version_Setup.bat",
+      "type": ".bat",
+      "size": 2102,
+      "category": "root"
+    },
+    {
+      "name": "dashboard_launcher_verification.py",
+      "path": "dashboard_launcher_verification.py",
+      "type": ".py",
+      "size": 18577,
+      "category": "root"
+    },
+    {
+      "name": "deploy.py",
+      "path": "deploy.py",
+      "type": ".py",
+      "size": 10103,
+      "category": "root"
+    },
+    {
+      "name": "deployment_config.py",
+      "path": "deployment_config.py",
+      "type": ".py",
+      "size": 15934,
+      "category": "root"
+    },
+    {
+      "name": "enhanced_system_verification.py",
+      "path": "enhanced_system_verification.py",
+      "type": ".py",
+      "size": 14722,
+      "category": "root"
+    },
+    {
+      "name": "final_verification_suite.py",
+      "path": "final_verification_suite.py",
+      "type": ".py",
+      "size": 15187,
+      "category": "root"
+    },
+    {
+      "name": "find_failed_python.py",
+      "path": "find_failed_python.py",
+      "type": ".py",
+      "size": 1031,
+      "category": "root"
+    },
+    {
+      "name": "first_time_setup.bat",
+      "path": "first_time_setup.bat",
+      "type": ".bat",
+      "size": 1791,
+      "category": "root"
+    },
+    {
+      "name": "first_time_setup.py",
+      "path": "first_time_setup.py",
+      "type": ".py",
+      "size": 5816,
+      "category": "root"
+    },
+    {
+      "name": "Fix_Windows_Compatibility.bat",
+      "path": "Fix_Windows_Compatibility.bat",
+      "type": ".bat",
+      "size": 2197,
+      "category": "root"
+    },
+    {
+      "name": "fully_comprehensive_system_audit.py",
+      "path": "fully_comprehensive_system_audit.py",
+      "type": ".py",
+      "size": 86475,
+      "category": "root"
+    },
+    {
+      "name": "fully_comprehensive_system_audit_optimized.py",
+      "path": "fully_comprehensive_system_audit_optimized.py",
+      "type": ".py",
+      "size": 23364,
+      "category": "root"
+    },
+    {
+      "name": "GUI_Troubleshooting.bat",
+      "path": "GUI_Troubleshooting.bat",
+      "type": ".bat",
+      "size": 2385,
+      "category": "root"
+    },
+    {
+      "name": "homelab_dashboard.py",
+      "path": "homelab_dashboard.py",
+      "type": ".py",
+      "size": 27562,
+      "category": "root"
+    },
+    {
+      "name": "homelab_launcher.py",
+      "path": "homelab_launcher.py",
+      "type": ".py",
+      "size": 62322,
+      "category": "root"
+    },
+    {
+      "name": "homelab_launcher_enhanced.py",
+      "path": "homelab_launcher_enhanced.py",
+      "type": ".py",
+      "size": 27044,
+      "category": "root"
+    },
+    {
+      "name": "install_dependencies.py",
+      "path": "install_dependencies.py",
+      "type": ".py",
+      "size": 8116,
+      "category": "root"
+    },
+    {
+      "name": "Install_Homelab.bat",
+      "path": "Install_Homelab.bat",
+      "type": ".bat",
+      "size": 13641,
+      "category": "root"
+    },
+    {
+      "name": "install_wireguard.bat",
+      "path": "install_wireguard.bat",
+      "type": ".bat",
+      "size": 828,
+      "category": "root"
+    },
+    {
+      "name": "Integrated_RAM_Launcher.py",
+      "path": "Integrated_RAM_Launcher.py",
+      "type": ".py",
+      "size": 14923,
+      "category": "root"
+    },
+    {
+      "name": "Launch_Batch_GUI.bat",
+      "path": "Launch_Batch_GUI.bat",
+      "type": ".bat",
+      "size": 742,
+      "category": "root"
+    },
+    {
+      "name": "launch_homelab.bat",
+      "path": "launch_homelab.bat",
+      "type": ".bat",
+      "size": 118,
+      "category": "root"
+    },
+    {
+      "name": "Launch_Homelab_Portal.bat",
+      "path": "Launch_Homelab_Portal.bat",
+      "type": ".bat",
+      "size": 3391,
+      "category": "root"
+    },
+    {
+      "name": "Launch_RAM_Sharing.bat",
+      "path": "Launch_RAM_Sharing.bat",
+      "type": ".bat",
+      "size": 1412,
+      "category": "root"
+    },
+    {
+      "name": "Launch_Simple_GUI.bat",
+      "path": "Launch_Simple_GUI.bat",
+      "type": ".bat",
+      "size": 1484,
+      "category": "root"
+    },
+    {
+      "name": "Launch_Unified_System.bat",
+      "path": "Launch_Unified_System.bat",
+      "type": ".bat",
+      "size": 4159,
+      "category": "root"
+    },
+    {
+      "name": "map_ram_disk.bat",
+      "path": "map_ram_disk.bat",
+      "type": ".bat",
+      "size": 628,
+      "category": "root"
+    },
+    {
+      "name": "Map_RAM_Sharing.bat",
+      "path": "Map_RAM_Sharing.bat",
+      "type": ".bat",
+      "size": 1717,
+      "category": "root"
+    },
+    {
+      "name": "mesh_vpn_deployment.py",
+      "path": "mesh_vpn_deployment.py",
+      "type": ".py",
+      "size": 18193,
+      "category": "root"
+    },
+    {
+      "name": "organize_tools.py",
+      "path": "organize_tools.py",
+      "type": ".py",
+      "size": 14348,
+      "category": "root"
+    },
+    {
+      "name": "package_dependencies.py",
+      "path": "package_dependencies.py",
+      "type": ".py",
+      "size": 10436,
+      "category": "root"
+    },
+    {
+      "name": "phase2_integration_test.py",
+      "path": "phase2_integration_test.py",
+      "type": ".py",
+      "size": 15525,
+      "category": "root"
+    },
+    {
+      "name": "Quick_Auto_Connect.bat",
+      "path": "Quick_Auto_Connect.bat",
+      "type": ".bat",
+      "size": 1850,
+      "category": "root"
+    },
+    {
+      "name": "ram_disk_setup.bat",
+      "path": "ram_disk_setup.bat",
+      "type": ".bat",
+      "size": 776,
+      "category": "root"
+    },
+    {
+      "name": "ram_monitor_gui.py",
+      "path": "ram_monitor_gui.py",
+      "type": ".py",
+      "size": 17187,
+      "category": "root"
+    },
+    {
+      "name": "RAM_Sharing_GUI.py",
+      "path": "RAM_Sharing_GUI.py",
+      "type": ".py",
+      "size": 20888,
+      "category": "root"
+    },
+    {
+      "name": "RAM_Sharing_Menu.bat",
+      "path": "RAM_Sharing_Menu.bat",
+      "type": ".bat",
+      "size": 10589,
+      "category": "root"
+    },
+    {
+      "name": "RAM_Sharing_Simple_GUI.py",
+      "path": "RAM_Sharing_Simple_GUI.py",
+      "type": ".py",
+      "size": 12447,
+      "category": "root"
+    },
+    {
+      "name": "run_audit_external.bat",
+      "path": "run_audit_external.bat",
+      "type": ".bat",
+      "size": 677,
+      "category": "root"
+    },
+    {
+      "name": "run_audit_fixed.bat",
+      "path": "run_audit_fixed.bat",
+      "type": ".bat",
+      "size": 1681,
+      "category": "root"
+    },
+    {
+      "name": "run_comprehensive_audit.bat",
+      "path": "run_comprehensive_audit.bat",
+      "type": ".bat",
+      "size": 5039,
+      "category": "root"
+    },
+    {
+      "name": "run_direct_audit.py",
+      "path": "run_direct_audit.py",
+      "type": ".py",
+      "size": 1348,
+      "category": "root"
+    },
+    {
+      "name": "setup.bat",
+      "path": "setup.bat",
+      "type": ".bat",
+      "size": 4716,
+      "category": "root"
+    },
+    {
+      "name": "setup.py",
+      "path": "setup.py",
+      "type": ".py",
+      "size": 7768,
+      "category": "root"
+    },
+    {
+      "name": "Setup_RAM_Sharing.bat",
+      "path": "Setup_RAM_Sharing.bat",
+      "type": ".bat",
+      "size": 1817,
+      "category": "root"
+    },
+    {
+      "name": "simple_cpu_test.py",
+      "path": "simple_cpu_test.py",
+      "type": ".py",
+      "size": 1935,
+      "category": "root"
+    },
+    {
+      "name": "Simple_Launcher.bat",
+      "path": "Simple_Launcher.bat",
+      "type": ".bat",
+      "size": 1438,
+      "category": "root"
+    },
+    {
+      "name": "system_integration_test.py",
+      "path": "system_integration_test.py",
+      "type": ".py",
+      "size": 13878,
+      "category": "root"
+    },
+    {
+      "name": "temp_script_5915.py",
+      "path": "temp_script_5915.py",
+      "type": ".py",
+      "size": 87,
+      "category": "root"
+    },
+    {
+      "name": "temp_test.bat",
+      "path": "temp_test.bat",
+      "type": ".bat",
+      "size": 7,
+      "category": "root"
+    },
+    {
+      "name": "test_bidirectional_sharing.py",
+      "path": "test_bidirectional_sharing.py",
+      "type": ".py",
+      "size": 14446,
+      "category": "root"
+    },
+    {
+      "name": "test_core_temps.py",
+      "path": "test_core_temps.py",
+      "type": ".py",
+      "size": 4989,
+      "category": "root"
+    },
+    {
+      "name": "test_cpu_monitor.py",
+      "path": "test_cpu_monitor.py",
+      "type": ".py",
+      "size": 2358,
+      "category": "root"
+    },
+    {
+      "name": "test_integration.py",
+      "path": "test_integration.py",
+      "type": ".py",
+      "size": 3513,
+      "category": "root"
+    },
+    {
+      "name": "test_logo.py",
+      "path": "test_logo.py",
+      "type": ".py",
+      "size": 2575,
+      "category": "root"
+    },
+    {
+      "name": "test_original_cpu.py",
+      "path": "test_original_cpu.py",
+      "type": ".py",
+      "size": 2423,
+      "category": "root"
+    },
+    {
+      "name": "test_portal_file_transfer.py",
+      "path": "test_portal_file_transfer.py",
+      "type": ".py",
+      "size": 27261,
+      "category": "root"
+    },
+    {
+      "name": "test_rdma_windows.py",
+      "path": "test_rdma_windows.py",
+      "type": ".py",
+      "size": 7441,
+      "category": "root"
+    },
+    {
+      "name": "test_rest_api.py",
+      "path": "test_rest_api.py",
+      "type": ".py",
+      "size": 15114,
+      "category": "root"
+    },
+    {
+      "name": "test_smart_system_sensing.py",
+      "path": "test_smart_system_sensing.py",
+      "type": ".py",
+      "size": 4709,
+      "category": "root"
+    },
+    {
+      "name": "test_temperature.py",
+      "path": "test_temperature.py",
+      "type": ".py",
+      "size": 5329,
+      "category": "root"
+    },
+    {
+      "name": "test_visentrix_branding.py",
+      "path": "test_visentrix_branding.py",
+      "type": ".py",
+      "size": 5828,
+      "category": "root"
+    },
+    {
+      "name": "test_windows_10_sensing.py",
+      "path": "test_windows_10_sensing.py",
+      "type": ".py",
+      "size": 11186,
+      "category": "root"
+    },
+    {
+      "name": "tools_data_verification.py",
+      "path": "tools_data_verification.py",
+      "type": ".py",
+      "size": 16404,
+      "category": "root"
+    },
+    {
+      "name": "tool_connection_verification.py",
+      "path": "tool_connection_verification.py",
+      "type": ".py",
+      "size": 36324,
+      "category": "root"
+    },
+    {
+      "name": "tool_launch_verification.py",
+      "path": "tool_launch_verification.py",
+      "type": ".py",
+      "size": 10784,
+      "category": "root"
+    },
+    {
+      "name": "unified_component_counter.py",
+      "path": "unified_component_counter.py",
+      "type": ".py",
+      "size": 14966,
+      "category": "root"
+    },
+    {
+      "name": "Universal_Launcher.bat",
+      "path": "Universal_Launcher.bat",
+      "type": ".bat",
+      "size": 3277,
+      "category": "root"
+    },
+    {
+      "name": "Visentrix_Launcher.py",
+      "path": "Visentrix_Launcher.py",
+      "type": ".py",
+      "size": 21056,
+      "category": "root"
+    },
+    {
+      "name": "windows10_setup.bat",
+      "path": "windows10_setup.bat",
+      "type": ".bat",
+      "size": 1657,
+      "category": "root"
+    },
+    {
+      "name": "windows_compatibility_check.py",
+      "path": "windows_compatibility_check.py",
+      "type": ".py",
+      "size": 14069,
+      "category": "root"
+    },
+    {
+      "name": "windows_universal_deployer.py",
+      "path": "windows_universal_deployer.py",
+      "type": ".py",
+      "size": 23671,
+      "category": "root"
+    },
+    {
+      "name": "Working_Launcher.bat",
+      "path": "Working_Launcher.bat",
+      "type": ".bat",
+      "size": 3450,
+      "category": "root"
+    },
+    {
+      "name": "backup_manager.py",
+      "path": "Backup System\\backup_manager.py",
+      "type": ".py",
+      "size": 42074,
+      "category": "Backup System"
+    },
+    {
+      "name": "cicd_manager.py",
+      "path": "CI\\CD Pipeline\\cicd_manager.py",
+      "type": ".py",
+      "size": 55219,
+      "category": "CI"
+    },
+    {
+      "name": "error_handling.py",
+      "path": "common\\error_handling.py",
+      "type": ".py",
+      "size": 10728,
+      "category": "common"
+    },
+    {
+      "name": "subnet_discovery.py",
+      "path": "common\\subnet_discovery.py",
+      "type": ".py",
+      "size": 24335,
+      "category": "common"
+    },
+    {
+      "name": "subnet_manager.py",
+      "path": "common\\subnet_manager.py",
+      "type": ".py",
+      "size": 18339,
+      "category": "common"
+    },
+    {
+      "name": "windows_abstraction.py",
+      "path": "common\\windows_abstraction.py",
+      "type": ".py",
+      "size": 22144,
+      "category": "common"
+    },
+    {
+      "name": "windows_compat.py",
+      "path": "common\\windows_compat.py",
+      "type": ".py",
+      "size": 15065,
+      "category": "common"
+    },
+    {
+      "name": "compute_client.py",
+      "path": "Compute Sharing\\compute_client.py",
+      "type": ".py",
+      "size": 24223,
+      "category": "Compute Sharing"
+    },
+    {
+      "name": "compute_cluster_gui.py",
+      "path": "Compute Sharing\\compute_cluster_gui.py",
+      "type": ".py",
+      "size": 39986,
+      "category": "Compute Sharing"
+    },
+    {
+      "name": "compute_server.py",
+      "path": "Compute Sharing\\compute_server.py",
+      "type": ".py",
+      "size": 12801,
+      "category": "Compute Sharing"
+    },
+    {
+      "name": "container_manager.py",
+      "path": "Container Manager\\container_manager.py",
+      "type": ".py",
+      "size": 35762,
+      "category": "Container Manager"
+    },
+    {
+      "name": "admin_auto_config.py",
+      "path": "Core Services\\admin_auto_config.py",
+      "type": ".py",
+      "size": 13462,
+      "category": "Core Services"
+    },
+    {
+      "name": "advanced_security.py",
+      "path": "Core Services\\advanced_security.py",
+      "type": ".py",
+      "size": 28881,
+      "category": "Core Services"
+    },
+    {
+      "name": "analytics_engine.py",
+      "path": "Core Services\\analytics_engine.py",
+      "type": ".py",
+      "size": 28891,
+      "category": "Core Services"
+    },
+    {
+      "name": "auth_service.py",
+      "path": "Core Services\\auth_service.py",
+      "type": ".py",
+      "size": 18104,
+      "category": "Core Services"
+    },
+    {
+      "name": "automation_framework.py",
+      "path": "Core Services\\automation_framework.py",
+      "type": ".py",
+      "size": 26774,
+      "category": "Core Services"
+    },
+    {
+      "name": "backup_manager.py",
+      "path": "Core Services\\backup_manager.py",
+      "type": ".py",
+      "size": 30910,
+      "category": "Core Services"
+    },
+    {
+      "name": "bidirectional_resource_sharing.py",
+      "path": "Core Services\\bidirectional_resource_sharing.py",
+      "type": ".py",
+      "size": 21928,
+      "category": "Core Services"
+    },
+    {
+      "name": "config_manager.py",
+      "path": "Core Services\\config_manager.py",
+      "type": ".py",
+      "size": 18582,
+      "category": "Core Services"
+    },
+    {
+      "name": "data_abstraction_layer.py",
+      "path": "Core Services\\data_abstraction_layer.py",
+      "type": ".py",
+      "size": 22936,
+      "category": "Core Services"
+    },
+    {
+      "name": "data_persistence.py",
+      "path": "Core Services\\data_persistence.py",
+      "type": ".py",
+      "size": 40130,
+      "category": "Core Services"
+    },
+    {
+      "name": "ddr4_ram_sharing.py",
+      "path": "Core Services\\ddr4_ram_sharing.py",
+      "type": ".py",
+      "size": 24668,
+      "category": "Core Services"
+    },
+    {
+      "name": "event_bus.py",
+      "path": "Core Services\\event_bus.py",
+      "type": ".py",
+      "size": 12625,
+      "category": "Core Services"
+    },
+    {
+      "name": "frontend_backend_mixer.py",
+      "path": "Core Services\\frontend_backend_mixer.py",
+      "type": ".py",
+      "size": 15613,
+      "category": "Core Services"
+    },
+    {
+      "name": "frontend_backend_synchronization.py",
+      "path": "Core Services\\frontend_backend_synchronization.py",
+      "type": ".py",
+      "size": 19361,
+      "category": "Core Services"
+    },
+    {
+      "name": "homelab_portal.py",
+      "path": "Core Services\\homelab_portal.py",
+      "type": ".py",
+      "size": 68337,
+      "category": "Core Services"
+    },
+    {
+      "name": "identical_hardware_optimizer.py",
+      "path": "Core Services\\identical_hardware_optimizer.py",
+      "type": ".py",
+      "size": 24686,
+      "category": "Core Services"
+    },
+    {
+      "name": "intel_ethernet_optimizer.py",
+      "path": "Core Services\\intel_ethernet_optimizer.py",
+      "type": ".py",
+      "size": 14375,
+      "category": "Core Services"
+    },
+    {
+      "name": "mesh_app_communication.py",
+      "path": "Core Services\\mesh_app_communication.py",
+      "type": ".py",
+      "size": 27375,
+      "category": "Core Services"
+    },
+    {
+      "name": "mesh_app_integration.py",
+      "path": "Core Services\\mesh_app_integration.py",
+      "type": ".py",
+      "size": 23156,
+      "category": "Core Services"
+    },
+    {
+      "name": "mesh_vpn_dashboard.py",
+      "path": "Core Services\\mesh_vpn_dashboard.py",
+      "type": ".py",
+      "size": 30956,
+      "category": "Core Services"
+    },
+    {
+      "name": "nvidia_gpu_sharing.py",
+      "path": "Core Services\\nvidia_gpu_sharing.py",
+      "type": ".py",
+      "size": 18693,
+      "category": "Core Services"
+    },
+    {
+      "name": "portal_api_endpoints.py",
+      "path": "Core Services\\portal_api_endpoints.py",
+      "type": ".py",
+      "size": 17467,
+      "category": "Core Services"
+    },
+    {
+      "name": "rest_api.py",
+      "path": "Core Services\\rest_api.py",
+      "type": ".py",
+      "size": 51804,
+      "category": "Core Services"
+    },
+    {
+      "name": "simple_rest_api.py",
+      "path": "Core Services\\simple_rest_api.py",
+      "type": ".py",
+      "size": 3180,
+      "category": "Core Services"
+    },
+    {
+      "name": "smart_system_sensing.py",
+      "path": "Core Services\\smart_system_sensing.py",
+      "type": ".py",
+      "size": 34635,
+      "category": "Core Services"
+    },
+    {
+      "name": "system_data_connector.py",
+      "path": "Core Services\\system_data_connector.py",
+      "type": ".py",
+      "size": 9689,
+      "category": "Core Services"
+    },
+    {
+      "name": "unified_dashboard.py",
+      "path": "Core Services\\unified_dashboard.py",
+      "type": ".py",
+      "size": 42462,
+      "category": "Core Services"
+    },
+    {
+      "name": "unified_monitoring.py",
+      "path": "Core Services\\unified_monitoring.py",
+      "type": ".py",
+      "size": 21635,
+      "category": "Core Services"
+    },
+    {
+      "name": "unified_path_manager.py",
+      "path": "Core Services\\unified_path_manager.py",
+      "type": ".py",
+      "size": 19195,
+      "category": "Core Services"
+    },
+    {
+      "name": "web_dashboard.py",
+      "path": "Core Services\\web_dashboard.py",
+      "type": ".py",
+      "size": 21477,
+      "category": "Core Services"
+    },
+    {
+      "name": "windows_network_discovery.py",
+      "path": "Core Services\\windows_network_discovery.py",
+      "type": ".py",
+      "size": 11185,
+      "category": "Core Services"
+    },
+    {
+      "name": "windows_screen_sharing.py",
+      "path": "Core Services\\windows_screen_sharing.py",
+      "type": ".py",
+      "size": 25639,
+      "category": "Core Services"
+    },
+    {
+      "name": "windows_version_abstraction.py",
+      "path": "Core Services\\windows_version_abstraction.py",
+      "type": ".py",
+      "size": 13093,
+      "category": "Core Services"
+    },
+    {
+      "name": "wireguard_installer.py",
+      "path": "Core Services\\wireguard_installer.py",
+      "type": ".py",
+      "size": 26481,
+      "category": "Core Services"
+    },
+    {
+      "name": "cpu_monitor.py",
+      "path": "Cpu Monitor\\cpu_monitor.py",
+      "type": ".py",
+      "size": 82914,
+      "category": "Cpu Monitor"
+    },
+    {
+      "name": "cpu_monitor_working.py",
+      "path": "Cpu Monitor\\cpu_monitor_working.py",
+      "type": ".py",
+      "size": 12688,
+      "category": "Cpu Monitor"
+    },
+    {
+      "name": "dx12_monitor.py",
+      "path": "Gpu Monitor\\dx12_monitor.py",
+      "type": ".py",
+      "size": 30286,
+      "category": "Gpu Monitor"
+    },
+    {
+      "name": "gpu_monitor.py",
+      "path": "Gpu Monitor\\gpu_monitor.py",
+      "type": ".py",
+      "size": 51257,
+      "category": "Gpu Monitor"
+    },
+    {
+      "name": "rtx_5060_config.py",
+      "path": "Gpu Monitor\\rtx_5060_config.py",
+      "type": ".py",
+      "size": 10876,
+      "category": "Gpu Monitor"
+    },
+    {
+      "name": "hybrid_client.py",
+      "path": "Hybrid Compute\\hybrid_client.py",
+      "type": ".py",
+      "size": 16530,
+      "category": "Hybrid Compute"
+    },
+    {
+      "name": "core_services_import.py",
+      "path": "Integration_Examples\\core_services_import.py",
+      "type": ".py",
+      "size": 1660,
+      "category": "Integration_Examples"
+    },
+    {
+      "name": "cpu_monitor_integration.py",
+      "path": "Integration_Examples\\cpu_monitor_integration.py",
+      "type": ".py",
+      "size": 9028,
+      "category": "Integration_Examples"
+    },
+    {
+      "name": "ram_sharing_integration.py",
+      "path": "Integration_Examples\\ram_sharing_integration.py",
+      "type": ".py",
+      "size": 14116,
+      "category": "Integration_Examples"
+    },
+    {
+      "name": "__init__.py",
+      "path": "Integration_Examples\\__init__.py",
+      "type": ".py",
+      "size": 124,
+      "category": "Integration_Examples"
+    },
+    {
+      "name": "iot_platform.py",
+      "path": "IoT Platform\\iot_platform.py",
+      "type": ".py",
+      "size": 62034,
+      "category": "IoT Platform"
+    },
+    {
+      "name": "media_server_manager.py",
+      "path": "Media Server\\media_server_manager.py",
+      "type": ".py",
+      "size": 48989,
+      "category": "Media Server"
+    },
+    {
+      "name": "ram_monitor_gui.py",
+      "path": "Memory Monitor\\ram_monitor_gui.py",
+      "type": ".py",
+      "size": 17194,
+      "category": "Memory Monitor"
+    },
+    {
+      "name": "memory_portal_gui.py",
+      "path": "Memory Portal\\memory_portal_gui.py",
+      "type": ".py",
+      "size": 41530,
+      "category": "Memory Portal"
+    },
+    {
+      "name": "bidirectional_mesh_setup.py",
+      "path": "Network Management\\bidirectional_mesh_setup.py",
+      "type": ".py",
+      "size": 26259,
+      "category": "Network Management"
+    },
+    {
+      "name": "mesh_service_discovery.py",
+      "path": "Network Management\\mesh_service_discovery.py",
+      "type": ".py",
+      "size": 21809,
+      "category": "Network Management"
+    },
+    {
+      "name": "mesh_vpn_client.py",
+      "path": "Network Management\\mesh_vpn_client.py",
+      "type": ".py",
+      "size": 21332,
+      "category": "Network Management"
+    },
+    {
+      "name": "mesh_vpn_server.py",
+      "path": "Network Management\\mesh_vpn_server.py",
+      "type": ".py",
+      "size": 13337,
+      "category": "Network Management"
+    },
+    {
+      "name": "wireguard_config_generator.py",
+      "path": "Network Management\\wireguard_config_generator.py",
+      "type": ".py",
+      "size": 24850,
+      "category": "Network Management"
+    },
+    {
+      "name": "network_monitor.py",
+      "path": "Network Monitor\\network_monitor.py",
+      "type": ".py",
+      "size": 50859,
+      "category": "Network Monitor"
+    },
+    {
+      "name": "fix_syntax.py",
+      "path": "Power Management\\fix_syntax.py",
+      "type": ".py",
+      "size": 501,
+      "category": "Power Management"
+    },
+    {
+      "name": "power_manager.py",
+      "path": "Power Management\\power_manager.py",
+      "type": ".py",
+      "size": 47820,
+      "category": "Power Management"
+    },
+    {
+      "name": "power_manager.py",
+      "path": "Power Manager\\power_manager.py",
+      "type": ".py",
+      "size": 25746,
+      "category": "Power Manager"
+    },
+    {
+      "name": "aggressive_ram_cleaner.py",
+      "path": "Ram clean up\\aggressive_ram_cleaner.py",
+      "type": ".py",
+      "size": 19124,
+      "category": "Ram clean up"
+    },
+    {
+      "name": "launcher.py",
+      "path": "Ram clean up\\launcher.py",
+      "type": ".py",
+      "size": 8201,
+      "category": "Ram clean up"
+    },
+    {
+      "name": "memory_jolt.py",
+      "path": "Ram clean up\\memory_jolt.py",
+      "type": ".py",
+      "size": 17046,
+      "category": "Ram clean up"
+    },
+    {
+      "name": "ram_cleanup_script.py",
+      "path": "Ram clean up\\ram_cleanup_script.py",
+      "type": ".py",
+      "size": 7836,
+      "category": "Ram clean up"
+    },
+    {
+      "name": "ram_monitor_gui.py",
+      "path": "Ram clean up\\ram_monitor_gui.py",
+      "type": ".py",
+      "size": 57267,
+      "category": "Ram clean up"
+    },
+    {
+      "name": "soft_ram_cleaner.py",
+      "path": "Ram clean up\\soft_ram_cleaner.py",
+      "type": ".py",
+      "size": 13991,
+      "category": "Ram clean up"
+    },
+    {
+      "name": "advanced_dma_service.py",
+      "path": "RDMA\\advanced_dma_service.py",
+      "type": ".py",
+      "size": 21562,
+      "category": "RDMA"
+    },
+    {
+      "name": "deployment_manager.py",
+      "path": "RDMA\\deployment_manager.py",
+      "type": ".py",
+      "size": 29952,
+      "category": "RDMA"
+    },
+    {
+      "name": "fault_tolerance_manager.py",
+      "path": "RDMA\\fault_tolerance_manager.py",
+      "type": ".py",
+      "size": 28223,
+      "category": "RDMA"
+    },
+    {
+      "name": "install.py",
+      "path": "RDMA\\install.py",
+      "type": ".py",
+      "size": 13493,
+      "category": "RDMA"
+    },
+    {
+      "name": "monitoring_system.py",
+      "path": "RDMA\\monitoring_system.py",
+      "type": ".py",
+      "size": 29714,
+      "category": "RDMA"
+    },
+    {
+      "name": "performance_profiler.py",
+      "path": "RDMA\\performance_profiler.py",
+      "type": ".py",
+      "size": 24397,
+      "category": "RDMA"
+    },
+    {
+      "name": "raw_network_bypass.py",
+      "path": "RDMA\\raw_network_bypass.py",
+      "type": ".py",
+      "size": 20956,
+      "category": "RDMA"
+    },
+    {
+      "name": "rdma_desktop_app.py",
+      "path": "RDMA\\rdma_desktop_app.py",
+      "type": ".py",
+      "size": 42724,
+      "category": "RDMA"
+    },
+    {
+      "name": "rdma_desktop_app_modern.py",
+      "path": "RDMA\\rdma_desktop_app_modern.py",
+      "type": ".py",
+      "size": 38458,
+      "category": "RDMA"
+    },
+    {
+      "name": "rdma_latency_test.py",
+      "path": "RDMA\\rdma_latency_test.py",
+      "type": ".py",
+      "size": 15254,
+      "category": "RDMA"
+    },
+    {
+      "name": "rdma_modern_tkinter.py",
+      "path": "RDMA\\rdma_modern_tkinter.py",
+      "type": ".py",
+      "size": 37261,
+      "category": "RDMA"
+    },
+    {
+      "name": "rdma_rest_api.py",
+      "path": "RDMA\\rdma_rest_api.py",
+      "type": ".py",
+      "size": 23352,
+      "category": "RDMA"
+    },
+    {
+      "name": "realtime_cpu_optimizer.py",
+      "path": "RDMA\\realtime_cpu_optimizer.py",
+      "type": ".py",
+      "size": 21916,
+      "category": "RDMA"
+    },
+    {
+      "name": "robust_network_layer.py",
+      "path": "RDMA\\robust_network_layer.py",
+      "type": ".py",
+      "size": 18136,
+      "category": "RDMA"
+    },
+    {
+      "name": "security_manager.py",
+      "path": "RDMA\\security_manager.py",
+      "type": ".py",
+      "size": 26993,
+      "category": "RDMA"
+    },
+    {
+      "name": "test_suite.py",
+      "path": "RDMA\\test_suite.py",
+      "type": ".py",
+      "size": 18595,
+      "category": "RDMA"
+    },
+    {
+      "name": "udp_memory_bridge.py",
+      "path": "RDMA\\udp_memory_bridge.py",
+      "type": ".py",
+      "size": 17271,
+      "category": "RDMA"
+    },
+    {
+      "name": "UI_DEMO_SHOWCASE.py",
+      "path": "RDMA\\UI_DEMO_SHOWCASE.py",
+      "type": ".py",
+      "size": 20751,
+      "category": "RDMA"
+    },
+    {
+      "name": "ultra_latency_benchmark.py",
+      "path": "RDMA\\ultra_latency_benchmark.py",
+      "type": ".py",
+      "size": 21766,
+      "category": "RDMA"
+    },
+    {
+      "name": "ultra_low_latency_dma.c",
+      "path": "RDMA\\ultra_low_latency_dma.c",
+      "type": ".c",
+      "size": 22690,
+      "category": "RDMA"
+    },
+    {
+      "name": "ultra_low_latency_userspace.py",
+      "path": "RDMA\\ultra_low_latency_userspace.py",
+      "type": ".py",
+      "size": 19718,
+      "category": "RDMA"
+    },
+    {
+      "name": "ultra_low_latency_windows.py",
+      "path": "RDMA\\ultra_low_latency_windows.py",
+      "type": ".py",
+      "size": 17710,
+      "category": "RDMA"
+    },
+    {
+      "name": "virtual_dma_driver.c",
+      "path": "RDMA\\virtual_dma_driver.c",
+      "type": ".c",
+      "size": 16817,
+      "category": "RDMA"
+    },
+    {
+      "name": "virtual_dma_userspace.py",
+      "path": "RDMA\\virtual_dma_userspace.py",
+      "type": ".py",
+      "size": 17235,
+      "category": "RDMA"
+    },
+    {
+      "name": "virtual_pcie_tunnel.py",
+      "path": "RDMA\\virtual_pcie_tunnel.py",
+      "type": ".py",
+      "size": 15481,
+      "category": "RDMA"
+    },
+    {
+      "name": "windows_build.bat",
+      "path": "RDMA\\windows_build.bat",
+      "type": ".bat",
+      "size": 12563,
+      "category": "RDMA"
+    },
+    {
+      "name": "windows_dma_driver.cpp",
+      "path": "RDMA\\windows_dma_driver.cpp",
+      "type": ".cpp",
+      "size": 19071,
+      "category": "RDMA"
+    },
+    {
+      "name": "windows_dma_interface.py",
+      "path": "RDMA\\windows_dma_interface.py",
+      "type": ".py",
+      "size": 25944,
+      "category": "RDMA"
+    },
+    {
+      "name": "zero_copy_rdmda.py",
+      "path": "RDMA\\zero_copy_rdmda.py",
+      "type": ".py",
+      "size": 9941,
+      "category": "RDMA"
+    },
+    {
+      "name": "rdma_desktop_app.py",
+      "path": "RDMA Desktop App\\rdma_desktop_app.py",
+      "type": ".py",
+      "size": 33036,
+      "category": "RDMA Desktop App"
+    },
+    {
+      "name": "rdma_modern_tkinter.py",
+      "path": "RDMA Desktop App\\rdma_modern_tkinter.py",
+      "type": ".py",
+      "size": 33280,
+      "category": "RDMA Desktop App"
+    },
+    {
+      "name": "memory_client.py",
+      "path": "RDMA Memory Portal\\memory_client.py",
+      "type": ".py",
+      "size": 31793,
+      "category": "RDMA Memory Portal"
+    },
+    {
+      "name": "memory_portal_gui.py",
+      "path": "RDMA Memory Portal\\memory_portal_gui.py",
+      "type": ".py",
+      "size": 41327,
+      "category": "RDMA Memory Portal"
+    },
+    {
+      "name": "memory_server.py",
+      "path": "RDMA Memory Portal\\memory_server.py",
+      "type": ".py",
+      "size": 23178,
+      "category": "RDMA Memory Portal"
+    },
+    {
+      "name": "install_wireguard.bat",
+      "path": "setup\\install_wireguard.bat",
+      "type": ".bat",
+      "size": 862,
+      "category": "setup"
+    },
+    {
+      "name": "wireguard_installer.py",
+      "path": "setup\\wireguard_installer.py",
+      "type": ".py",
+      "size": 26481,
+      "category": "setup"
+    },
+    {
+      "name": "storage_abstraction.py",
+      "path": "Storage Management\\storage_abstraction.py",
+      "type": ".py",
+      "size": 38319,
+      "category": "Storage Management"
+    },
+    {
+      "name": "storage_monitor.py",
+      "path": "Storage Management\\storage_monitor.py",
+      "type": ".py",
+      "size": 41441,
+      "category": "Storage Management"
+    },
+    {
+      "name": "storage_monitor.py",
+      "path": "Storage Monitor\\storage_monitor.py",
+      "type": ".py",
+      "size": 27977,
+      "category": "Storage Monitor"
+    },
+    {
+      "name": "console_network_test.py",
+      "path": "Subnet Portal\\console_network_test.py",
+      "type": ".py",
+      "size": 21729,
+      "category": "Subnet Portal"
+    },
+    {
+      "name": "fixed_subnet_communication.py",
+      "path": "Subnet Portal\\fixed_subnet_communication.py",
+      "type": ".py",
+      "size": 15891,
+      "category": "Subnet Portal"
+    },
+    {
+      "name": "launch_console_test.bat",
+      "path": "Subnet Portal\\launch_console_test.bat",
+      "type": ".bat",
+      "size": 761,
+      "category": "Subnet Portal"
+    },
+    {
+      "name": "launch_console_test_discovery.bat",
+      "path": "Subnet Portal\\launch_console_test_discovery.bat",
+      "type": ".bat",
+      "size": 406,
+      "category": "Subnet Portal"
+    },
+    {
+      "name": "launch_console_test_minecraft.bat",
+      "path": "Subnet Portal\\launch_console_test_minecraft.bat",
+      "type": ".bat",
+      "size": 406,
+      "category": "Subnet Portal"
+    },
+    {
+      "name": "launch_console_test_portal.bat",
+      "path": "Subnet Portal\\launch_console_test_portal.bat",
+      "type": ".bat",
+      "size": 415,
+      "category": "Subnet Portal"
+    },
+    {
+      "name": "network_diagnostics.py",
+      "path": "Subnet Portal\\network_diagnostics.py",
+      "type": ".py",
+      "size": 10558,
+      "category": "Subnet Portal"
+    },
+    {
+      "name": "subnet_portal.py",
+      "path": "Subnet Portal\\subnet_portal.py",
+      "type": ".py",
+      "size": 73614,
+      "category": "Subnet Portal"
+    },
+    {
+      "name": "vpn_gateway.py",
+      "path": "VPN Gateway\\vpn_gateway.py",
+      "type": ".py",
+      "size": 61145,
+      "category": "VPN Gateway"
+    },
+    {
+      "name": "web_dashboard.py",
+      "path": "Web Dashboard\\web_dashboard.py",
+      "type": ".py",
+      "size": 31748,
+      "category": "Web Dashboard"
+    }
+  ]
+}

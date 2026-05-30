@@ -1,0 +1,44 @@
+{
+  "host_optimizations": {
+    "cpu": {
+      "priority": "HIGH",
+      "affinity": "cores 0-5",
+      "realtime_threads": 4,
+      "power_plan": "High Performance"
+    },
+    "memory": {
+      "large_pages": true,
+      "numa_optimization": true,
+      "prefetch_optimization": true
+    },
+    "storage": {
+      "ssd_optimization": true,
+      "write_caching": true,
+      "defrag_disabled": true,
+      "trim_enabled": true
+    },
+    "network": {
+      "rdma_enabled": true,
+      "jumbo_frames": true,
+      "interrupt_affinity": true
+    }
+  },
+  "client_optimizations": {
+    "gpu": {
+      "power_mode": "PREFER_PERFORMANCE",
+      "cuda_optimization": true,
+      "direct_storage": true,
+      "ray_tracing": true
+    },
+    "memory": {
+      "swap_optimization": true,
+      "compression": true,
+      "remote_caching": true
+    },
+    "storage": {
+      "local_cache_gb": 32,
+      "prefetch_enabled": true,
+      "write_behind": true
+    }
+  }
+}

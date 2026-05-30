@@ -1,0 +1,7065 @@
+{
+  "overall_status": "working",
+  "overall_score": 59.69417475728155,
+  "total_components": 206,
+  "analyzed_components": 206,
+  "working_components": 41,
+  "broken_components": 19,
+  "missing_components": 0,
+  "system_capabilities": {
+    "system_info": {
+      "type": "Windows 11",
+      "version": "Windows-11-10.0.26200-SP0",
+      "build": 26200,
+      "hardware": "Intel+NVIDIA",
+      "capabilities": [
+        "gaming",
+        "productivity",
+        "development",
+        "multimedia",
+        "basic"
+      ],
+      "score": 80.0
+    },
+    "python_version": "3.13.11 (tags/v3.13.11:6278944, Dec  5 2025, 16:26:58) [MSC v.1944 64 bit (AMD64)]",
+    "python_paths": [
+      "C:\\Users\\htsou\\Desktop\\Homelab Tools",
+      "C:\\Users\\htsou\\homelab-tools",
+      "C:\\Users\\htsou\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip",
+      "C:\\Users\\htsou\\AppData\\Local\\Programs\\Python\\Python313\\DLLs",
+      "C:\\Users\\htsou\\AppData\\Local\\Programs\\Python\\Python313\\Lib"
+    ],
+    "environment_variables": {},
+    "available_modules": [
+      "tkinter",
+      "flask",
+      "fastapi",
+      "psutil",
+      "matplotlib",
+      "numpy",
+      "requests",
+      "websockets",
+      "asyncio",
+      "threading",
+      "socket",
+      "json",
+      "sqlite3"
+    ],
+    "missing_modules": [
+      "ttk",
+      "django",
+      "pandas"
+    ],
+    "system_resources": {
+      "cpu_count": 12,
+      "memory_total": 16858488832,
+      "disk_total": 1022580748288
+    },
+    "network_status": {
+      "hostname": "HAZACER",
+      "localhost_resolves": true
+    },
+    "issues": [],
+    "capabilities": []
+  },
+  "frontend_analysis": {
+    "total_interfaces": 567,
+    "interface_details": {
+      "gui_tkinter": [
+        {
+          "component": "windows_compatibility_results.json",
+          "quality": {
+            "working": false,
+            "complete": false,
+            "has_error_handling": false,
+            "has_main_loop": false,
+            "score": 0.0
+          }
+        }
+      ],
+      "gui_web": [
+        {
+          "component": "fully_comprehensive_audit_results.json",
+          "quality": {
+            "working": false,
+            "complete": false,
+            "has_error_handling": false,
+            "has_main_loop": false,
+            "score": 20.0
+          }
+        }
+      ],
+      "console": [
+        {
+          "component": "windows_compatibility_results.json",
+          "quality": {
+            "working": false,
+            "complete": false,
+            "has_error_handling": false,
+            "has_main_loop": false,
+            "score": 0.0
+          }
+        }
+      ],
+      "api_rest": [
+        {
+          "component": "fully_comprehensive_audit_results.json",
+          "quality": {
+            "working": false,
+            "complete": false,
+            "has_error_handling": false,
+            "has_main_loop": false,
+            "score": 30.0
+          }
+        }
+      ],
+      "batch": [
+        {
+          "component": "complete_verification_report.json",
+          "quality": {
+            "working": false,
+            "complete": false,
+            "has_error_handling": false,
+            "has_main_loop": false,
+            "score": 0.0
+          }
+        }
+      ],
+      "hybrid": [
+        {
+          "component": "windows_compatibility_results.json",
+          "quality": {
+            "working": false,
+            "complete": false,
+            "has_error_handling": false,
+            "has_main_loop": false,
+            "score": 0.0
+          }
+        }
+      ],
+      "api_socket": [
+        {
+          "component": "fully_comprehensive_audit_results.json",
+          "quality": {
+            "working": false,
+            "complete": false,
+            "has_error_handling": false,
+            "has_main_loop": false,
+            "score": 30.0
+          }
+        }
+      ]
+    },
+    "working_interfaces": {
+      "console": [
+        "abstraction_layer_integration_test.py",
+        "Auto_RAM_Connect.py",
+        "auto_setup.py",
+        "batch_file_fixer.py",
+        "check_failures.py",
+        "check_failures_simple.py",
+        "complete_system_verification.py",
+        "comprehensive_system_audit.py",
+        "comprehensive_system_verification.py",
+        "comprehensive_test_suite.py",
+        "cross_platform_deployer.py",
+        "dashboard_launcher_verification.py",
+        "deploy.py",
+        "deployment_config.py",
+        "enhanced_system_verification.py",
+        "final_verification_suite.py",
+        "find_failed_python.py",
+        "first_time_setup.py",
+        "fully_comprehensive_system_audit.py",
+        "homelab_launcher.py",
+        "install_dependencies.py",
+        "package_dependencies.py",
+        "phase2_integration_test.py",
+        "RAM_Sharing_Simple_GUI.py",
+        "setup.py",
+        "test_bidirectional_sharing.py",
+        "test_core_temps.py",
+        "test_cpu_monitor.py",
+        "test_integration.py",
+        "test_logo.py",
+        "test_original_cpu.py",
+        "test_portal_file_transfer.py",
+        "test_rdma_windows.py",
+        "test_rest_api.py",
+        "test_smart_system_sensing.py",
+        "test_temperature.py",
+        "test_visentrix_branding.py",
+        "test_windows_10_sensing.py",
+        "tools_data_verification.py",
+        "tool_connection_verification.py",
+        "Visentrix_Launcher.py",
+        "windows_compatibility_check.py",
+        "windows_universal_deployer.py",
+        "backup_manager.py",
+        "error_handling.py",
+        "subnet_discovery.py",
+        "subnet_manager.py",
+        "compute_client.py",
+        "compute_cluster_gui.py",
+        "compute_server.py",
+        "container_manager.py",
+        "admin_auto_config.py",
+        "advanced_security.py",
+        "analytics_engine.py",
+        "automation_framework.py",
+        "config_manager.py",
+        "event_bus.py",
+        "homelab_portal.py",
+        "rest_api.py",
+        "unified_dashboard.py",
+        "cpu_monitor.py",
+        "cpu_monitor_working.py",
+        "gpu_monitor.py",
+        "rtx_5060_config.py",
+        "hybrid_client.py",
+        "core_services_import.py",
+        "cpu_monitor_integration.py",
+        "ram_sharing_integration.py",
+        "iot_platform.py",
+        "media_server_manager.py",
+        "mesh_service_discovery.py",
+        "mesh_vpn_client.py",
+        "wireguard_config_generator.py",
+        "network_monitor.py",
+        "power_manager.py",
+        "aggressive_ram_cleaner.py",
+        "memory_jolt.py",
+        "ram_cleanup_script.py",
+        "ram_monitor_gui.py",
+        "soft_ram_cleaner.py",
+        "advanced_dma_service.py",
+        "deployment_manager.py",
+        "fault_tolerance_manager.py",
+        "install.py",
+        "monitoring_system.py",
+        "performance_profiler.py",
+        "raw_network_bypass.py",
+        "rdma_desktop_app.py",
+        "rdma_desktop_app_modern.py",
+        "rdma_latency_test.py",
+        "rdma_modern_tkinter.py",
+        "rdma_rest_api.py",
+        "realtime_cpu_optimizer.py",
+        "robust_network_layer.py",
+        "security_manager.py",
+        "test_suite.py",
+        "udp_memory_bridge.py",
+        "UI_DEMO_SHOWCASE.py",
+        "ultra_latency_benchmark.py",
+        "ultra_low_latency_userspace.py",
+        "ultra_low_latency_windows.py",
+        "virtual_dma_userspace.py",
+        "virtual_pcie_tunnel.py",
+        "windows_dma_interface.py",
+        "zero_copy_rdmda.py",
+        "memory_client.py",
+        "memory_portal_gui.py",
+        "memory_server.py",
+        "storage_monitor.py",
+        "console_network_test.py",
+        "network_diagnostics.py",
+        "subnet_portal.py",
+        "vpn_gateway.py",
+        "web_dashboard.py",
+        "cicd_manager.py"
+      ],
+      "api_rest": [
+        "abstraction_layer_integration_test.py",
+        "comprehensive_system_audit.py",
+        "comprehensive_system_verification.py",
+        "cross_platform_deployer.py",
+        "fully_comprehensive_system_audit.py",
+        "install_dependencies.py",
+        "windows_universal_deployer.py",
+        "frontend_backend_mixer.py",
+        "mesh_vpn_dashboard.py",
+        "portal_api_endpoints.py",
+        "rest_api.py",
+        "simple_rest_api.py",
+        "mesh_vpn_server.py",
+        "rdma_rest_api.py"
+      ],
+      "gui_tkinter": [
+        "Auto_RAM_Connect.py",
+        "auto_setup.py",
+        "comprehensive_system_verification.py",
+        "fully_comprehensive_system_audit.py",
+        "homelab_dashboard.py",
+        "homelab_launcher.py",
+        "Integrated_RAM_Launcher.py",
+        "RAM_Sharing_GUI.py",
+        "simple_cpu_test.py",
+        "test_cpu_monitor.py",
+        "test_logo.py",
+        "test_original_cpu.py",
+        "test_visentrix_branding.py",
+        "Visentrix_Launcher.py",
+        "backup_manager.py",
+        "subnet_manager.py",
+        "compute_cluster_gui.py",
+        "container_manager.py",
+        "homelab_portal.py",
+        "unified_dashboard.py",
+        "cpu_monitor.py",
+        "cpu_monitor_working.py",
+        "dx12_monitor.py",
+        "gpu_monitor.py",
+        "hybrid_client.py",
+        "iot_platform.py",
+        "media_server_manager.py",
+        "network_monitor.py",
+        "power_manager.py",
+        "launcher.py",
+        "ram_monitor_gui.py",
+        "rdma_desktop_app_modern.py",
+        "rdma_modern_tkinter.py",
+        "memory_portal_gui.py",
+        "storage_monitor.py",
+        "subnet_portal.py",
+        "vpn_gateway.py",
+        "web_dashboard.py",
+        "cicd_manager.py"
+      ],
+      "api_socket": [
+        "Auto_RAM_Connect.py",
+        "fully_comprehensive_system_audit.py",
+        "test_portal_file_transfer.py",
+        "subnet_discovery.py",
+        "compute_client.py",
+        "bidirectional_resource_sharing.py",
+        "homelab_portal.py",
+        "identical_hardware_optimizer.py",
+        "intel_ethernet_optimizer.py",
+        "windows_network_discovery.py",
+        "hybrid_client.py",
+        "iot_platform.py",
+        "mesh_service_discovery.py",
+        "mesh_vpn_client.py",
+        "advanced_dma_service.py",
+        "raw_network_bypass.py",
+        "rdma_latency_test.py",
+        "robust_network_layer.py",
+        "test_suite.py",
+        "udp_memory_bridge.py",
+        "ultra_low_latency_userspace.py",
+        "virtual_dma_userspace.py",
+        "virtual_pcie_tunnel.py",
+        "windows_dma_interface.py",
+        "zero_copy_rdmda.py",
+        "memory_client.py",
+        "memory_server.py",
+        "fixed_subnet_communication.py",
+        "network_diagnostics.py",
+        "vpn_gateway.py",
+        "web_dashboard.py"
+      ],
+      "gui_web": [
+        "comprehensive_system_audit.py",
+        "comprehensive_system_verification.py",
+        "fully_comprehensive_system_audit.py",
+        "mesh_vpn_dashboard.py",
+        "portal_api_endpoints.py",
+        "rest_api.py",
+        "simple_rest_api.py",
+        "mesh_vpn_server.py",
+        "rdma_rest_api.py"
+      ]
+    },
+    "broken_interfaces": {
+      "gui_tkinter": [
+        "abstraction_layer_integration_test.py",
+        "complete_system_verification.py",
+        "comprehensive_system_audit.py",
+        "comprehensive_test_suite.py",
+        "cross_platform_deployer.py",
+        "dashboard_launcher_verification.py",
+        "enhanced_system_verification.py",
+        "final_verification_suite.py",
+        "install_dependencies.py",
+        "RAM_Sharing_Simple_GUI.py",
+        "setup.py",
+        "system_integration_test.py",
+        "test_rdma_windows.py",
+        "windows_universal_deployer.py",
+        "frontend_backend_mixer.py",
+        "GUI_Troubleshooting.bat",
+        "Launch_Batch_GUI.bat",
+        "Launch_Homelab_Portal.bat",
+        "Launch_Simple_GUI.bat",
+        "setup.bat",
+        "Universal_Launcher.bat",
+        "complete_verification_report.json",
+        "comprehensive_system_audit_results.json",
+        "comprehensive_verification_results.json",
+        "final_verification_results.json",
+        "fully_comprehensive_audit_results.json",
+        "test_results.json",
+        "tools_data_verification_results.json",
+        "windows_compatibility_results.json"
+      ],
+      "gui_web": [
+        "abstraction_layer_integration_test.py",
+        "cross_platform_deployer.py",
+        "install_dependencies.py",
+        "windows_universal_deployer.py",
+        "frontend_backend_mixer.py",
+        "Install_Homelab.bat",
+        "complete_verification_report.json",
+        "comprehensive_system_audit_results.json",
+        "fully_comprehensive_audit_results.json"
+      ],
+      "batch": [
+        "abstraction_layer_integration_test.py",
+        "Auto_RAM_Connect.py",
+        "auto_setup.py",
+        "batch_file_fixer.py",
+        "complete_system_verification.py",
+        "comprehensive_test_suite.py",
+        "cross_platform_deployer.py",
+        "dashboard_launcher_verification.py",
+        "deploy.py",
+        "final_verification_suite.py",
+        "fully_comprehensive_system_audit.py",
+        "homelab_dashboard.py",
+        "homelab_launcher.py",
+        "install_dependencies.py",
+        "Integrated_RAM_Launcher.py",
+        "package_dependencies.py",
+        "RAM_Sharing_GUI.py",
+        "RAM_Sharing_Simple_GUI.py",
+        "simple_cpu_test.py",
+        "system_integration_test.py",
+        "test_bidirectional_sharing.py",
+        "test_original_cpu.py",
+        "test_portal_file_transfer.py",
+        "test_rdma_windows.py",
+        "test_rest_api.py",
+        "tool_connection_verification.py",
+        "Visentrix_Launcher.py",
+        "windows_compatibility_check.py",
+        "windows_universal_deployer.py",
+        "backup_manager.py",
+        "subnet_discovery.py",
+        "subnet_manager.py",
+        "windows_compat.py",
+        "compute_client.py",
+        "compute_cluster_gui.py",
+        "compute_server.py",
+        "container_manager.py",
+        "admin_auto_config.py",
+        "advanced_security.py",
+        "analytics_engine.py",
+        "auth_service.py",
+        "automation_framework.py",
+        "bidirectional_resource_sharing.py",
+        "config_manager.py",
+        "data_abstraction_layer.py",
+        "data_persistence.py",
+        "event_bus.py",
+        "frontend_backend_mixer.py",
+        "frontend_backend_synchronization.py",
+        "homelab_portal.py",
+        "nvidia_gpu_sharing.py",
+        "portal_api_endpoints.py",
+        "rest_api.py",
+        "unified_dashboard.py",
+        "unified_monitoring.py",
+        "unified_path_manager.py",
+        "windows_network_discovery.py",
+        "windows_screen_sharing.py",
+        "cpu_monitor.py",
+        "cpu_monitor_working.py",
+        "dx12_monitor.py",
+        "gpu_monitor.py",
+        "cpu_monitor_integration.py",
+        "ram_sharing_integration.py",
+        "iot_platform.py",
+        "media_server_manager.py",
+        "mesh_service_discovery.py",
+        "mesh_vpn_client.py",
+        "mesh_vpn_server.py",
+        "network_monitor.py",
+        "power_manager.py",
+        "aggressive_ram_cleaner.py",
+        "memory_jolt.py",
+        "ram_monitor_gui.py",
+        "advanced_dma_service.py",
+        "deployment_manager.py",
+        "fault_tolerance_manager.py",
+        "install.py",
+        "monitoring_system.py",
+        "performance_profiler.py",
+        "raw_network_bypass.py",
+        "rdma_desktop_app.py",
+        "rdma_desktop_app_modern.py",
+        "rdma_latency_test.py",
+        "rdma_modern_tkinter.py",
+        "rdma_rest_api.py",
+        "realtime_cpu_optimizer.py",
+        "robust_network_layer.py",
+        "test_suite.py",
+        "udp_memory_bridge.py",
+        "UI_DEMO_SHOWCASE.py",
+        "ultra_latency_benchmark.py",
+        "ultra_low_latency_userspace.py",
+        "ultra_low_latency_windows.py",
+        "virtual_dma_userspace.py",
+        "virtual_pcie_tunnel.py",
+        "windows_dma_interface.py",
+        "zero_copy_rdmda.py",
+        "memory_client.py",
+        "memory_portal_gui.py",
+        "memory_server.py",
+        "storage_monitor.py",
+        "console_network_test.py",
+        "fixed_subnet_communication.py",
+        "subnet_portal.py",
+        "vpn_gateway.py",
+        "web_dashboard.py",
+        "cicd_manager.py",
+        "Auto_Connect_Launcher.bat",
+        "batch_file_template.bat",
+        "Cleanup_RAM_Sharing.bat",
+        "Create_Desktop_Shortcut.bat",
+        "Cross_Version_Setup.bat",
+        "first_time_setup.bat",
+        "Fix_Windows_Compatibility.bat",
+        "GUI_Troubleshooting.bat",
+        "Install_Homelab.bat",
+        "Launch_Batch_GUI.bat",
+        "launch_homelab.bat",
+        "Launch_Homelab_Portal.bat",
+        "Launch_RAM_Sharing.bat",
+        "Launch_Simple_GUI.bat",
+        "Launch_Unified_System.bat",
+        "map_ram_disk.bat",
+        "Map_RAM_Sharing.bat",
+        "Quick_Auto_Connect.bat",
+        "ram_disk_setup.bat",
+        "RAM_Sharing_Menu.bat",
+        "setup.bat",
+        "Setup_RAM_Sharing.bat",
+        "Simple_Launcher.bat",
+        "Universal_Launcher.bat",
+        "windows10_setup.bat",
+        "Working_Launcher.bat",
+        "windows_build.bat",
+        "launch_console_test.bat",
+        "launch_console_test_discovery.bat",
+        "launch_console_test_minecraft.bat",
+        "launch_console_test_portal.bat",
+        "build_kernel_driver.sh",
+        "complete_verification_report.json"
+      ],
+      "hybrid": [
+        "abstraction_layer_integration_test.py",
+        "Auto_RAM_Connect.py",
+        "auto_setup.py",
+        "batch_file_fixer.py",
+        "complete_system_verification.py",
+        "comprehensive_system_audit.py",
+        "comprehensive_system_verification.py",
+        "comprehensive_test_suite.py",
+        "cross_platform_deployer.py",
+        "dashboard_launcher_verification.py",
+        "deploy.py",
+        "enhanced_system_verification.py",
+        "final_verification_suite.py",
+        "fully_comprehensive_system_audit.py",
+        "homelab_dashboard.py",
+        "homelab_launcher.py",
+        "install_dependencies.py",
+        "Integrated_RAM_Launcher.py",
+        "package_dependencies.py",
+        "RAM_Sharing_GUI.py",
+        "RAM_Sharing_Simple_GUI.py",
+        "setup.py",
+        "simple_cpu_test.py",
+        "system_integration_test.py",
+        "test_bidirectional_sharing.py",
+        "test_cpu_monitor.py",
+        "test_logo.py",
+        "test_original_cpu.py",
+        "test_portal_file_transfer.py",
+        "test_rdma_windows.py",
+        "test_rest_api.py",
+        "test_visentrix_branding.py",
+        "tool_connection_verification.py",
+        "Visentrix_Launcher.py",
+        "windows_compatibility_check.py",
+        "windows_universal_deployer.py",
+        "backup_manager.py",
+        "subnet_discovery.py",
+        "subnet_manager.py",
+        "compute_client.py",
+        "compute_cluster_gui.py",
+        "compute_server.py",
+        "container_manager.py",
+        "admin_auto_config.py",
+        "advanced_security.py",
+        "analytics_engine.py",
+        "automation_framework.py",
+        "bidirectional_resource_sharing.py",
+        "config_manager.py",
+        "data_abstraction_layer.py",
+        "event_bus.py",
+        "frontend_backend_mixer.py",
+        "homelab_portal.py",
+        "mesh_vpn_dashboard.py",
+        "nvidia_gpu_sharing.py",
+        "portal_api_endpoints.py",
+        "rest_api.py",
+        "simple_rest_api.py",
+        "unified_dashboard.py",
+        "windows_network_discovery.py",
+        "windows_screen_sharing.py",
+        "cpu_monitor.py",
+        "cpu_monitor_working.py",
+        "dx12_monitor.py",
+        "gpu_monitor.py",
+        "hybrid_client.py",
+        "cpu_monitor_integration.py",
+        "ram_sharing_integration.py",
+        "iot_platform.py",
+        "media_server_manager.py",
+        "mesh_service_discovery.py",
+        "mesh_vpn_client.py",
+        "mesh_vpn_server.py",
+        "network_monitor.py",
+        "power_manager.py",
+        "aggressive_ram_cleaner.py",
+        "memory_jolt.py",
+        "ram_monitor_gui.py",
+        "advanced_dma_service.py",
+        "deployment_manager.py",
+        "fault_tolerance_manager.py",
+        "install.py",
+        "monitoring_system.py",
+        "performance_profiler.py",
+        "raw_network_bypass.py",
+        "rdma_desktop_app.py",
+        "rdma_desktop_app_modern.py",
+        "rdma_latency_test.py",
+        "rdma_modern_tkinter.py",
+        "rdma_rest_api.py",
+        "realtime_cpu_optimizer.py",
+        "robust_network_layer.py",
+        "test_suite.py",
+        "udp_memory_bridge.py",
+        "UI_DEMO_SHOWCASE.py",
+        "ultra_latency_benchmark.py",
+        "ultra_low_latency_userspace.py",
+        "ultra_low_latency_windows.py",
+        "virtual_dma_userspace.py",
+        "virtual_pcie_tunnel.py",
+        "windows_dma_interface.py",
+        "zero_copy_rdmda.py",
+        "memory_client.py",
+        "memory_portal_gui.py",
+        "memory_server.py",
+        "storage_monitor.py",
+        "console_network_test.py",
+        "fixed_subnet_communication.py",
+        "network_diagnostics.py",
+        "subnet_portal.py",
+        "vpn_gateway.py",
+        "web_dashboard.py",
+        "cicd_manager.py",
+        "Auto_Connect_Launcher.bat",
+        "GUI_Troubleshooting.bat",
+        "Install_Homelab.bat",
+        "Launch_Batch_GUI.bat",
+        "Launch_Homelab_Portal.bat",
+        "Launch_Simple_GUI.bat",
+        "Launch_Unified_System.bat",
+        "setup.bat",
+        "Universal_Launcher.bat",
+        "windows_build.bat",
+        "launch_console_test.bat",
+        "launch_console_test_discovery.bat",
+        "launch_console_test_minecraft.bat",
+        "launch_console_test_portal.bat",
+        "complete_verification_report.json",
+        "comprehensive_system_audit_results.json",
+        "final_verification_results.json",
+        "fully_comprehensive_audit_results.json",
+        "test_results.json",
+        "tools_data_verification_results.json",
+        "windows_compatibility_results.json"
+      ],
+      "api_socket": [
+        "comprehensive_system_audit.py",
+        "install_dependencies.py",
+        "compute_cluster_gui.py",
+        "compute_server.py",
+        "admin_auto_config.py",
+        "data_abstraction_layer.py",
+        "ddr4_ram_sharing.py",
+        "frontend_backend_mixer.py",
+        "nvidia_gpu_sharing.py",
+        "system_data_connector.py",
+        "windows_screen_sharing.py",
+        "network_monitor.py",
+        "fault_tolerance_manager.py",
+        "install.py",
+        "ultra_low_latency_windows.py",
+        "console_network_test.py",
+        "Launch_Homelab_Portal.bat",
+        "complete_verification_report.json",
+        "comprehensive_system_audit_results.json",
+        "fully_comprehensive_audit_results.json"
+      ],
+      "console": [
+        "homelab_dashboard.py",
+        "Integrated_RAM_Launcher.py",
+        "temp_script_5915.py",
+        "mesh_vpn_dashboard.py",
+        "fix_syntax.py",
+        "Auto_Connect_Launcher.bat",
+        "GUI_Troubleshooting.bat",
+        "Install_Homelab.bat",
+        "Launch_Simple_GUI.bat",
+        "Launch_Unified_System.bat",
+        "windows_build.bat",
+        "launch_console_test.bat",
+        "launch_console_test_discovery.bat",
+        "launch_console_test_minecraft.bat",
+        "launch_console_test_portal.bat",
+        "complete_verification_report.json",
+        "comprehensive_system_audit_results.json",
+        "final_verification_results.json",
+        "fully_comprehensive_audit_results.json",
+        "test_results.json",
+        "tools_data_verification_results.json",
+        "windows_compatibility_results.json"
+      ],
+      "api_rest": [
+        "Install_Homelab.bat",
+        "complete_verification_report.json",
+        "comprehensive_system_audit_results.json",
+        "fully_comprehensive_audit_results.json"
+      ]
+    },
+    "interface_statistics": {
+      "gui_tkinter": 68,
+      "gui_web": 18,
+      "console": 137,
+      "api_rest": 18,
+      "api_socket": 51,
+      "batch": 141,
+      "hybrid": 134
+    },
+    "cross_component_interfaces": []
+  },
+  "backend_analysis": {
+    "total_services": 144,
+    "working_services": 11,
+    "broken_services": 133,
+    "service_types": {
+      "flask_web": 18,
+      "socket_server": 31,
+      "api_service": 30,
+      "generic_service": 59,
+      "database_service": 6
+    },
+    "api_endpoints": {
+      "portal_api_endpoints.py": [
+        "/api/portal/status",
+        "/api/portal/nodes",
+        "/api/portal/sessions",
+        "/api/portal/connect",
+        "/api/portal/share/file",
+        "/api/portal/share/screen",
+        "/api/portal/share/sound",
+        "/api/gpu/status",
+        "/api/gpu/share",
+        "/api/gpu/monitor",
+        "/api/ram/status",
+        "/api/ram/share",
+        "/api/ram/access",
+        "/api/screen/status",
+        "/api/screen/benchmark",
+        "/api/hardware/info",
+        "/api/hardware/benchmarks",
+        "/api/hardware/optimize",
+        "/api/hardware/compatibility"
+      ],
+      "simple_rest_api.py": [
+        "/api/health",
+        "/api/portal/status",
+        "/api/nodes",
+        "/api/hardware/info",
+        "/api/test"
+      ],
+      "mesh_vpn_server.py": [
+        "/api/register",
+        "/api/config/<node_id>",
+        "/api/heartbeat/<node_id>",
+        "/api/status",
+        "/api/nodes"
+      ]
+    },
+    "database_connections": {
+      "comprehensive_system_audit.py": [
+        "sqlite3",
+        "sqlalchemy",
+        "pymongo",
+        "psycopg2",
+        "mysql"
+      ],
+      "cross_platform_deployer.py": [
+        "sqlalchemy"
+      ],
+      "fully_comprehensive_system_audit.py": [
+        "sqlite3",
+        "sqlalchemy",
+        "pymongo",
+        "psycopg2",
+        "mysql"
+      ],
+      "windows_universal_deployer.py": [
+        "sqlalchemy"
+      ],
+      "advanced_security.py": [
+        "sqlite3"
+      ],
+      "analytics_engine.py": [
+        "sqlite3"
+      ],
+      "data_persistence.py": [
+        "sqlite3"
+      ],
+      "mesh_vpn_dashboard.py": [
+        "sqlite3"
+      ],
+      "mesh_service_discovery.py": [
+        "sqlite3"
+      ],
+      "mesh_vpn_server.py": [
+        "sqlite3"
+      ],
+      "wireguard_config_generator.py": [
+        "sqlite3"
+      ],
+      "vpn_gateway.py": [
+        "sqlite3"
+      ],
+      "Install_Homelab.bat": [
+        "sqlalchemy"
+      ],
+      "comprehensive_system_audit_results.json": [
+        "sqlite3"
+      ],
+      "fully_comprehensive_audit_results.json": [
+        "sqlite3",
+        "sqlalchemy",
+        "pymongo",
+        "psycopg2",
+        "mysql"
+      ]
+    },
+    "socket_servers": {
+      "fully_comprehensive_system_audit.py": [
+        "tcp_socket"
+      ],
+      "subnet_discovery.py": [
+        "tcp_socket"
+      ],
+      "bidirectional_resource_sharing.py": [
+        "tcp_socket"
+      ],
+      "homelab_portal.py": [
+        "tcp_socket"
+      ],
+      "windows_network_discovery.py": [
+        "tcp_socket"
+      ],
+      "iot_platform.py": [
+        "tcp_socket"
+      ],
+      "advanced_dma_service.py": [
+        "tcp_socket"
+      ],
+      "raw_network_bypass.py": [
+        "tcp_socket"
+      ],
+      "udp_memory_bridge.py": [
+        "tcp_socket"
+      ],
+      "ultra_low_latency_userspace.py": [
+        "tcp_socket"
+      ],
+      "virtual_dma_userspace.py": [
+        "tcp_socket"
+      ],
+      "virtual_pcie_tunnel.py": [
+        "tcp_socket"
+      ],
+      "zero_copy_rdmda.py": [
+        "tcp_socket"
+      ],
+      "memory_server.py": [
+        "tcp_socket"
+      ],
+      "fixed_subnet_communication.py": [
+        "tcp_socket"
+      ],
+      "network_diagnostics.py": [
+        "tcp_socket"
+      ]
+    },
+    "service_dependencies": {},
+    "service_ports": {
+      "fully_comprehensive_system_audit.py": 127,
+      "homelab_launcher.py": 1,
+      "test_rest_api.py": 8080,
+      "windows_universal_deployer.py": 25565,
+      "subnet_discovery.py": 25567,
+      "compute_cluster_gui.py": 5,
+      "container_manager.py": 1,
+      "admin_auto_config.py": 8080,
+      "mesh_vpn_dashboard.py": 8080,
+      "simple_rest_api.py": 8080,
+      "cpu_monitor.py": 11,
+      "hybrid_client.py": 25565,
+      "iot_platform.py": 1,
+      "mesh_service_discovery.py": 4,
+      "mesh_vpn_client.py": 51820,
+      "wireguard_config_generator.py": 51820,
+      "advanced_dma_service.py": 9999,
+      "deployment_manager.py": 80,
+      "fault_tolerance_manager.py": 5555,
+      "install.py": 5555,
+      "rdma_latency_test.py": 25555,
+      "rdma_rest_api.py": 8080,
+      "robust_network_layer.py": 9999,
+      "test_suite.py": 15555,
+      "UI_DEMO_SHOWCASE.py": 192,
+      "ultra_latency_benchmark.py": 25555,
+      "ultra_low_latency_userspace.py": 9999,
+      "virtual_dma_userspace.py": 9999,
+      "windows_dma_interface.py": 9999,
+      "zero_copy_rdmda.py": 5555,
+      "memory_portal_gui.py": 5,
+      "memory_server.py": 25565,
+      "console_network_test.py": 25569,
+      "fixed_subnet_communication.py": 25567,
+      "network_diagnostics.py": 25566,
+      "subnet_portal.py": 25568,
+      "vpn_gateway.py": 51820,
+      "web_dashboard.py": 8080,
+      "Launch_Homelab_Portal.bat": 30000,
+      "windows_build.bat": 4096,
+      "deploy.sh": 192,
+      "fully_comprehensive_audit_results.json": 62789
+    },
+    "authentication_methods": {
+      "comprehensive_test_suite.py": [
+        "auth"
+      ],
+      "cross_platform_deployer.py": [
+        "auth"
+      ],
+      "fully_comprehensive_system_audit.py": [
+        "login",
+        "auth",
+        "token",
+        "jwt",
+        "session",
+        "password"
+      ],
+      "test_integration.py": [
+        "auth",
+        "session"
+      ],
+      "test_rest_api.py": [
+        "login",
+        "auth",
+        "session",
+        "password"
+      ],
+      "Visentrix_Launcher.py": [
+        "auth"
+      ],
+      "windows_universal_deployer.py": [
+        "auth"
+      ],
+      "admin_auto_config.py": [
+        "auth",
+        "session"
+      ],
+      "advanced_security.py": [
+        "login",
+        "auth",
+        "session",
+        "password"
+      ],
+      "auth_service.py": [
+        "login",
+        "auth",
+        "token",
+        "session",
+        "password"
+      ],
+      "config_manager.py": [
+        "auth",
+        "session"
+      ],
+      "data_abstraction_layer.py": [
+        "login",
+        "auth"
+      ],
+      "ddr4_ram_sharing.py": [
+        "session"
+      ],
+      "homelab_portal.py": [
+        "auth",
+        "session"
+      ],
+      "nvidia_gpu_sharing.py": [
+        "session"
+      ],
+      "portal_api_endpoints.py": [
+        "session"
+      ],
+      "rest_api.py": [
+        "login",
+        "auth",
+        "token",
+        "session",
+        "password"
+      ],
+      "simple_rest_api.py": [
+        "session"
+      ],
+      "unified_dashboard.py": [
+        "login",
+        "auth",
+        "session",
+        "password"
+      ],
+      "unified_monitoring.py": [
+        "auth"
+      ],
+      "windows_screen_sharing.py": [
+        "session"
+      ],
+      "core_services_import.py": [
+        "auth"
+      ],
+      "media_server_manager.py": [
+        "login",
+        "password"
+      ],
+      "wireguard_config_generator.py": [
+        "token"
+      ],
+      "aggressive_ram_cleaner.py": [
+        "auth"
+      ],
+      "ram_cleanup_script.py": [
+        "session"
+      ],
+      "install.py": [
+        "auth"
+      ],
+      "rdma_desktop_app.py": [
+        "auth",
+        "token",
+        "session"
+      ],
+      "rdma_rest_api.py": [
+        "login",
+        "auth",
+        "token",
+        "session",
+        "password"
+      ],
+      "virtual_pcie_tunnel.py": [
+        "auth"
+      ],
+      "vpn_gateway.py": [
+        "token"
+      ],
+      "web_dashboard.py": [
+        "auth",
+        "password"
+      ],
+      "Auto_Connect_Launcher.bat": [
+        "token"
+      ],
+      "Install_Homelab.bat": [
+        "auth",
+        "session"
+      ],
+      "Launch_Unified_System.bat": [
+        "auth",
+        "session"
+      ],
+      "Quick_Auto_Connect.bat": [
+        "token"
+      ],
+      "RAM_Sharing_Menu.bat": [
+        "token",
+        "session"
+      ],
+      "Setup_RAM_Sharing.bat": [
+        "session"
+      ],
+      "Working_Launcher.bat": [
+        "session"
+      ],
+      "windows_build.bat": [
+        "auth"
+      ],
+      "build_kernel_driver.sh": [
+        "password"
+      ],
+      "complete_verification_report.json": [
+        "auth"
+      ],
+      "comprehensive_verification_results.json": [
+        "auth"
+      ],
+      "final_verification_results.json": [
+        "auth"
+      ],
+      "fully_comprehensive_audit_results.json": [
+        "login",
+        "auth",
+        "token",
+        "jwt",
+        "session",
+        "password"
+      ],
+      "test_results.json": [
+        "auth"
+      ],
+      "tools_data_verification_results.json": [
+        "auth"
+      ],
+      "windows_compatibility_results.json": [
+        "auth"
+      ],
+      "homelab_config.json": [
+        "auth",
+        "session"
+      ]
+    }
+  },
+  "tools_analysis": {
+    "total_tools": 129,
+    "working_tools": 124,
+    "broken_tools": 5,
+    "tool_categories": {
+      "gpu": 3,
+      "monitoring": 104,
+      "network": 8,
+      "security": 1,
+      "automation": 1,
+      "storage": 1,
+      "cpu": 4,
+      "utility": 3,
+      "memory": 4
+    },
+    "tool_interfaces": {
+      "abstraction_layer_integration_test.py": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "Auto_RAM_Connect.py": [
+        "gui_tkinter",
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "auto_setup.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "complete_system_verification.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "comprehensive_system_audit.py": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "hybrid"
+      ],
+      "comprehensive_system_verification.py": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "hybrid"
+      ],
+      "comprehensive_test_suite.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "cross_platform_deployer.py": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "dashboard_launcher_verification.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "deploy.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "deployment_config.py": [
+        "console"
+      ],
+      "enhanced_system_verification.py": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "fully_comprehensive_system_audit.py": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "homelab_dashboard.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "homelab_launcher.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "install_dependencies.py": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "Integrated_RAM_Launcher.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "phase2_integration_test.py": [
+        "console"
+      ],
+      "RAM_Sharing_GUI.py": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "RAM_Sharing_Simple_GUI.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "setup.py": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "simple_cpu_test.py": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "system_integration_test.py": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "test_bidirectional_sharing.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "test_cpu_monitor.py": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "test_integration.py": [
+        "console"
+      ],
+      "test_original_cpu.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "test_portal_file_transfer.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "test_rest_api.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "test_temperature.py": [
+        "console"
+      ],
+      "test_visentrix_branding.py": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "tools_data_verification.py": [
+        "console"
+      ],
+      "tool_connection_verification.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "Visentrix_Launcher.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "windows_compatibility_check.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "windows_universal_deployer.py": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "backup_manager.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "subnet_discovery.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "subnet_manager.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "windows_abstraction.py": [],
+      "compute_client.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "compute_cluster_gui.py": [
+        "gui_tkinter",
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "container_manager.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "admin_auto_config.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "advanced_security.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "auth_service.py": [
+        "batch"
+      ],
+      "automation_framework.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "config_manager.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "data_abstraction_layer.py": [
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "data_persistence.py": [
+        "batch"
+      ],
+      "event_bus.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "frontend_backend_synchronization.py": [
+        "batch"
+      ],
+      "homelab_portal.py": [
+        "gui_tkinter",
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "identical_hardware_optimizer.py": [
+        "api_socket"
+      ],
+      "intel_ethernet_optimizer.py": [
+        "api_socket"
+      ],
+      "mesh_vpn_dashboard.py": [
+        "gui_web",
+        "console",
+        "api_rest",
+        "hybrid"
+      ],
+      "nvidia_gpu_sharing.py": [
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "portal_api_endpoints.py": [
+        "gui_web",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "rest_api.py": [
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "system_data_connector.py": [
+        "api_socket"
+      ],
+      "unified_dashboard.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "unified_monitoring.py": [
+        "batch"
+      ],
+      "unified_path_manager.py": [
+        "batch"
+      ],
+      "windows_screen_sharing.py": [
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "cpu_monitor.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "cpu_monitor_working.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "dx12_monitor.py": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "gpu_monitor.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "rtx_5060_config.py": [
+        "console"
+      ],
+      "core_services_import.py": [
+        "console"
+      ],
+      "cpu_monitor_integration.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "ram_sharing_integration.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "iot_platform.py": [
+        "gui_tkinter",
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "media_server_manager.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "mesh_service_discovery.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "network_monitor.py": [
+        "gui_tkinter",
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "fix_syntax.py": [
+        "console"
+      ],
+      "power_manager.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "aggressive_ram_cleaner.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "launcher.py": [
+        "gui_tkinter"
+      ],
+      "ram_cleanup_script.py": [
+        "console"
+      ],
+      "ram_monitor_gui.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "soft_ram_cleaner.py": [
+        "console"
+      ],
+      "deployment_manager.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "fault_tolerance_manager.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "monitoring_system.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "performance_profiler.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "raw_network_bypass.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "rdma_desktop_app.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "rdma_desktop_app_modern.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "rdma_latency_test.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "rdma_modern_tkinter.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "rdma_rest_api.py": [
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "realtime_cpu_optimizer.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "robust_network_layer.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "security_manager.py": [
+        "console"
+      ],
+      "UI_DEMO_SHOWCASE.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "ultra_latency_benchmark.py": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "windows_dma_interface.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "memory_portal_gui.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "memory_server.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "storage_abstraction.py": [],
+      "storage_monitor.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "console_network_test.py": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "subnet_portal.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "vpn_gateway.py": [
+        "gui_tkinter",
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "web_dashboard.py": [
+        "gui_tkinter",
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "cicd_manager.py": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "Auto_Connect_Launcher.bat": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "Create_Desktop_Shortcut.bat": [
+        "batch"
+      ],
+      "Install_Homelab.bat": [
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "Launch_Batch_GUI.bat": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "Launch_RAM_Sharing.bat": [
+        "batch"
+      ],
+      "Launch_Unified_System.bat": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "Quick_Auto_Connect.bat": [
+        "batch"
+      ],
+      "RAM_Sharing_Menu.bat": [
+        "batch"
+      ],
+      "setup.bat": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "windows_build.bat": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "complete_verification_report.json": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "comprehensive_system_audit_results.json": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "hybrid"
+      ],
+      "comprehensive_verification_results.json": [
+        "gui_tkinter"
+      ],
+      "dashboard_launcher_verification_results.json": [],
+      "final_verification_results.json": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "fully_comprehensive_audit_results.json": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "hybrid"
+      ],
+      "integration_test_report.json": [],
+      "test_results.json": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "tools_data_verification_results.json": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "windows_compatibility_results.json": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "homelab_config.json": []
+    },
+    "tool_functionality": {
+      "abstraction_layer_integration_test.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Auto_RAM_Connect.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "auto_setup.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "complete_system_verification.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "comprehensive_system_audit.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "comprehensive_system_verification.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "comprehensive_test_suite.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "cross_platform_deployer.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "dashboard_launcher_verification.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "deploy.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "deployment_config.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "enhanced_system_verification.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "fully_comprehensive_system_audit.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "homelab_dashboard.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "homelab_launcher.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "install_dependencies.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Integrated_RAM_Launcher.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "phase2_integration_test.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "RAM_Sharing_GUI.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "RAM_Sharing_Simple_GUI.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "setup.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "simple_cpu_test.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "system_integration_test.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_bidirectional_sharing.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_cpu_monitor.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_integration.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_original_cpu.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_portal_file_transfer.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_rest_api.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_temperature.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_visentrix_branding.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "tools_data_verification.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "tool_connection_verification.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Visentrix_Launcher.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "windows_compatibility_check.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "windows_universal_deployer.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "backup_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "subnet_discovery.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "subnet_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "windows_abstraction.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "compute_client.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "compute_cluster_gui.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "container_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "admin_auto_config.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "advanced_security.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "auth_service.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "automation_framework.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "config_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "data_abstraction_layer.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "data_persistence.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "event_bus.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "frontend_backend_synchronization.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "homelab_portal.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "identical_hardware_optimizer.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "intel_ethernet_optimizer.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "mesh_vpn_dashboard.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "nvidia_gpu_sharing.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "portal_api_endpoints.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "rest_api.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "system_data_connector.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "unified_dashboard.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "unified_monitoring.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "unified_path_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "windows_screen_sharing.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "cpu_monitor.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "cpu_monitor_working.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "dx12_monitor.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "gpu_monitor.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "rtx_5060_config.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "core_services_import.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "cpu_monitor_integration.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "ram_sharing_integration.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "iot_platform.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "media_server_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "mesh_service_discovery.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "network_monitor.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "fix_syntax.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "power_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "aggressive_ram_cleaner.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "launcher.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "ram_cleanup_script.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "ram_monitor_gui.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "soft_ram_cleaner.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "deployment_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "fault_tolerance_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "monitoring_system.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "performance_profiler.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "raw_network_bypass.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "rdma_desktop_app.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "rdma_desktop_app_modern.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "rdma_latency_test.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "rdma_modern_tkinter.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "rdma_rest_api.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "realtime_cpu_optimizer.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "robust_network_layer.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "security_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "UI_DEMO_SHOWCASE.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "ultra_latency_benchmark.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "windows_dma_interface.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "memory_portal_gui.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "memory_server.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "storage_abstraction.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "storage_monitor.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "console_network_test.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "subnet_portal.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "vpn_gateway.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "web_dashboard.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "cicd_manager.py": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Auto_Connect_Launcher.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Create_Desktop_Shortcut.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Install_Homelab.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Launch_Batch_GUI.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Launch_RAM_Sharing.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Launch_Unified_System.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "Quick_Auto_Connect.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "RAM_Sharing_Menu.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "setup.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "windows_build.bat": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "complete_verification_report.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "comprehensive_system_audit_results.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "comprehensive_verification_results.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "dashboard_launcher_verification_results.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "final_verification_results.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "fully_comprehensive_audit_results.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "integration_test_report.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "test_results.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "tools_data_verification_results.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "windows_compatibility_results.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ],
+      "homelab_config.json": [
+        "monitoring",
+        "networking",
+        "file_operations",
+        "database",
+        "logging",
+        "configuration",
+        "security",
+        "optimization",
+        "automation",
+        "visualization"
+      ]
+    },
+    "tool_dependencies": {
+      "abstraction_layer_integration_test.py": [
+        "logging",
+        "sys",
+        "Dict,",
+        "time",
+        "Path",
+        "json"
+      ],
+      "Auto_RAM_Connect.py": [
+        "sys",
+        "socket",
+        "tkinter",
+        "psutil",
+        "datetime",
+        "ttk,",
+        "time",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "auto_setup.py": [
+        "zipfile",
+        "sys",
+        "messagebox,",
+        "tkinter",
+        "platform",
+        "urllib.request",
+        "Path",
+        "subprocess",
+        "threading",
+        "os"
+      ],
+      "complete_system_verification.py": [
+        "sys",
+        "ast",
+        "datetime",
+        "re",
+        "Path",
+        "subprocess",
+        "json",
+        "os"
+      ],
+      "comprehensive_system_audit.py": [
+        "logging",
+        "sys",
+        "ast",
+        "Dict,",
+        "time",
+        "re",
+        "Path",
+        "subprocess",
+        "Enum",
+        "json",
+        "dataclass",
+        "os"
+      ],
+      "comprehensive_system_verification.py": [
+        "sys",
+        "importlib.util",
+        "Dict,",
+        "time",
+        "Path",
+        "subprocess",
+        "json",
+        "os"
+      ],
+      "comprehensive_test_suite.py": [
+        "sys",
+        "Dict,",
+        "time",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "cross_platform_deployer.py": [
+        "sys",
+        "logging",
+        "shutil",
+        "platform",
+        "Dict,",
+        "time",
+        "Path",
+        "subprocess",
+        "json",
+        "os"
+      ],
+      "dashboard_launcher_verification.py": [
+        "sys",
+        "importlib.util",
+        "platform",
+        "Dict,",
+        "time",
+        "Path",
+        "subprocess",
+        "json",
+        "os"
+      ],
+      "deploy.py": [
+        "sys",
+        "logging",
+        "shutil",
+        "platform",
+        "Path",
+        "subprocess",
+        "json",
+        "os"
+      ],
+      "deployment_config.py": [
+        "dataclass,",
+        "Dict,",
+        "Path",
+        "json",
+        "os"
+      ],
+      "enhanced_system_verification.py": [
+        "sys",
+        "datetime",
+        "Path",
+        "json",
+        "os"
+      ],
+      "fully_comprehensive_system_audit.py": [
+        "logging",
+        "sys",
+        "ast",
+        "importlib.util",
+        "socket",
+        "dataclass,",
+        "inspect",
+        "Dict,",
+        "time",
+        "re",
+        "Path",
+        "subprocess",
+        "Enum",
+        "json",
+        "threading",
+        "os"
+      ],
+      "homelab_dashboard.py": [
+        "sys",
+        "deque,",
+        "tkinter",
+        "psutil",
+        "ttk,",
+        "time",
+        "heapq",
+        "Path",
+        "ThreadPoolExecutor",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "queue"
+      ],
+      "homelab_launcher.py": [
+        "sys",
+        "logging",
+        "deque,",
+        "tkinter",
+        "platform",
+        "psutil",
+        "datetime",
+        "ttk,",
+        "time",
+        "heapq",
+        "Path",
+        "ThreadPoolExecutor",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "queue"
+      ],
+      "install_dependencies.py": [
+        "sys",
+        "platform",
+        "Path",
+        "subprocess",
+        "os"
+      ],
+      "Integrated_RAM_Launcher.py": [
+        "sys",
+        "tkinter",
+        "datetime",
+        "ttk,",
+        "time",
+        "subprocess",
+        "threading",
+        "os"
+      ],
+      "phase2_integration_test.py": [
+        "sys",
+        "get_unified_monitoring,",
+        "time",
+        "Path",
+        "get_config_manager",
+        "get_event_bus,",
+        "asyncio",
+        "get_data_persistence,",
+        "os",
+        "datetime,"
+      ],
+      "RAM_Sharing_GUI.py": [
+        "sys",
+        "tkinter",
+        "datetime",
+        "ttk,",
+        "time",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "RAM_Sharing_Simple_GUI.py": [
+        "sys",
+        "datetime",
+        "cls",
+        "time",
+        "subprocess",
+        "threading",
+        "os"
+      ],
+      "setup.py": [
+        "sys",
+        "platform",
+        "Path",
+        "subprocess",
+        "os"
+      ],
+      "simple_cpu_test.py": [
+        "tkinter",
+        "ttk"
+      ],
+      "system_integration_test.py": [
+        "sys",
+        "logging",
+        "datetime",
+        "integration_test_report.json",
+        "time",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "test_bidirectional_sharing.py": [
+        "sys",
+        "(",
+        "Path",
+        "asyncio",
+        "os"
+      ],
+      "test_cpu_monitor.py": [
+        "sys",
+        "tkinter",
+        "ttk",
+        "Path",
+        "os"
+      ],
+      "test_integration.py": [
+        "Path",
+        "os",
+        "sys"
+      ],
+      "test_original_cpu.py": [
+        "sys",
+        "tkinter",
+        "ttk",
+        "Path",
+        "os"
+      ],
+      "test_portal_file_transfer.py": [
+        "logging",
+        "socket",
+        "psutil",
+        "file_transfer_test_results.json",
+        "Dict,",
+        "hashlib",
+        "time",
+        "Path",
+        "threading",
+        "json",
+        "os"
+      ],
+      "test_rest_api.py": [
+        "sys",
+        "requests",
+        "datetime",
+        "start_api_server",
+        "time",
+        "Path",
+        "threading",
+        "json",
+        "os"
+      ],
+      "test_temperature.py": [
+        "wmi",
+        "platform",
+        "psutil",
+        "subprocess"
+      ],
+      "test_visentrix_branding.py": [
+        "tkinter",
+        "os",
+        "ttk"
+      ],
+      "tools_data_verification.py": [
+        "logging",
+        "sys",
+        "importlib.util",
+        "Dict,",
+        "time",
+        "Path",
+        "json",
+        "dataclass",
+        "os"
+      ],
+      "tool_connection_verification.py": [
+        "logging",
+        "sys",
+        "importlib.util",
+        "Dict,",
+        "time",
+        "Path",
+        "subprocess",
+        "Enum",
+        "json",
+        "dataclass",
+        "os"
+      ],
+      "Visentrix_Launcher.py": [
+        "sys",
+        "tkinter",
+        "ttk,",
+        "time",
+        "Path",
+        "Image,",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "windows_compatibility_check.py": [
+        "sys",
+        "platform",
+        "Dict,",
+        "Path",
+        "subprocess",
+        "json",
+        "os"
+      ],
+      "windows_universal_deployer.py": [
+        "sys",
+        "logging",
+        "shutil",
+        "platform",
+        "Dict,",
+        "time",
+        "Path",
+        "subprocess",
+        "json",
+        "os",
+        "winreg"
+      ],
+      "backup_manager.py": [
+        "tarfile",
+        "zipfile",
+        "sys",
+        "logging",
+        "tkinter",
+        "shutil",
+        "gzip",
+        "ttk,",
+        "time",
+        "hashlib",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "datetime,"
+      ],
+      "subnet_discovery.py": [
+        "logging",
+        "socket",
+        "dataclass,",
+        "platform",
+        "Dict,",
+        "hashlib",
+        "time",
+        "subprocess",
+        "ipaddress",
+        "threading",
+        "json",
+        "datetime,"
+      ],
+      "subnet_manager.py": [
+        "logging",
+        "tkinter",
+        "datetime",
+        "List,",
+        "ttk,",
+        "time",
+        "SubnetCommunicator,",
+        "threading",
+        "json"
+      ],
+      "windows_abstraction.py": [
+        "sys",
+        "Optional,",
+        "logging",
+        "platform",
+        "psutil",
+        "time",
+        "Path",
+        "subprocess",
+        "ctypes.wintypes",
+        "ctypes",
+        "os"
+      ],
+      "compute_client.py": [
+        "logging",
+        "socket",
+        "dataclass,",
+        "Dict,",
+        "time",
+        "asyncio",
+        "threading",
+        "json",
+        "uuid"
+      ],
+      "compute_cluster_gui.py": [
+        "sys",
+        "socket",
+        "numpy",
+        "tkinter",
+        "Dict,",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Path",
+        "Figure",
+        "threading",
+        "json",
+        "FigureCanvasTkAgg"
+      ],
+      "container_manager.py": [
+        "sys",
+        "logging",
+        "tkinter",
+        "datetime",
+        "ttk,",
+        "time",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "admin_auto_config.py": [
+        "sys",
+        "socket",
+        "logging",
+        "platform",
+        "Dict,",
+        "time",
+        "Path",
+        "subprocess",
+        "json",
+        "os"
+      ],
+      "advanced_security.py": [
+        "Cipher,",
+        "logging",
+        "dataclass,",
+        "sqlite3",
+        "Fernet",
+        "Dict,",
+        "secrets",
+        "time",
+        "hashlib",
+        "re",
+        "hashes",
+        "base64",
+        "ipaddress",
+        "Enum",
+        "json",
+        "threading",
+        "PBKDF2HMAC",
+        "datetime,"
+      ],
+      "auth_service.py": [
+        "logging",
+        "dataclass,",
+        "Dict,",
+        "secrets",
+        "time",
+        "hashlib",
+        "get_event_bus,",
+        "get_config_manager",
+        "threading",
+        "datetime,"
+      ],
+      "automation_framework.py": [
+        "ABC,",
+        "logging",
+        "dataclass,",
+        "Dict,",
+        "schedule",
+        "time",
+        "Enum",
+        "threading",
+        "json",
+        "asyncio",
+        "datetime,"
+      ],
+      "config_manager.py": [
+        "sys",
+        "dataclass,",
+        "logging",
+        "yaml",
+        "datetime",
+        "Dict,",
+        "Path",
+        "threading",
+        "json",
+        "os"
+      ],
+      "data_abstraction_layer.py": [
+        "ABC,",
+        "logging",
+        "dataclass,",
+        "Dict,",
+        "time",
+        "weakref",
+        "Enum",
+        "threading",
+        "json",
+        "queue"
+      ],
+      "data_persistence.py": [
+        "logging",
+        "dataclass,",
+        "sqlite3",
+        "gzip",
+        "Dict,",
+        "time",
+        "pickle",
+        "Path",
+        "get_event_bus,",
+        "get_config_manager",
+        "threading",
+        "json",
+        "os",
+        "datetime,"
+      ],
+      "event_bus.py": [
+        "logging",
+        "sys",
+        "dataclass,",
+        "datetime",
+        "Dict,",
+        "time",
+        "weakref",
+        "hashlib",
+        "Path",
+        "asyncio",
+        "threading",
+        "json",
+        "Enum",
+        "os",
+        "queue"
+      ],
+      "frontend_backend_synchronization.py": [
+        "logging",
+        "dataclass,",
+        "Dict,",
+        "time",
+        "hashlib",
+        "Path",
+        "Enum",
+        "threading",
+        "json",
+        "queue"
+      ],
+      "homelab_portal.py": [
+        "sys",
+        "socket",
+        "logging",
+        "tkinter",
+        "datetime",
+        "time",
+        "subprocess",
+        "json",
+        "os",
+        "dataclass,",
+        "platform",
+        "Dict,",
+        "hashlib",
+        "io",
+        "Path",
+        "Image,",
+        "Enum",
+        "threading",
+        "struct",
+        "ttk,",
+        "pickle",
+        "asyncio"
+      ],
+      "identical_hardware_optimizer.py": [
+        "logging",
+        "socket",
+        "platform",
+        "psutil",
+        "Dict,",
+        "time",
+        "subprocess",
+        "get_system_connector"
+      ],
+      "intel_ethernet_optimizer.py": [
+        "logging",
+        "socket",
+        "platform",
+        "psutil",
+        "Dict,",
+        "time",
+        "subprocess",
+        "get_system_connector",
+        "threading"
+      ],
+      "mesh_vpn_dashboard.py": [
+        "logging",
+        "plotly.graph_objs",
+        "sqlite3",
+        "datetime",
+        "Dict,",
+        "plotly.utils",
+        "/api/mesh-vpn/config",
+        "time",
+        "Path",
+        "threading",
+        "json",
+        "Flask,"
+      ],
+      "nvidia_gpu_sharing.py": [
+        "logging",
+        "socket",
+        "platform",
+        "psutil",
+        "struct",
+        "Dict,",
+        "time",
+        "io",
+        "subprocess",
+        "json",
+        "threading"
+      ],
+      "portal_api_endpoints.py": [
+        "request,",
+        "logging",
+        "wraps",
+        "datetime"
+      ],
+      "rest_api.py": [
+        "logging",
+        "wraps",
+        "psutil",
+        "Dict,",
+        "secrets",
+        "time",
+        "hashlib",
+        "CORS",
+        "Path",
+        "asyncio",
+        "threading",
+        "json",
+        "Flask,",
+        "deque",
+        "datetime,"
+      ],
+      "system_data_connector.py": [
+        "logging",
+        "socket",
+        "platform",
+        "psutil",
+        "Dict,",
+        "subprocess",
+        "json"
+      ],
+      "unified_dashboard.py": [
+        "logging",
+        "tkinter",
+        "Dict,",
+        "ttk,",
+        "time",
+        "Path",
+        "Image,",
+        "threading",
+        "json",
+        "os",
+        "datetime,"
+      ],
+      "unified_monitoring.py": [
+        "logging",
+        "dataclass,",
+        "psutil",
+        "Dict,",
+        "get_auth_service",
+        "time",
+        "hashlib",
+        "get_event_bus,",
+        "get_config_manager",
+        "asyncio",
+        "json",
+        "threading",
+        "Enum",
+        "get_data_persistence",
+        "datetime,"
+      ],
+      "unified_path_manager.py": [
+        "logging",
+        "sys",
+        "Dict,",
+        "time",
+        "Path",
+        "Enum",
+        "json",
+        "dataclass",
+        "os"
+      ],
+      "windows_screen_sharing.py": [
+        "logging",
+        "socket",
+        "platform",
+        "struct",
+        "Dict,",
+        "time",
+        "io",
+        "Image,",
+        "subprocess",
+        "base64",
+        "json",
+        "threading",
+        "zlib"
+      ],
+      "cpu_monitor.py": [
+        "sys",
+        "numpy",
+        "tkinter",
+        "platform",
+        "psutil",
+        "ttk,",
+        "matplotlib.pyplot",
+        "Figure",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "deque",
+        "FigureCanvasTkAgg"
+      ],
+      "cpu_monitor_working.py": [
+        "numpy",
+        "tkinter",
+        "psutil",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Figure",
+        "threading",
+        "deque",
+        "FigureCanvasTkAgg"
+      ],
+      "dx12_monitor.py": [
+        "sys",
+        "numpy",
+        "logging",
+        "tkinter",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Path",
+        "Figure",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "deque",
+        "FigureCanvasTkAgg"
+      ],
+      "gpu_monitor.py": [
+        "sys",
+        "numpy",
+        "tkinter",
+        "platform",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Figure",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "deque",
+        "FigureCanvasTkAgg"
+      ],
+      "rtx_5060_config.py": [
+        "Path",
+        "subprocess",
+        "json"
+      ],
+      "core_services_import.py": [
+        "os",
+        "sys"
+      ],
+      "cpu_monitor_integration.py": [
+        "sys",
+        "(",
+        "psutil",
+        "datetime",
+        "time",
+        "os"
+      ],
+      "ram_sharing_integration.py": [
+        "sys",
+        "(",
+        "datetime",
+        "time",
+        "os"
+      ],
+      "iot_platform.py": [
+        "sys",
+        "logging",
+        "socket",
+        "tkinter",
+        "requests",
+        "datetime",
+        "Dict,",
+        "ttk,",
+        "time",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "media_server_manager.py": [
+        "sys",
+        "logging",
+        "tkinter",
+        "shutil",
+        "datetime",
+        "ttk,",
+        "time",
+        "hashlib",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "mesh_service_discovery.py": [
+        "logging",
+        "socket",
+        "requests",
+        "sqlite3",
+        "Dict,",
+        "ServiceBrowser,",
+        "time",
+        "Path",
+        "ipaddress",
+        "uuid",
+        "threading",
+        "json",
+        "datetime,"
+      ],
+      "network_monitor.py": [
+        "sys",
+        "numpy",
+        "tkinter",
+        "platform",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Figure",
+        "/etc/resolv.conf",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "deque",
+        "FigureCanvasTkAgg"
+      ],
+      "fix_syntax.py": [
+        "power_manager.py"
+      ],
+      "power_manager.py": [
+        "sys",
+        "logging",
+        "tkinter",
+        "datetime",
+        "ttk,",
+        "time",
+        "ctypes",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "ctypes.wintypes",
+        "os"
+      ],
+      "aggressive_ram_cleaner.py": [
+        "sys",
+        "gc",
+        "platform",
+        "psutil",
+        "datetime",
+        "time",
+        "subprocess",
+        "ctypes.wintypes",
+        "ctypes",
+        "os"
+      ],
+      "launcher.py": [
+        "sys",
+        "tkinter",
+        "ttk,",
+        "subprocess",
+        "os"
+      ],
+      "ram_cleanup_script.py": [
+        "sys",
+        "gc",
+        "platform",
+        "psutil",
+        "datetime",
+        "time",
+        "subprocess",
+        "os"
+      ],
+      "ram_monitor_gui.py": [
+        "gc",
+        "numpy",
+        "tkinter",
+        "platform",
+        "psutil",
+        "datetime",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Figure",
+        "subprocess",
+        "threading",
+        "os",
+        "FigureCanvasTkAgg"
+      ],
+      "soft_ram_cleaner.py": [
+        "sys",
+        "gc",
+        "platform",
+        "psutil",
+        "datetime",
+        "time",
+        "subprocess",
+        "threading",
+        "ctypes",
+        "os"
+      ],
+      "deployment_manager.py": [
+        "sys",
+        "dataclass,",
+        "logging",
+        "yaml",
+        "shutil",
+        "requests",
+        "Dict,",
+        "deployment_registry.json",
+        "time",
+        "hashlib",
+        "Path",
+        "subprocess",
+        "json",
+        "threading",
+        "Template",
+        "os",
+        "kubernetes",
+        "docker"
+      ],
+      "fault_tolerance_manager.py": [
+        "random",
+        "logging",
+        "socket",
+        "dataclass,",
+        "aiohttp",
+        "requests",
+        "Dict,",
+        "hashlib",
+        "time",
+        "Enum",
+        "json",
+        "threading",
+        "asyncio",
+        "ThreadPoolExecutor,"
+      ],
+      "monitoring_system.py": [
+        "logging",
+        "dataclass,",
+        "deque,",
+        "requests",
+        "smtplib",
+        "psutil",
+        "Dict,",
+        "MimeText",
+        "time",
+        "matplotlib.pyplot",
+        "json",
+        "threading",
+        "MimeMultipart",
+        "statistics",
+        "numpy",
+        "datetime,"
+      ],
+      "performance_profiler.py": [
+        "gc",
+        "dataclass,",
+        "defaultdict",
+        "psutil",
+        "Dict,",
+        "time",
+        "io",
+        "matplotlib.pyplot",
+        "seaborn",
+        "threading",
+        "json",
+        "tracemalloc",
+        "pstats",
+        "numpy",
+        "cProfile"
+      ],
+      "raw_network_bypass.py": [
+        "Optional,",
+        "socket",
+        "struct",
+        "time",
+        "mmap",
+        "fcntl",
+        "/dev/shm/ultra_dma_ring",
+        "threading",
+        "ctypes",
+        "os",
+        "numpy"
+      ],
+      "rdma_desktop_app.py": [
+        "FigureCanvasQTAgg",
+        "sys",
+        "datetime",
+        "Dict,",
+        "time",
+        "matplotlib.pyplot",
+        "Figure",
+        "json",
+        "threading",
+        "dataclass",
+        "os",
+        "queue",
+        "numpy"
+      ],
+      "rdma_desktop_app_modern.py": [
+        "logging",
+        "numpy",
+        "tkinter",
+        "datetime",
+        "Dict,",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Figure",
+        "threading",
+        "json",
+        "dataclass",
+        "queue",
+        "FigureCanvasTkAgg",
+        "deque"
+      ],
+      "rdma_latency_test.py": [
+        "sys",
+        "socket",
+        "time",
+        "json",
+        "threading",
+        "os"
+      ],
+      "rdma_modern_tkinter.py": [
+        "logging",
+        "numpy",
+        "tkinter",
+        "datetime",
+        "Dict,",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Figure",
+        "threading",
+        "json",
+        "dataclass",
+        "queue",
+        "FigureCanvasTkAgg",
+        "deque"
+      ],
+      "rdma_rest_api.py": [
+        "logging",
+        "wraps",
+        "Dict,",
+        "time",
+        "asdict",
+        "CORS",
+        "json",
+        "threading",
+        "Flask,",
+        "HTTPBasicAuth",
+        "datetime,"
+      ],
+      "realtime_cpu_optimizer.py": [
+        "sys",
+        "/proc/sys/fs/file-max",
+        "psutil",
+        "List,",
+        "time",
+        "ctypes.util",
+        "subprocess",
+        "/proc/cmdline",
+        "/proc/sys/net/core/wmem_max",
+        "threading",
+        "ctypes",
+        "/proc/sys/net/core/rmem_max",
+        "os",
+        "/proc/sys/kernel/sched_rt_runtime_us",
+        "numpy"
+      ],
+      "robust_network_layer.py": [
+        "random",
+        "logging",
+        "socket",
+        "dataclass,",
+        "Dict,",
+        "time",
+        "heapq",
+        "Enum",
+        "threading",
+        "defaultdict,",
+        "queue"
+      ],
+      "security_manager.py": [
+        "Cipher,",
+        "dataclass,",
+        "PBKDF2HMAC",
+        "default_backend",
+        "Fernet",
+        "Dict,",
+        "secrets",
+        "time",
+        "hashlib",
+        "hashes",
+        "base64",
+        "json",
+        "threading",
+        "os",
+        "hmac"
+      ],
+      "UI_DEMO_SHOWCASE.py": [
+        "random",
+        "sys",
+        "numpy",
+        "time"
+      ],
+      "ultra_latency_benchmark.py": [
+        "sys",
+        "Dict,",
+        "time",
+        "matplotlib.pyplot",
+        "subprocess",
+        "json",
+        "threading",
+        "os",
+        "statistics",
+        "numpy"
+      ],
+      "windows_dma_interface.py": [
+        "sys",
+        "socket",
+        "logging",
+        "winsecurity",
+        "psutil",
+        "time",
+        "os",
+        "Dict,",
+        "win32pipe",
+        "mmap",
+        "dataclass",
+        "win32api",
+        "win32file",
+        "threading",
+        "win32event",
+        "struct",
+        "win32con",
+        "ctypes.wintypes",
+        "ctypes"
+      ],
+      "memory_portal_gui.py": [
+        "random",
+        "sys",
+        "numpy",
+        "tkinter",
+        "Dict,",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Path",
+        "Figure",
+        "asyncio",
+        "threading",
+        "json",
+        "os",
+        "FigureCanvasTkAgg"
+      ],
+      "memory_server.py": [
+        "sys",
+        "socket",
+        "logging",
+        "dataclass,",
+        "struct",
+        "platform",
+        "psutil",
+        "Dict,",
+        "mmap",
+        "time",
+        "Path",
+        "asyncio",
+        "threading",
+        "json",
+        "os",
+        "numpy"
+      ],
+      "storage_abstraction.py": [
+        "logging",
+        "platform",
+        "psutil",
+        "Dict,",
+        "time",
+        "Path",
+        "subprocess",
+        "Enum",
+        "ctypes.wintypes",
+        "ctypes",
+        "json",
+        "os",
+        "dataclass"
+      ],
+      "storage_monitor.py": [
+        "logging",
+        "numpy",
+        "tkinter",
+        "datetime",
+        "Dict,",
+        "ttk,",
+        "time",
+        "matplotlib.pyplot",
+        "Figure",
+        "StorageAbstraction,",
+        "threading",
+        "json",
+        "queue",
+        "FigureCanvasTkAgg",
+        "deque"
+      ],
+      "console_network_test.py": [
+        "sys",
+        "socket",
+        "platform",
+        "datetime",
+        "time",
+        "subprocess",
+        "json",
+        "threading",
+        "os"
+      ],
+      "subnet_portal.py": [
+        "sys",
+        "logging",
+        "deque,",
+        "tkinter",
+        "datetime",
+        "psutil",
+        "Dict,",
+        "ttk,",
+        "time",
+        "heapq",
+        "Path",
+        "ThreadPoolExecutor",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "queue"
+      ],
+      "vpn_gateway.py": [
+        "sys",
+        "logging",
+        "socket",
+        "tkinter",
+        "struct",
+        "datetime",
+        "sqlite3",
+        "requests",
+        "Dict,",
+        "ttk,",
+        "time",
+        "Path",
+        "subprocess",
+        "ipaddress",
+        "threading",
+        "json",
+        "uuid",
+        "os"
+      ],
+      "web_dashboard.py": [
+        "sys",
+        "logging",
+        "socket",
+        "tkinter",
+        "urllib.parse",
+        "datetime",
+        "ttk,",
+        "time",
+        "webbrowser",
+        "Path",
+        "mimetypes",
+        "subprocess",
+        "threading",
+        "json",
+        "os",
+        "HTTPServer,"
+      ],
+      "cicd_manager.py": [
+        "sys",
+        "logging",
+        "tkinter",
+        "shutil",
+        "datetime",
+        "ttk,",
+        "time",
+        "hashlib",
+        "Path",
+        "subprocess",
+        "threading",
+        "json",
+        "os"
+      ],
+      "Auto_Connect_Launcher.bat": [],
+      "Create_Desktop_Shortcut.bat": [],
+      "Install_Homelab.bat": [],
+      "Launch_Batch_GUI.bat": [],
+      "Launch_RAM_Sharing.bat": [],
+      "Launch_Unified_System.bat": [],
+      "Quick_Auto_Connect.bat": [],
+      "RAM_Sharing_Menu.bat": [],
+      "setup.bat": [],
+      "windows_build.bat": [
+        "README.md"
+      ],
+      "complete_verification_report.json": [],
+      "comprehensive_system_audit_results.json": [],
+      "comprehensive_verification_results.json": [],
+      "dashboard_launcher_verification_results.json": [],
+      "final_verification_results.json": [],
+      "fully_comprehensive_audit_results.json": [],
+      "integration_test_report.json": [],
+      "test_results.json": [],
+      "tools_data_verification_results.json": [],
+      "windows_compatibility_results.json": [],
+      "homelab_config.json": []
+    },
+    "hidden_tool_features": {
+      "abstraction_layer_integration_test.py": [],
+      "Auto_RAM_Connect.py": [
+        "hashing"
+      ],
+      "auto_setup.py": [
+        "process_management"
+      ],
+      "complete_system_verification.py": [
+        "decorators"
+      ],
+      "comprehensive_system_audit.py": [
+        "decorators"
+      ],
+      "comprehensive_system_verification.py": [
+        "decorators",
+        "hashing"
+      ],
+      "comprehensive_test_suite.py": [
+        "hashing"
+      ],
+      "cross_platform_deployer.py": [
+        "decorators"
+      ],
+      "dashboard_launcher_verification.py": [
+        "decorators",
+        "low_level_operations",
+        "hashing"
+      ],
+      "deploy.py": [
+        "decorators",
+        "hashing"
+      ],
+      "deployment_config.py": [
+        "decorators",
+        "json_serialization",
+        "hashing"
+      ],
+      "enhanced_system_verification.py": [],
+      "fully_comprehensive_system_audit.py": [
+        "metaclass_programming",
+        "decorators",
+        "generators",
+        "context_managers",
+        "multiprocessing",
+        "low_level_operations",
+        "process_management",
+        "json_serialization",
+        "object_serialization",
+        "hashing",
+        "encoding"
+      ],
+      "homelab_dashboard.py": [
+        "process_management",
+        "json_serialization",
+        "hashing"
+      ],
+      "homelab_launcher.py": [
+        "decorators",
+        "process_management",
+        "hashing"
+      ],
+      "install_dependencies.py": [],
+      "Integrated_RAM_Launcher.py": [
+        "process_management",
+        "hashing"
+      ],
+      "phase2_integration_test.py": [],
+      "RAM_Sharing_GUI.py": [
+        "hashing"
+      ],
+      "RAM_Sharing_Simple_GUI.py": [
+        "hashing"
+      ],
+      "setup.py": [],
+      "simple_cpu_test.py": [],
+      "system_integration_test.py": [],
+      "test_bidirectional_sharing.py": [
+        "hashing"
+      ],
+      "test_cpu_monitor.py": [],
+      "test_integration.py": [],
+      "test_original_cpu.py": [],
+      "test_portal_file_transfer.py": [
+        "json_serialization",
+        "hashing"
+      ],
+      "test_rest_api.py": [
+        "hashing"
+      ],
+      "test_temperature.py": [],
+      "test_visentrix_branding.py": [],
+      "tools_data_verification.py": [
+        "decorators",
+        "hashing"
+      ],
+      "tool_connection_verification.py": [
+        "decorators"
+      ],
+      "Visentrix_Launcher.py": [
+        "process_management",
+        "hashing"
+      ],
+      "windows_compatibility_check.py": [
+        "decorators",
+        "low_level_operations"
+      ],
+      "windows_universal_deployer.py": [
+        "decorators"
+      ],
+      "backup_manager.py": [
+        "hashing"
+      ],
+      "subnet_discovery.py": [
+        "decorators",
+        "json_serialization",
+        "hashing"
+      ],
+      "subnet_manager.py": [
+        "decorators"
+      ],
+      "windows_abstraction.py": [
+        "context_managers",
+        "low_level_operations"
+      ],
+      "compute_client.py": [
+        "decorators",
+        "json_serialization",
+        "hashing"
+      ],
+      "compute_cluster_gui.py": [],
+      "container_manager.py": [
+        "json_serialization"
+      ],
+      "admin_auto_config.py": [
+        "low_level_operations",
+        "json_serialization"
+      ],
+      "advanced_security.py": [
+        "decorators",
+        "json_serialization",
+        "hashing",
+        "encoding"
+      ],
+      "auth_service.py": [
+        "decorators",
+        "hashing"
+      ],
+      "automation_framework.py": [
+        "decorators",
+        "hashing"
+      ],
+      "config_manager.py": [
+        "decorators",
+        "hashing"
+      ],
+      "data_abstraction_layer.py": [
+        "decorators",
+        "hashing"
+      ],
+      "data_persistence.py": [
+        "decorators",
+        "json_serialization",
+        "object_serialization"
+      ],
+      "event_bus.py": [
+        "decorators",
+        "hashing"
+      ],
+      "frontend_backend_synchronization.py": [
+        "decorators",
+        "json_serialization",
+        "hashing"
+      ],
+      "homelab_portal.py": [
+        "decorators",
+        "process_management",
+        "json_serialization",
+        "object_serialization",
+        "hashing"
+      ],
+      "identical_hardware_optimizer.py": [
+        "hashing"
+      ],
+      "intel_ethernet_optimizer.py": [],
+      "mesh_vpn_dashboard.py": [
+        "decorators",
+        "json_serialization",
+        "hashing"
+      ],
+      "nvidia_gpu_sharing.py": [
+        "hashing"
+      ],
+      "portal_api_endpoints.py": [
+        "decorators",
+        "hashing"
+      ],
+      "rest_api.py": [
+        "decorators",
+        "process_management",
+        "hashing"
+      ],
+      "system_data_connector.py": [
+        "low_level_operations"
+      ],
+      "unified_dashboard.py": [
+        "process_management",
+        "hashing"
+      ],
+      "unified_monitoring.py": [
+        "decorators",
+        "hashing"
+      ],
+      "unified_path_manager.py": [
+        "decorators"
+      ],
+      "windows_screen_sharing.py": [
+        "hashing",
+        "encoding"
+      ],
+      "cpu_monitor.py": [
+        "process_management"
+      ],
+      "cpu_monitor_working.py": [],
+      "dx12_monitor.py": [
+        "hashing"
+      ],
+      "gpu_monitor.py": [
+        "process_management"
+      ],
+      "rtx_5060_config.py": [],
+      "core_services_import.py": [],
+      "cpu_monitor_integration.py": [],
+      "ram_sharing_integration.py": [
+        "hashing"
+      ],
+      "iot_platform.py": [],
+      "media_server_manager.py": [
+        "hashing"
+      ],
+      "mesh_service_discovery.py": [
+        "json_serialization",
+        "hashing"
+      ],
+      "network_monitor.py": [
+        "process_management"
+      ],
+      "fix_syntax.py": [],
+      "power_manager.py": [
+        "low_level_operations"
+      ],
+      "aggressive_ram_cleaner.py": [
+        "low_level_operations",
+        "hashing"
+      ],
+      "launcher.py": [
+        "process_management"
+      ],
+      "ram_cleanup_script.py": [
+        "low_level_operations",
+        "hashing"
+      ],
+      "ram_monitor_gui.py": [
+        "low_level_operations"
+      ],
+      "soft_ram_cleaner.py": [
+        "low_level_operations",
+        "hashing"
+      ],
+      "deployment_manager.py": [
+        "decorators",
+        "hashing"
+      ],
+      "fault_tolerance_manager.py": [
+        "decorators",
+        "hashing"
+      ],
+      "monitoring_system.py": [
+        "decorators"
+      ],
+      "performance_profiler.py": [
+        "decorators"
+      ],
+      "raw_network_bypass.py": [
+        "low_level_operations",
+        "hashing"
+      ],
+      "rdma_desktop_app.py": [
+        "decorators",
+        "json_serialization"
+      ],
+      "rdma_desktop_app_modern.py": [
+        "decorators"
+      ],
+      "rdma_latency_test.py": [
+        "hashing"
+      ],
+      "rdma_modern_tkinter.py": [
+        "decorators",
+        "json_serialization"
+      ],
+      "rdma_rest_api.py": [
+        "decorators"
+      ],
+      "realtime_cpu_optimizer.py": [
+        "low_level_operations"
+      ],
+      "robust_network_layer.py": [
+        "decorators"
+      ],
+      "security_manager.py": [
+        "decorators",
+        "hashing",
+        "encoding"
+      ],
+      "UI_DEMO_SHOWCASE.py": [],
+      "ultra_latency_benchmark.py": [
+        "low_level_operations",
+        "hashing"
+      ],
+      "windows_dma_interface.py": [
+        "decorators",
+        "low_level_operations",
+        "hashing"
+      ],
+      "memory_portal_gui.py": [
+        "hashing"
+      ],
+      "memory_server.py": [
+        "decorators",
+        "hashing"
+      ],
+      "storage_abstraction.py": [
+        "decorators",
+        "low_level_operations",
+        "json_serialization"
+      ],
+      "storage_monitor.py": [],
+      "console_network_test.py": [],
+      "subnet_portal.py": [
+        "process_management"
+      ],
+      "vpn_gateway.py": [],
+      "web_dashboard.py": [
+        "json_serialization",
+        "hashing"
+      ],
+      "cicd_manager.py": [
+        "hashing"
+      ],
+      "Auto_Connect_Launcher.bat": [
+        "decorators",
+        "hashing"
+      ],
+      "Create_Desktop_Shortcut.bat": [
+        "decorators"
+      ],
+      "Install_Homelab.bat": [
+        "decorators"
+      ],
+      "Launch_Batch_GUI.bat": [
+        "decorators"
+      ],
+      "Launch_RAM_Sharing.bat": [
+        "decorators",
+        "hashing"
+      ],
+      "Launch_Unified_System.bat": [
+        "decorators"
+      ],
+      "Quick_Auto_Connect.bat": [
+        "decorators",
+        "hashing"
+      ],
+      "RAM_Sharing_Menu.bat": [
+        "decorators",
+        "hashing"
+      ],
+      "setup.bat": [
+        "decorators"
+      ],
+      "windows_build.bat": [
+        "decorators",
+        "hashing"
+      ],
+      "complete_verification_report.json": [
+        "multiprocessing",
+        "low_level_operations",
+        "object_serialization",
+        "hashing",
+        "encoding"
+      ],
+      "comprehensive_system_audit_results.json": [],
+      "comprehensive_verification_results.json": [
+        "hashing"
+      ],
+      "dashboard_launcher_verification_results.json": [
+        "hashing"
+      ],
+      "final_verification_results.json": [
+        "hashing"
+      ],
+      "fully_comprehensive_audit_results.json": [
+        "metaclass_programming",
+        "decorators",
+        "generators",
+        "multiprocessing",
+        "low_level_operations",
+        "object_serialization",
+        "hashing",
+        "encoding"
+      ],
+      "integration_test_report.json": [],
+      "test_results.json": [
+        "hashing"
+      ],
+      "tools_data_verification_results.json": [
+        "hashing"
+      ],
+      "windows_compatibility_results.json": [
+        "hashing"
+      ],
+      "homelab_config.json": [
+        "hashing"
+      ]
+    },
+    "tool_integration_points": {
+      "abstraction_layer_integration_test.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "Auto_RAM_Connect.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "auto_setup.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "complete_system_verification.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "comprehensive_system_audit.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "comprehensive_system_verification.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "comprehensive_test_suite.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "cross_platform_deployer.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "dashboard_launcher_verification.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "deploy.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "deployment_config.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "enhanced_system_verification.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "fully_comprehensive_system_audit.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\(",
+        "bind\\(",
+        "send\\("
+      ],
+      "homelab_dashboard.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "homelab_launcher.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "install_dependencies.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "Integrated_RAM_Launcher.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "phase2_integration_test.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "RAM_Sharing_GUI.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "RAM_Sharing_Simple_GUI.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "os\\.system",
+        "connect\\("
+      ],
+      "setup.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "simple_cpu_test.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "system_integration_test.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "test_bidirectional_sharing.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "test_cpu_monitor.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "test_integration.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "test_original_cpu.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "test_portal_file_transfer.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\(",
+        "send\\("
+      ],
+      "test_rest_api.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "test_temperature.py": [
+        "import\\s+\\w+_?\\w*"
+      ],
+      "test_visentrix_branding.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "tools_data_verification.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "tool_connection_verification.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "os\\.system"
+      ],
+      "Visentrix_Launcher.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "windows_compatibility_check.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "windows_universal_deployer.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "backup_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "subnet_discovery.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\(",
+        "bind\\("
+      ],
+      "subnet_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "windows_abstraction.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "compute_client.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\(",
+        "send\\("
+      ],
+      "compute_cluster_gui.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "container_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "admin_auto_config.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "advanced_security.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "auth_service.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "automation_framework.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "config_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "data_abstraction_layer.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "data_persistence.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "event_bus.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "frontend_backend_synchronization.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "homelab_portal.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\(",
+        "bind\\(",
+        "send\\("
+      ],
+      "identical_hardware_optimizer.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "intel_ethernet_optimizer.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "send\\("
+      ],
+      "mesh_vpn_dashboard.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "nvidia_gpu_sharing.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "portal_api_endpoints.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "rest_api.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "system_data_connector.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "unified_dashboard.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "unified_monitoring.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "unified_path_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "windows_screen_sharing.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "cpu_monitor.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "cpu_monitor_working.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "dx12_monitor.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "gpu_monitor.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "rtx_5060_config.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "core_services_import.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "cpu_monitor_integration.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "ram_sharing_integration.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "iot_platform.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "media_server_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "mesh_service_discovery.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "network_monitor.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "fix_syntax.py": [],
+      "power_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "aggressive_ram_cleaner.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "launcher.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "ram_cleanup_script.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "ram_monitor_gui.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "soft_ram_cleaner.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "deployment_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "fault_tolerance_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "monitoring_system.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "performance_profiler.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "raw_network_bypass.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\(",
+        "send\\("
+      ],
+      "rdma_desktop_app.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "rdma_desktop_app_modern.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "rdma_latency_test.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "rdma_modern_tkinter.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "rdma_rest_api.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "realtime_cpu_optimizer.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "robust_network_layer.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\(",
+        "send\\("
+      ],
+      "security_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "UI_DEMO_SHOWCASE.py": [
+        "import\\s+\\w+_?\\w*",
+        "connect\\("
+      ],
+      "ultra_latency_benchmark.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "windows_dma_interface.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "send\\("
+      ],
+      "memory_portal_gui.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "memory_server.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\(",
+        "bind\\("
+      ],
+      "storage_abstraction.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "storage_monitor.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "console_network_test.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "subnet_portal.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "bind\\("
+      ],
+      "vpn_gateway.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "web_dashboard.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import",
+        "connect\\("
+      ],
+      "cicd_manager.py": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "Auto_Connect_Launcher.bat": [],
+      "Create_Desktop_Shortcut.bat": [],
+      "Install_Homelab.bat": [
+        "import\\s+\\w+_?\\w*"
+      ],
+      "Launch_Batch_GUI.bat": [],
+      "Launch_RAM_Sharing.bat": [],
+      "Launch_Unified_System.bat": [
+        "import\\s+\\w+_?\\w*"
+      ],
+      "Quick_Auto_Connect.bat": [],
+      "RAM_Sharing_Menu.bat": [],
+      "setup.bat": [],
+      "windows_build.bat": [
+        "import\\s+\\w+_?\\w*",
+        "from\\s+\\w+_?\\w*\\s+import"
+      ],
+      "complete_verification_report.json": [
+        "import\\s+\\w+_?\\w*"
+      ],
+      "comprehensive_system_audit_results.json": [],
+      "comprehensive_verification_results.json": [],
+      "dashboard_launcher_verification_results.json": [],
+      "final_verification_results.json": [],
+      "fully_comprehensive_audit_results.json": [],
+      "integration_test_report.json": [],
+      "test_results.json": [
+        "import\\s+\\w+_?\\w*"
+      ],
+      "tools_data_verification_results.json": [],
+      "windows_compatibility_results.json": [],
+      "homelab_config.json": []
+    }
+  },
+  "hidden_working_components": [
+    "abstraction_layer_integration_test.py",
+    "Auto_RAM_Connect.py",
+    "auto_setup.py",
+    "batch_file_fixer.py",
+    "check_failures.py",
+    "check_failures_simple.py",
+    "complete_system_verification.py",
+    "comprehensive_system_audit.py",
+    "comprehensive_system_verification.py",
+    "comprehensive_test_suite.py",
+    "cross_platform_deployer.py",
+    "dashboard_launcher_verification.py",
+    "deploy.py",
+    "deployment_config.py",
+    "enhanced_system_verification.py",
+    "final_verification_suite.py",
+    "find_failed_python.py",
+    "first_time_setup.py",
+    "fully_comprehensive_system_audit.py",
+    "homelab_dashboard.py",
+    "homelab_launcher.py",
+    "install_dependencies.py",
+    "Integrated_RAM_Launcher.py",
+    "package_dependencies.py",
+    "phase2_integration_test.py",
+    "RAM_Sharing_GUI.py",
+    "RAM_Sharing_Simple_GUI.py",
+    "setup.py",
+    "simple_cpu_test.py",
+    "system_integration_test.py",
+    "test_bidirectional_sharing.py",
+    "test_core_temps.py",
+    "test_cpu_monitor.py",
+    "test_integration.py",
+    "test_logo.py",
+    "test_original_cpu.py",
+    "test_portal_file_transfer.py",
+    "test_rdma_windows.py",
+    "test_rest_api.py",
+    "test_smart_system_sensing.py",
+    "test_temperature.py",
+    "test_visentrix_branding.py",
+    "test_windows_10_sensing.py",
+    "tools_data_verification.py",
+    "tool_connection_verification.py",
+    "Visentrix_Launcher.py",
+    "windows_compatibility_check.py",
+    "windows_universal_deployer.py",
+    "backup_manager.py",
+    "error_handling.py",
+    "subnet_discovery.py",
+    "subnet_manager.py",
+    "windows_abstraction.py",
+    "windows_compat.py",
+    "compute_client.py",
+    "compute_cluster_gui.py",
+    "compute_server.py",
+    "container_manager.py",
+    "admin_auto_config.py",
+    "advanced_security.py",
+    "analytics_engine.py",
+    "auth_service.py",
+    "automation_framework.py",
+    "bidirectional_resource_sharing.py",
+    "config_manager.py",
+    "data_abstraction_layer.py",
+    "data_persistence.py",
+    "ddr4_ram_sharing.py",
+    "event_bus.py",
+    "frontend_backend_mixer.py",
+    "frontend_backend_synchronization.py",
+    "homelab_portal.py",
+    "identical_hardware_optimizer.py",
+    "intel_ethernet_optimizer.py",
+    "mesh_vpn_dashboard.py",
+    "nvidia_gpu_sharing.py",
+    "portal_api_endpoints.py",
+    "rest_api.py",
+    "simple_rest_api.py",
+    "smart_system_sensing.py",
+    "system_data_connector.py",
+    "unified_dashboard.py",
+    "unified_monitoring.py",
+    "unified_path_manager.py",
+    "windows_network_discovery.py",
+    "windows_screen_sharing.py",
+    "windows_version_abstraction.py",
+    "cpu_monitor.py",
+    "cpu_monitor_working.py",
+    "dx12_monitor.py",
+    "gpu_monitor.py",
+    "rtx_5060_config.py",
+    "hybrid_client.py",
+    "core_services_import.py",
+    "cpu_monitor_integration.py",
+    "ram_sharing_integration.py",
+    "iot_platform.py",
+    "media_server_manager.py",
+    "mesh_service_discovery.py",
+    "mesh_vpn_client.py",
+    "mesh_vpn_server.py",
+    "wireguard_config_generator.py",
+    "network_monitor.py",
+    "power_manager.py",
+    "aggressive_ram_cleaner.py",
+    "launcher.py",
+    "memory_jolt.py",
+    "ram_cleanup_script.py",
+    "ram_monitor_gui.py",
+    "soft_ram_cleaner.py",
+    "advanced_dma_service.py",
+    "deployment_manager.py",
+    "fault_tolerance_manager.py",
+    "install.py",
+    "monitoring_system.py",
+    "performance_profiler.py",
+    "raw_network_bypass.py",
+    "rdma_desktop_app.py",
+    "rdma_desktop_app_modern.py",
+    "rdma_latency_test.py",
+    "rdma_modern_tkinter.py",
+    "rdma_rest_api.py",
+    "realtime_cpu_optimizer.py",
+    "robust_network_layer.py",
+    "security_manager.py",
+    "test_suite.py",
+    "udp_memory_bridge.py",
+    "UI_DEMO_SHOWCASE.py",
+    "ultra_latency_benchmark.py",
+    "ultra_low_latency_userspace.py",
+    "ultra_low_latency_windows.py",
+    "virtual_dma_userspace.py",
+    "virtual_pcie_tunnel.py",
+    "windows_dma_interface.py",
+    "zero_copy_rdmda.py",
+    "memory_client.py",
+    "memory_portal_gui.py",
+    "memory_server.py",
+    "storage_abstraction.py",
+    "storage_monitor.py",
+    "console_network_test.py",
+    "fixed_subnet_communication.py",
+    "network_diagnostics.py",
+    "subnet_portal.py",
+    "vpn_gateway.py",
+    "web_dashboard.py",
+    "cicd_manager.py"
+  ],
+  "recommendations": [
+    "Install missing modules: ttk, django, pandas",
+    "Fix 19 broken components",
+    "Fix broken interfaces and add missing GUI elements",
+    "Fix broken backend services and add API endpoints",
+    "Fix broken tools and ensure proper interfaces",
+    "Add file transfer capabilities to subnet portal",
+    "Leverage 147 hidden working components"
+  ],
+  "audit_duration": 9.882018804550171,
+  "component_details": [
+    {
+      "name": "abstraction_layer_integration_test",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\abstraction_layer_integration_test.py",
+      "component_type": "test",
+      "status": "excellent",
+      "functionality_score": 82.0,
+      "interface_types": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": [
+        "GUI missing mainloop call",
+        "Web server missing run call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "Auto_RAM_Connect",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Auto_RAM_Connect.py",
+      "component_type": "memory_tool",
+      "status": "excellent",
+      "functionality_score": 100.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "socket_operations",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "auto_setup",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\auto_setup.py",
+      "component_type": "unknown",
+      "status": "excellent",
+      "functionality_score": 98.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "process_management"
+      ],
+      "issues": []
+    },
+    {
+      "name": "batch_file_fixer",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\batch_file_fixer.py",
+      "component_type": "unknown",
+      "status": "working",
+      "functionality_score": 59.0,
+      "interface_types": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators"
+      ],
+      "issues": []
+    },
+    {
+      "name": "check_failures",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\check_failures.py",
+      "component_type": "unknown",
+      "status": "working",
+      "functionality_score": 44.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "check_failures_simple",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\check_failures_simple.py",
+      "component_type": "unknown",
+      "status": "working",
+      "functionality_score": 47.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "complete_system_verification",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\complete_system_verification.py",
+      "component_type": "unknown",
+      "status": "excellent",
+      "functionality_score": 87.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "decorators"
+      ],
+      "issues": [
+        "GUI missing mainloop call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "comprehensive_system_audit",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\comprehensive_system_audit.py",
+      "component_type": "unknown",
+      "status": "excellent",
+      "functionality_score": 100.0,
+      "interface_types": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators"
+      ],
+      "issues": [
+        "GUI missing mainloop call",
+        "Web server missing run call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "comprehensive_system_verification",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\comprehensive_system_verification.py",
+      "component_type": "unknown",
+      "status": "excellent",
+      "functionality_score": 100.0,
+      "interface_types": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "web_server"
+      ],
+      "hidden_features": [
+        "decorators",
+        "hashing"
+      ],
+      "issues": [
+        "GUI missing mainloop call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "comprehensive_test_suite",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\comprehensive_test_suite.py",
+      "component_type": "test",
+      "status": "good",
+      "functionality_score": 74.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "hashing"
+      ],
+      "issues": [
+        "GUI missing mainloop call"
+      ]
+    },
+    {
+      "name": "cross_platform_deployer",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\cross_platform_deployer.py",
+      "component_type": "unknown",
+      "status": "excellent",
+      "functionality_score": 92.0,
+      "interface_types": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators"
+      ],
+      "issues": [
+        "GUI missing mainloop call",
+        "Web server missing run call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "dashboard_launcher_verification",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\dashboard_launcher_verification.py",
+      "component_type": "dashboard",
+      "status": "excellent",
+      "functionality_score": 96.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators",
+        "low_level_operations",
+        "hashing"
+      ],
+      "issues": [
+        "GUI missing mainloop call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "deploy",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\deploy.py",
+      "component_type": "unknown",
+      "status": "good",
+      "functionality_score": 69.0,
+      "interface_types": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators",
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "deployment_config",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\deployment_config.py",
+      "component_type": "config",
+      "status": "working",
+      "functionality_score": 53.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators",
+        "json_serialization",
+        "hashing"
+      ],
+      "issues": [
+        "No error handling detected"
+      ]
+    },
+    {
+      "name": "enhanced_system_verification",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\enhanced_system_verification.py",
+      "component_type": "unknown",
+      "status": "good",
+      "functionality_score": 72.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "threading_support"
+      ],
+      "hidden_features": [],
+      "issues": [
+        "GUI missing mainloop call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "final_verification_suite",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\final_verification_suite.py",
+      "component_type": "unknown",
+      "status": "good",
+      "functionality_score": 74.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators"
+      ],
+      "issues": [
+        "GUI missing mainloop call"
+      ]
+    },
+    {
+      "name": "find_failed_python",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\find_failed_python.py",
+      "component_type": "unknown",
+      "status": "working",
+      "functionality_score": 44.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "first_time_setup",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\first_time_setup.py",
+      "component_type": "unknown",
+      "status": "working",
+      "functionality_score": 47.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "fully_comprehensive_system_audit",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\fully_comprehensive_system_audit.py",
+      "component_type": "unknown",
+      "status": "excellent",
+      "functionality_score": 100.0,
+      "interface_types": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "web_server",
+        "socket_operations",
+        "threading_support",
+        "async_support"
+      ],
+      "hidden_features": [
+        "metaclass_programming",
+        "decorators",
+        "generators",
+        "context_managers",
+        "multiprocessing",
+        "low_level_operations",
+        "process_management",
+        "json_serialization",
+        "object_serialization",
+        "hashing",
+        "encoding"
+      ],
+      "issues": []
+    },
+    {
+      "name": "homelab_dashboard",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\homelab_dashboard.py",
+      "component_type": "dashboard",
+      "status": "excellent",
+      "functionality_score": 100.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "process_management",
+        "json_serialization",
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "homelab_launcher",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\homelab_launcher.py",
+      "component_type": "launcher",
+      "status": "excellent",
+      "functionality_score": 100.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "decorators",
+        "process_management",
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "install_dependencies",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\install_dependencies.py",
+      "component_type": "unknown",
+      "status": "good",
+      "functionality_score": 79.0,
+      "interface_types": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": [
+        "GUI missing mainloop call",
+        "Web server missing run call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "Integrated_RAM_Launcher",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Integrated_RAM_Launcher.py",
+      "component_type": "memory_tool",
+      "status": "excellent",
+      "functionality_score": 100.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "process_management",
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "package_dependencies",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\package_dependencies.py",
+      "component_type": "unknown",
+      "status": "working",
+      "functionality_score": 59.0,
+      "interface_types": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators"
+      ],
+      "issues": []
+    },
+    {
+      "name": "phase2_integration_test",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\phase2_integration_test.py",
+      "component_type": "test",
+      "status": "working",
+      "functionality_score": 58.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "async_support"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "RAM_Sharing_GUI",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\RAM_Sharing_GUI.py",
+      "component_type": "memory_tool",
+      "status": "excellent",
+      "functionality_score": 93.0,
+      "interface_types": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "RAM_Sharing_Simple_GUI",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\RAM_Sharing_Simple_GUI.py",
+      "component_type": "memory_tool",
+      "status": "excellent",
+      "functionality_score": 87.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "hashing"
+      ],
+      "issues": [
+        "GUI missing mainloop call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "setup",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\setup.py",
+      "component_type": "unknown",
+      "status": "working",
+      "functionality_score": 57.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": [
+        "GUI missing mainloop call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "simple_cpu_test",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\simple_cpu_test.py",
+      "component_type": "cpu_tool",
+      "status": "good",
+      "functionality_score": 66.0,
+      "interface_types": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "standalone_execution",
+        "gui_mainloop"
+      ],
+      "hidden_features": [],
+      "issues": [
+        "No error handling detected"
+      ]
+    },
+    {
+      "name": "system_integration_test",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\system_integration_test.py",
+      "component_type": "test",
+      "status": "good",
+      "functionality_score": 68.0,
+      "interface_types": [
+        "gui_tkinter",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "threading_support"
+      ],
+      "hidden_features": [],
+      "issues": [
+        "GUI missing mainloop call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "temp_script_5915",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\temp_script_5915.py",
+      "component_type": "unknown",
+      "status": "partial",
+      "functionality_score": 20.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [],
+      "hidden_features": [],
+      "issues": [
+        "Minimal or empty content"
+      ]
+    },
+    {
+      "name": "test_bidirectional_sharing",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_bidirectional_sharing.py",
+      "component_type": "test",
+      "status": "good",
+      "functionality_score": 70.0,
+      "interface_types": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "async_support"
+      ],
+      "hidden_features": [
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "test_core_temps",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_core_temps.py",
+      "component_type": "test",
+      "status": "working",
+      "functionality_score": 44.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "test_cpu_monitor",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_cpu_monitor.py",
+      "component_type": "monitoring_tool",
+      "status": "good",
+      "functionality_score": 73.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "working_features": [
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "test_integration",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_integration.py",
+      "component_type": "test",
+      "status": "working",
+      "functionality_score": 47.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "test_logo",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_logo.py",
+      "component_type": "test",
+      "status": "good",
+      "functionality_score": 73.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "working_features": [
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "test_original_cpu",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_original_cpu.py",
+      "component_type": "cpu_tool",
+      "status": "excellent",
+      "functionality_score": 82.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "test_portal_file_transfer",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_portal_file_transfer.py",
+      "component_type": "portal",
+      "status": "excellent",
+      "functionality_score": 80.0,
+      "interface_types": [
+        "console",
+        "api_socket",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "socket_operations",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "json_serialization",
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "test_rdma_windows",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_rdma_windows.py",
+      "component_type": "rdma_tool",
+      "status": "good",
+      "functionality_score": 62.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": [
+        "GUI missing mainloop call"
+      ]
+    },
+    {
+      "name": "test_rest_api",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_rest_api.py",
+      "component_type": "api",
+      "status": "good",
+      "functionality_score": 67.0,
+      "interface_types": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "test_smart_system_sensing",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_smart_system_sensing.py",
+      "component_type": "test",
+      "status": "working",
+      "functionality_score": 47.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "test_temperature",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_temperature.py",
+      "component_type": "test",
+      "status": "working",
+      "functionality_score": 44.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "test_visentrix_branding",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_visentrix_branding.py",
+      "component_type": "test",
+      "status": "good",
+      "functionality_score": 77.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "hybrid"
+      ],
+      "working_features": [
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "test_windows_10_sensing",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_windows_10_sensing.py",
+      "component_type": "test",
+      "status": "working",
+      "functionality_score": 47.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [],
+      "issues": []
+    },
+    {
+      "name": "tools_data_verification",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\tools_data_verification.py",
+      "component_type": "unknown",
+      "status": "working",
+      "functionality_score": 59.0,
+      "interface_types": [
+        "console"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators",
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "tool_connection_verification",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\tool_connection_verification.py",
+      "component_type": "unknown",
+      "status": "good",
+      "functionality_score": 67.0,
+      "interface_types": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators"
+      ],
+      "issues": []
+    },
+    {
+      "name": "Visentrix_Launcher",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Visentrix_Launcher.py",
+      "component_type": "launcher",
+      "status": "excellent",
+      "functionality_score": 97.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "process_management",
+        "hashing"
+      ],
+      "issues": []
+    },
+    {
+      "name": "windows_compatibility_check",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\windows_compatibility_check.py",
+      "component_type": "unknown",
+      "status": "good",
+      "functionality_score": 69.0,
+      "interface_types": [
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators",
+        "low_level_operations"
+      ],
+      "issues": []
+    },
+    {
+      "name": "windows_universal_deployer",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\windows_universal_deployer.py",
+      "component_type": "unknown",
+      "status": "excellent",
+      "functionality_score": 94.0,
+      "interface_types": [
+        "gui_tkinter",
+        "gui_web",
+        "console",
+        "api_rest",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution"
+      ],
+      "hidden_features": [
+        "decorators"
+      ],
+      "issues": [
+        "GUI missing mainloop call",
+        "Web server missing run call",
+        "Missing tkinter import"
+      ]
+    },
+    {
+      "name": "backup_manager",
+      "path": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Backup System\\backup_manager.py",
+      "component_type": "unknown",
+      "status": "excellent",
+      "functionality_score": 98.0,
+      "interface_types": [
+        "gui_tkinter",
+        "console",
+        "batch",
+        "hybrid"
+      ],
+      "working_features": [
+        "function_definitions",
+        "class_implementations",
+        "module_imports",
+        "error_handling",
+        "standalone_execution",
+        "gui_mainloop",
+        "threading_support"
+      ],
+      "hidden_features": [
+        "hashing"
+      ],
+      "issues": []
+    }
+  ]
+}

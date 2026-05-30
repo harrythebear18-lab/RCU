@@ -1,0 +1,61 @@
+{
+  "test_summary": {
+    "total_tests": 7,
+    "passed_tests": 7,
+    "failed_tests": 0,
+    "success_rate": "100.0%",
+    "total_duration_seconds": 0.6512649059295654,
+    "windows_version": "Windows 11"
+  },
+  "detailed_results": {
+    "test_cpu_monitor": {
+      "status": "PASSED",
+      "cpu_count": 12,
+      "cpu_usage": 12.5,
+      "import_success": true,
+      "timestamp": 1778682677.6844015
+    },
+    "test_gpu_monitor": {
+      "status": "PASSED",
+      "gpu_monitor_import": true,
+      "import_success": true,
+      "timestamp": 1778682677.6988392
+    },
+    "test_network_monitor": {
+      "status": "PASSED",
+      "network_monitor_import": true,
+      "import_success": true,
+      "timestamp": 1778682677.8375697
+    },
+    "test_ram_monitor": {
+      "status": "PASSED",
+      "ram_monitor_import": true,
+      "memory_detected": true,
+      "total_gb": 15,
+      "import_success": true,
+      "timestamp": 1778682677.8409665
+    },
+    "test_storage_management": {
+      "status": "PASSED",
+      "storage_abstraction": true,
+      "import_success": true,
+      "timestamp": 1778682677.8440797
+    },
+    "test_rdma_system": {
+      "status": "PASSED",
+      "rdma_files_available": false,
+      "import_success": true,
+      "timestamp": 1778682677.8446012
+    },
+    "test_system_integration": {
+      "status": "PASSED",
+      "deployment_config_import": true,
+      "launcher_import": true,
+      "system_integration": true,
+      "import_success": true,
+      "timestamp": 1778682677.8652253
+    }
+  },
+  "system_status": "FULLY_OPERATIONAL",
+  "timestamp": "2026-05-13T15:31:17.865498"
+}

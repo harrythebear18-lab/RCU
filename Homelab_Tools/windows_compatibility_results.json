@@ -1,0 +1,720 @@
+{
+  "system_info": {
+    "os": "Windows",
+    "version": "10.0.26200",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "python_version": "3.13.11",
+    "architecture": "64bit"
+  },
+  "batch_files": {
+    "Auto_Connect_Launcher.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "batch_file_template.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Cleanup_RAM_Sharing.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Create_Desktop_Shortcut.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Cross_Version_Setup.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "first_time_setup.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Fix_Windows_Compatibility.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "GUI_Troubleshooting.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Install_Homelab.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Launch_Batch_GUI.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "launch_homelab.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Launch_Homelab_Portal.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Launch_RAM_Sharing.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Launch_Simple_GUI.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Launch_Unified_System.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "map_ram_disk.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Map_RAM_Sharing.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Quick_Auto_Connect.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "ram_disk_setup.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RAM_Sharing_Menu.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "setup.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Setup_RAM_Sharing.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Simple_Launcher.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "temp_test.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Universal_Launcher.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "windows10_setup.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Working_Launcher.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\windows_build.bat": {
+      "compatible": false,
+      "message": "Unquoted variable: set \"WDK_DIR=%ProgramFiles(x86)%\\Windows Kits\\10\\%..."
+    },
+    "Subnet Portal\\launch_console_test.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Subnet Portal\\launch_console_test_discovery.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Subnet Portal\\launch_console_test_minecraft.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Subnet Portal\\launch_console_test_portal.bat": {
+      "compatible": true,
+      "message": "Compatible"
+    }
+  },
+  "python_files": {
+    "Auto_RAM_Connect.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "auto_setup.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "batch_file_fixer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "check_failures.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "check_failures_simple.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "comprehensive_system_verification.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "comprehensive_test_suite.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "cross_platform_deployer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "dashboard_launcher_verification.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "deploy.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "deployment_config.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "final_verification_suite.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "find_failed_python.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "first_time_setup.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "homelab_dashboard.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "homelab_launcher.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "install_dependencies.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Integrated_RAM_Launcher.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "package_dependencies.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "phase2_integration_test.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RAM_Sharing_GUI.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RAM_Sharing_Simple_GUI.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "setup.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "system_integration_test.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "temp_script_5915.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "test_bidirectional_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "test_core_temps.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "test_integration.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "test_portal_file_transfer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "test_rdma_windows.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "test_rest_api.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "test_temperature.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "windows_compatibility_check.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "windows_universal_deployer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Backup System\\backup_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "common\\error_handling.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "common\\subnet_discovery.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "common\\subnet_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "common\\windows_abstraction.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "common\\windows_compat.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Compute Sharing\\compute_client.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Compute Sharing\\compute_cluster_gui.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Compute Sharing\\compute_server.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Container Manager\\container_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\advanced_security.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\analytics_engine.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\auth_service.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\automation_framework.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\bidirectional_resource_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\config_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\data_persistence.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\ddr4_ram_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\event_bus.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\homelab_portal.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\identical_hardware_optimizer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\intel_ethernet_optimizer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\nvidia_gpu_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\portal_api_endpoints.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\rest_api.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\simple_rest_api.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\unified_dashboard.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\unified_monitoring.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\windows_network_discovery.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\windows_screen_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Cpu Monitor\\cpu_monitor.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Gpu Monitor\\dx12_monitor.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Gpu Monitor\\gpu_monitor.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Gpu Monitor\\rtx_5060_config.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Hybrid Compute\\hybrid_client.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Integration_Examples\\core_services_import.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Integration_Examples\\cpu_monitor_integration.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Integration_Examples\\ram_sharing_integration.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Integration_Examples\\__init__.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "IoT Platform\\iot_platform.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Media Server\\media_server_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Network Monitor\\network_monitor.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Power Management\\fix_syntax.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Power Management\\power_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Ram clean up\\aggressive_ram_cleaner.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Ram clean up\\launcher.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Ram clean up\\memory_jolt.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Ram clean up\\ram_cleanup_script.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Ram clean up\\ram_monitor_gui.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Ram clean up\\soft_ram_cleaner.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\advanced_dma_service.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\deployment_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\fault_tolerance_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\install.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\monitoring_system.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\performance_profiler.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\raw_network_bypass.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\rdma_desktop_app.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\rdma_desktop_app_modern.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\rdma_latency_test.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\rdma_modern_tkinter.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\rdma_rest_api.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\realtime_cpu_optimizer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\robust_network_layer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\security_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\test_suite.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\udp_memory_bridge.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\UI_DEMO_SHOWCASE.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\ultra_latency_benchmark.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\ultra_low_latency_userspace.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\ultra_low_latency_windows.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\virtual_dma_userspace.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\virtual_pcie_tunnel.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\windows_dma_interface.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA\\zero_copy_rdmda.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA Memory Portal\\memory_client.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA Memory Portal\\memory_portal_gui.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "RDMA Memory Portal\\memory_server.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Storage Management\\storage_abstraction.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Storage Management\\storage_monitor.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Subnet Portal\\console_network_test.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Subnet Portal\\fixed_subnet_communication.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Subnet Portal\\network_diagnostics.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Subnet Portal\\subnet_portal.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "VPN Gateway\\vpn_gateway.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Web Dashboard\\web_dashboard.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "CI\\CD Pipeline\\cicd_manager.py": {
+      "compatible": true,
+      "message": "Compatible"
+    }
+  },
+  "core_services": {
+    "Core Services\\advanced_security.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\analytics_engine.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\auth_service.py": {
+      "compatible": true,
+      "message": "Compatible (event_bus dependency)"
+    },
+    "Core Services\\automation_framework.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\bidirectional_resource_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\config_manager.py": {
+      "compatible": true,
+      "message": "Compatible (event_bus dependency)"
+    },
+    "Core Services\\data_persistence.py": {
+      "compatible": true,
+      "message": "Compatible (event_bus dependency)"
+    },
+    "Core Services\\ddr4_ram_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\event_bus.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\homelab_portal.py": {
+      "compatible": true,
+      "message": "Compatible (event_bus dependency)"
+    },
+    "Core Services\\identical_hardware_optimizer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\intel_ethernet_optimizer.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\nvidia_gpu_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\portal_api_endpoints.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\rest_api.py": {
+      "compatible": true,
+      "message": "Compatible (event_bus dependency)"
+    },
+    "Core Services\\simple_rest_api.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\unified_dashboard.py": {
+      "compatible": true,
+      "message": "Compatible (event_bus dependency)"
+    },
+    "Core Services\\unified_monitoring.py": {
+      "compatible": true,
+      "message": "Compatible (event_bus dependency)"
+    },
+    "Core Services\\windows_network_discovery.py": {
+      "compatible": true,
+      "message": "Compatible"
+    },
+    "Core Services\\windows_screen_sharing.py": {
+      "compatible": true,
+      "message": "Compatible"
+    }
+  },
+  "portal_components": {
+    "Portal System": {
+      "compatible": true,
+      "message": "All 11 components present"
+    }
+  },
+  "overall": {
+    "total": 174,
+    "compatible": 173,
+    "incompatible": 1,
+    "compatibility_rate": 99.42528735632183
+  }
+}

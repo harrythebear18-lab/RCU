@@ -1,0 +1,716 @@
+{
+  "gui_components": {
+    "Core Services/homelab_portal.py": {
+      "passed": true,
+      "message": "GUI component with proper imports",
+      "details": {},
+      "timestamp": 1778705499.5568914
+    },
+    "Core Services/unified_dashboard.py": {
+      "passed": true,
+      "message": "GUI component with proper imports",
+      "details": {},
+      "timestamp": 1778705499.5615115
+    },
+    "Core Services/ddr4_ram_sharing.py": {
+      "passed": false,
+      "message": "Missing GUI imports",
+      "details": {},
+      "timestamp": 1778705499.565074
+    },
+    "Core Services/intel_ethernet_optimizer.py": {
+      "passed": false,
+      "message": "Missing GUI imports",
+      "details": {},
+      "timestamp": 1778705499.5684521
+    },
+    "Core Services/nvidia_gpu_sharing.py": {
+      "passed": false,
+      "message": "Missing GUI imports",
+      "details": {},
+      "timestamp": 1778705499.571532
+    },
+    "Core Services/windows_network_discovery.py": {
+      "passed": false,
+      "message": "Missing GUI imports",
+      "details": {},
+      "timestamp": 1778705499.5734105
+    },
+    "Core Services/windows_screen_sharing.py": {
+      "passed": false,
+      "message": "Missing GUI imports",
+      "details": {},
+      "timestamp": 1778705499.5799527
+    },
+    "Ram clean up/ram_monitor_gui.py": {
+      "passed": true,
+      "message": "GUI component with proper imports",
+      "details": {},
+      "timestamp": 1778705499.58943
+    },
+    "Ram clean up/soft_ram_cleaner.py": {
+      "passed": false,
+      "message": "Missing GUI imports",
+      "details": {},
+      "timestamp": 1778705499.591737
+    },
+    "RDMA/rdma_desktop_app.py": {
+      "passed": true,
+      "message": "GUI component with proper imports",
+      "details": {},
+      "timestamp": 1778705499.5987585
+    },
+    "RDMA/rdma_desktop_app_modern.py": {
+      "passed": true,
+      "message": "GUI component with proper imports",
+      "details": {},
+      "timestamp": 1778705499.6065793
+    },
+    "RDMA/rdma_modern_tkinter.py": {
+      "passed": true,
+      "message": "GUI component with proper imports",
+      "details": {},
+      "timestamp": 1778705499.613728
+    },
+    "RDMA Memory Portal/memory_portal_gui.py": {
+      "passed": true,
+      "message": "GUI component with proper imports",
+      "details": {},
+      "timestamp": 1778705499.6206975
+    },
+    "Web Dashboard/web_dashboard.py": {
+      "passed": true,
+      "message": "GUI component with proper imports",
+      "details": {},
+      "timestamp": 1778705499.6251633
+    }
+  },
+  "button_functionality": {
+    "Auto_RAM_Connect.py": {
+      "passed": true,
+      "message": "Found 12 button elements, 28 handlers",
+      "details": {},
+      "timestamp": 1778705499.6520479
+    },
+    "auto_setup.py": {
+      "passed": true,
+      "message": "Found 10 button elements, 29 handlers",
+      "details": {},
+      "timestamp": 1778705499.6526291
+    },
+    "comprehensive_system_verification.py": {
+      "passed": true,
+      "message": "Found 15 button elements, 28 handlers",
+      "details": {},
+      "timestamp": 1778705499.6533391
+    },
+    "comprehensive_test_suite.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6537566
+    },
+    "cross_platform_deployer.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6542058
+    },
+    "deployment_config.py": {
+      "passed": true,
+      "message": "Found 4 button elements, 12 handlers",
+      "details": {},
+      "timestamp": 1778705499.661567
+    },
+    "final_verification_suite.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6620805
+    },
+    "homelab_dashboard.py": {
+      "passed": true,
+      "message": "Found 20 button elements, 25 handlers",
+      "details": {},
+      "timestamp": 1778705499.6628268
+    },
+    "homelab_launcher.py": {
+      "passed": true,
+      "message": "Found 12 button elements, 50 handlers",
+      "details": {},
+      "timestamp": 1778705499.6636622
+    },
+    "install_dependencies.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 9 handlers",
+      "details": {},
+      "timestamp": 1778705499.6642082
+    },
+    "Integrated_RAM_Launcher.py": {
+      "passed": true,
+      "message": "Found 11 button elements, 13 handlers",
+      "details": {},
+      "timestamp": 1778705499.6646254
+    },
+    "RAM_Sharing_GUI.py": {
+      "passed": true,
+      "message": "Found 36 button elements, 21 handlers",
+      "details": {},
+      "timestamp": 1778705499.6655343
+    },
+    "RAM_Sharing_Simple_GUI.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.665875
+    },
+    "setup.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6662486
+    },
+    "system_integration_test.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6666512
+    },
+    "test_rdma_windows.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6687949
+    },
+    "windows_universal_deployer.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.67043
+    },
+    "Backup System\\backup_manager.py": {
+      "passed": true,
+      "message": "Found 102 button elements, 44 handlers",
+      "details": {},
+      "timestamp": 1778705499.6710868
+    },
+    "common\\subnet_discovery.py": {
+      "passed": true,
+      "message": "Found 3 button elements, 39 handlers",
+      "details": {},
+      "timestamp": 1778705499.671806
+    },
+    "common\\subnet_manager.py": {
+      "passed": true,
+      "message": "Found 18 button elements, 18 handlers",
+      "details": {},
+      "timestamp": 1778705499.6722176
+    },
+    "Compute Sharing\\compute_cluster_gui.py": {
+      "passed": true,
+      "message": "Found 26 button elements, 51 handlers",
+      "details": {},
+      "timestamp": 1778705499.673418
+    },
+    "Container Manager\\container_manager.py": {
+      "passed": true,
+      "message": "Found 96 button elements, 44 handlers",
+      "details": {},
+      "timestamp": 1778705499.6742482
+    },
+    "Core Services\\bidirectional_resource_sharing.py": {
+      "passed": true,
+      "message": "Found 2 button elements, 27 handlers",
+      "details": {},
+      "timestamp": 1778705499.6758559
+    },
+    "Core Services\\data_persistence.py": {
+      "passed": true,
+      "message": "Found 2 button elements, 33 handlers",
+      "details": {},
+      "timestamp": 1778705499.6766586
+    },
+    "Core Services\\homelab_portal.py": {
+      "passed": true,
+      "message": "Found 63 button elements, 60 handlers",
+      "details": {},
+      "timestamp": 1778705499.6777036
+    },
+    "Core Services\\nvidia_gpu_sharing.py": {
+      "passed": true,
+      "message": "Found 2 button elements, 19 handlers",
+      "details": {},
+      "timestamp": 1778705499.6785765
+    },
+    "Core Services\\portal_api_endpoints.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.678924
+    },
+    "Core Services\\rest_api.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6793954
+    },
+    "Core Services\\simple_rest_api.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6797166
+    },
+    "Core Services\\unified_dashboard.py": {
+      "passed": true,
+      "message": "Found 30 button elements, 36 handlers",
+      "details": {},
+      "timestamp": 1778705499.6801775
+    },
+    "Core Services\\windows_network_discovery.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 13 handlers",
+      "details": {},
+      "timestamp": 1778705499.6807284
+    },
+    "Core Services\\windows_screen_sharing.py": {
+      "passed": true,
+      "message": "Found 30 button elements, 28 handlers",
+      "details": {},
+      "timestamp": 1778705499.6811318
+    },
+    "Cpu Monitor\\cpu_monitor.py": {
+      "passed": true,
+      "message": "Found 14 button elements, 24 handlers",
+      "details": {},
+      "timestamp": 1778705499.6817484
+    },
+    "Gpu Monitor\\dx12_monitor.py": {
+      "passed": true,
+      "message": "Found 16 button elements, 21 handlers",
+      "details": {},
+      "timestamp": 1778705499.6823137
+    },
+    "Gpu Monitor\\gpu_monitor.py": {
+      "passed": true,
+      "message": "Found 14 button elements, 25 handlers",
+      "details": {},
+      "timestamp": 1778705499.6829255
+    },
+    "Hybrid Compute\\hybrid_client.py": {
+      "passed": true,
+      "message": "Found 10 button elements, 20 handlers",
+      "details": {},
+      "timestamp": 1778705499.6836662
+    },
+    "IoT Platform\\iot_platform.py": {
+      "passed": true,
+      "message": "Found 132 button elements, 64 handlers",
+      "details": {},
+      "timestamp": 1778705499.6858444
+    },
+    "Media Server\\media_server_manager.py": {
+      "passed": true,
+      "message": "Found 94 button elements, 41 handlers",
+      "details": {},
+      "timestamp": 1778705499.6867492
+    },
+    "Network Monitor\\network_monitor.py": {
+      "passed": true,
+      "message": "Found 14 button elements, 27 handlers",
+      "details": {},
+      "timestamp": 1778705499.6874921
+    },
+    "Power Management\\power_manager.py": {
+      "passed": true,
+      "message": "Found 66 button elements, 38 handlers",
+      "details": {},
+      "timestamp": 1778705499.6884146
+    },
+    "Ram clean up\\aggressive_ram_cleaner.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 16 handlers",
+      "details": {},
+      "timestamp": 1778705499.688843
+    },
+    "Ram clean up\\launcher.py": {
+      "passed": true,
+      "message": "Found 20 button elements, 12 handlers",
+      "details": {},
+      "timestamp": 1778705499.6891453
+    },
+    "Ram clean up\\ram_monitor_gui.py": {
+      "passed": true,
+      "message": "Found 51 button elements, 42 handlers",
+      "details": {},
+      "timestamp": 1778705499.6902325
+    },
+    "Ram clean up\\soft_ram_cleaner.py": {
+      "passed": true,
+      "message": "Found 2 button elements, 13 handlers",
+      "details": {},
+      "timestamp": 1778705499.6906805
+    },
+    "RDMA\\advanced_dma_service.py": {
+      "passed": true,
+      "message": "Found 5 button elements, 26 handlers",
+      "details": {},
+      "timestamp": 1778705499.691138
+    },
+    "RDMA\\monitoring_system.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 48 handlers",
+      "details": {},
+      "timestamp": 1778705499.693231
+    },
+    "RDMA\\raw_network_bypass.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 29 handlers",
+      "details": {},
+      "timestamp": 1778705499.6939864
+    },
+    "RDMA\\rdma_desktop_app.py": {
+      "passed": true,
+      "message": "Found 24 button elements, 60 handlers",
+      "details": {},
+      "timestamp": 1778705499.6946242
+    },
+    "RDMA\\rdma_desktop_app_modern.py": {
+      "passed": true,
+      "message": "Found 20 button elements, 54 handlers",
+      "details": {},
+      "timestamp": 1778705499.6951814
+    },
+    "RDMA\\rdma_modern_tkinter.py": {
+      "passed": true,
+      "message": "Found 16 button elements, 52 handlers",
+      "details": {},
+      "timestamp": 1778705499.696627
+    },
+    "RDMA\\rdma_rest_api.py": {
+      "passed": false,
+      "message": "GUI file without button elements",
+      "details": {},
+      "timestamp": 1778705499.6971188
+    },
+    "RDMA\\udp_memory_bridge.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 21 handlers",
+      "details": {},
+      "timestamp": 1778705499.699016
+    },
+    "RDMA\\UI_DEMO_SHOWCASE.py": {
+      "passed": true,
+      "message": "Found 21 button elements, 14 handlers",
+      "details": {},
+      "timestamp": 1778705499.6994283
+    },
+    "RDMA\\ultra_low_latency_userspace.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 27 handlers",
+      "details": {},
+      "timestamp": 1778705499.7001507
+    },
+    "RDMA\\virtual_dma_userspace.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 18 handlers",
+      "details": {},
+      "timestamp": 1778705499.7011583
+    },
+    "RDMA\\virtual_pcie_tunnel.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 21 handlers",
+      "details": {},
+      "timestamp": 1778705499.7015772
+    },
+    "RDMA\\zero_copy_rdmda.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 13 handlers",
+      "details": {},
+      "timestamp": 1778705499.7026093
+    },
+    "RDMA Memory Portal\\memory_portal_gui.py": {
+      "passed": true,
+      "message": "Found 24 button elements, 40 handlers",
+      "details": {},
+      "timestamp": 1778705499.7036939
+    },
+    "RDMA Memory Portal\\memory_server.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 19 handlers",
+      "details": {},
+      "timestamp": 1778705499.704141
+    },
+    "Storage Management\\storage_abstraction.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 28 handlers",
+      "details": {},
+      "timestamp": 1778705499.7046487
+    },
+    "Storage Management\\storage_monitor.py": {
+      "passed": true,
+      "message": "Found 32 button elements, 36 handlers",
+      "details": {},
+      "timestamp": 1778705499.7052188
+    },
+    "Subnet Portal\\fixed_subnet_communication.py": {
+      "passed": true,
+      "message": "Found 2 button elements, 22 handlers",
+      "details": {},
+      "timestamp": 1778705499.7059975
+    },
+    "Subnet Portal\\network_diagnostics.py": {
+      "passed": true,
+      "message": "Found 1 button elements, 13 handlers",
+      "details": {},
+      "timestamp": 1778705499.7062738
+    },
+    "Subnet Portal\\subnet_portal.py": {
+      "passed": true,
+      "message": "Found 47 button elements, 84 handlers",
+      "details": {},
+      "timestamp": 1778705499.7073162
+    },
+    "VPN Gateway\\vpn_gateway.py": {
+      "passed": true,
+      "message": "Found 64 button elements, 32 handlers",
+      "details": {},
+      "timestamp": 1778705499.7078974
+    },
+    "Web Dashboard\\web_dashboard.py": {
+      "passed": true,
+      "message": "Found 28 button elements, 36 handlers",
+      "details": {},
+      "timestamp": 1778705499.708604
+    },
+    "CI\\CD Pipeline\\cicd_manager.py": {
+      "passed": true,
+      "message": "Found 88 button elements, 41 handlers",
+      "details": {},
+      "timestamp": 1778705499.7092972
+    }
+  },
+  "pathing_systems": {
+    "Proper Path Handling": {
+      "passed": true,
+      "message": "Found 74 files with proper path handling",
+      "details": {},
+      "timestamp": 1778705499.7572737
+    },
+    "Hardcoded Paths": {
+      "passed": false,
+      "message": "Found 1 files with potential hardcoded paths",
+      "details": {},
+      "timestamp": 1778705499.757379
+    },
+    "Routing: Core Services/rest_api.py": {
+      "passed": true,
+      "message": "Found 40 routing elements",
+      "details": {},
+      "timestamp": 1778705499.7577038
+    },
+    "Routing: Core Services/portal_api_endpoints.py": {
+      "passed": true,
+      "message": "Found 40 routing elements",
+      "details": {},
+      "timestamp": 1778705499.7579467
+    },
+    "Routing: Mobile_Interface/app.js": {
+      "passed": false,
+      "message": "Found 0 routing elements",
+      "details": {},
+      "timestamp": 1778705499.7581747
+    },
+    "Routing: Mobile_Interface/index.html": {
+      "passed": true,
+      "message": "Found 11 routing elements",
+      "details": {},
+      "timestamp": 1778705499.7588673
+    }
+  },
+  "backend_services": {
+    "Core Services\\advanced_security.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.7629335
+    },
+    "Core Services\\analytics_engine.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.7675996
+    },
+    "Core Services\\auth_service.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.77157
+    },
+    "Core Services\\automation_framework.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.7761467
+    },
+    "Core Services\\bidirectional_resource_sharing.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.7799213
+    },
+    "Core Services\\config_manager.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.7827566
+    },
+    "Core Services\\data_persistence.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.7911897
+    },
+    "Core Services\\ddr4_ram_sharing.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.7946315
+    },
+    "Core Services\\event_bus.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.7969966
+    },
+    "Core Services\\homelab_portal.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.8049657
+    },
+    "Core Services\\identical_hardware_optimizer.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.809119
+    },
+    "Core Services\\intel_ethernet_optimizer.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.81355
+    },
+    "Core Services\\nvidia_gpu_sharing.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.816661
+    },
+    "Core Services\\portal_api_endpoints.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.820417
+    },
+    "Core Services\\rest_api.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.8254673
+    },
+    "Core Services\\simple_rest_api.py": {
+      "passed": true,
+      "message": "Service with functions",
+      "details": {},
+      "timestamp": 1778705499.8262513
+    },
+    "Core Services\\unified_dashboard.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.8307395
+    },
+    "Core Services\\unified_monitoring.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.8348103
+    },
+    "Core Services\\windows_network_discovery.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.8369353
+    },
+    "Core Services\\windows_screen_sharing.py": {
+      "passed": true,
+      "message": "Service with classes",
+      "details": {},
+      "timestamp": 1778705499.840495
+    },
+    "Batch File Fix": {
+      "passed": true,
+      "message": "Fixed batch file variable quoting",
+      "details": {},
+      "timestamp": 1778705499.8441463
+    }
+  },
+  "api_endpoints": {
+    "Core Services/rest_api.py": {
+      "passed": true,
+      "message": "Found 25 endpoints (GET: 14, POST: 11)",
+      "details": {},
+      "timestamp": 1778705499.8410718
+    },
+    "Core Services/portal_api_endpoints.py": {
+      "passed": true,
+      "message": "Found 19 endpoints (GET: 10, POST: 9)",
+      "details": {},
+      "timestamp": 1778705499.8417687
+    },
+    "Core Services/simple_rest_api.py": {
+      "passed": true,
+      "message": "Found 4 endpoints (GET: 4, POST: 0)",
+      "details": {},
+      "timestamp": 1778705499.8420103
+    }
+  },
+  "file_structure": {
+    "Core Services": {
+      "passed": true,
+      "message": "All 4 required files present",
+      "details": {},
+      "timestamp": 1778705499.8423872
+    },
+    "Mobile_Interface": {
+      "passed": true,
+      "message": "All 4 required files present",
+      "details": {},
+      "timestamp": 1778705499.842679
+    },
+    "config": {
+      "passed": true,
+      "message": "Directory exists",
+      "details": {},
+      "timestamp": 1778705499.8427935
+    },
+    "data": {
+      "passed": true,
+      "message": "Directory exists",
+      "details": {},
+      "timestamp": 1778705499.8428676
+    },
+    "logs": {
+      "passed": true,
+      "message": "Directory exists",
+      "details": {},
+      "timestamp": 1778705499.842925
+    }
+  },
+  "overall": {
+    "total_checks": 116,
+    "passed": 96,
+    "failed": 20,
+    "success_rate": 82.75862068965517
+  }
+}

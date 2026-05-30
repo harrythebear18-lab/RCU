@@ -1,0 +1,321 @@
+{
+  "timestamp": "2026-05-14T11:08:36.082145",
+  "backup_directory": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\cleanup_backup",
+  "actions": [
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\abstraction_layer_integration_test.py",
+      "timestamp": "2026-05-14T11:08:36.005453"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\comprehensive_test_suite.py",
+      "timestamp": "2026-05-14T11:08:36.006940"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\debug_dashboard_buttons.py",
+      "timestamp": "2026-05-14T11:08:36.008585"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\phase2_integration_test.py",
+      "timestamp": "2026-05-14T11:08:36.010144"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\simple_cpu_test.py",
+      "timestamp": "2026-05-14T11:08:36.011440"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\system_integration_test.py",
+      "timestamp": "2026-05-14T11:08:36.012719"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\temp_script_5915.py",
+      "timestamp": "2026-05-14T11:08:36.013974"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_bidirectional_sharing.py",
+      "timestamp": "2026-05-14T11:08:36.015348"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_core_temps.py",
+      "timestamp": "2026-05-14T11:08:36.016633"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_cpu_monitor.py",
+      "timestamp": "2026-05-14T11:08:36.018074"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_dashboard_launch.py",
+      "timestamp": "2026-05-14T11:08:36.019431"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_dashboard_ui.py",
+      "timestamp": "2026-05-14T11:08:36.020989"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_integration.py",
+      "timestamp": "2026-05-14T11:08:36.022480"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_launcher_functionality.py",
+      "timestamp": "2026-05-14T11:08:36.024076"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_logo.py",
+      "timestamp": "2026-05-14T11:08:36.025870"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_original_cpu.py",
+      "timestamp": "2026-05-14T11:08:36.027564"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_portal_file_transfer.py",
+      "timestamp": "2026-05-14T11:08:36.028708"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_rdma_windows.py",
+      "timestamp": "2026-05-14T11:08:36.031107"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_rest_api.py",
+      "timestamp": "2026-05-14T11:08:36.032352"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_smart_system_sensing.py",
+      "timestamp": "2026-05-14T11:08:36.033961"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_streamlined_dashboard.py",
+      "timestamp": "2026-05-14T11:08:36.035521"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_temperature.py",
+      "timestamp": "2026-05-14T11:08:36.037082"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_visentrix_branding.py",
+      "timestamp": "2026-05-14T11:08:36.038284"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_windows_10_sensing.py",
+      "timestamp": "2026-05-14T11:08:36.039642"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\RDMA\\rdma_latency_test.py",
+      "timestamp": "2026-05-14T11:08:36.041201"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\RDMA\\test_suite.py",
+      "timestamp": "2026-05-14T11:08:36.043087"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Subnet Portal\\console_network_test.py",
+      "timestamp": "2026-05-14T11:08:36.044837"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\check_failures.py",
+      "timestamp": "2026-05-14T11:08:36.046229"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\check_failures_simple.py",
+      "timestamp": "2026-05-14T11:08:36.047762"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\debug_dashboard_buttons.py",
+      "timestamp": "2026-05-14T11:08:36.048003"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\fix_all_launcher_paths.py",
+      "timestamp": "2026-05-14T11:08:36.049330"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\fix_button_systems.py",
+      "timestamp": "2026-05-14T11:08:36.050818"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\fix_escape_sequences.py",
+      "timestamp": "2026-05-14T11:08:36.052139"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\fix_launcher_paths.py",
+      "timestamp": "2026-05-14T11:08:36.053689"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Power Management\\fix_syntax.py",
+      "timestamp": "2026-05-14T11:08:36.055151"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_original_cpu.py",
+      "timestamp": "2026-05-14T11:08:36.055382"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Backup System\\backup_manager.py",
+      "timestamp": "2026-05-14T11:08:36.057239"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Core Services\\backup_manager.py",
+      "timestamp": "2026-05-14T11:08:36.059178"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\RDMA\\zero_copy_rdmda.py",
+      "timestamp": "2026-05-14T11:08:36.060434"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\temp_script_5915.py",
+      "timestamp": "2026-05-14T11:08:36.060685"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\create_streamlined_dashboard.py",
+      "timestamp": "2026-05-14T11:08:36.061773"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\dashboard_launcher_verification.py",
+      "timestamp": "2026-05-14T11:08:36.062941"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\debug_dashboard_buttons.py",
+      "timestamp": "2026-05-14T11:08:36.063229"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\homelab_dashboard.py",
+      "timestamp": "2026-05-14T11:08:36.064636"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\sync_dashboard_launcher.py",
+      "timestamp": "2026-05-14T11:08:36.065989"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_dashboard_launch.py",
+      "timestamp": "2026-05-14T11:08:36.066244"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_dashboard_ui.py",
+      "timestamp": "2026-05-14T11:08:36.066371"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_streamlined_dashboard.py",
+      "timestamp": "2026-05-14T11:08:36.066510"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\update_dashboard_comprehensive.py",
+      "timestamp": "2026-05-14T11:08:36.067751"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Core Services\\mesh_vpn_dashboard.py",
+      "timestamp": "2026-05-14T11:08:36.069082"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Core Services\\unified_dashboard.py",
+      "timestamp": "2026-05-14T11:08:36.071053"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Core Services\\web_dashboard.py",
+      "timestamp": "2026-05-14T11:08:36.072127"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Web Dashboard\\web_dashboard.py",
+      "timestamp": "2026-05-14T11:08:36.073787"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\dashboard_launcher_verification.py",
+      "timestamp": "2026-05-14T11:08:36.074047"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\fix_all_launcher_paths.py",
+      "timestamp": "2026-05-14T11:08:36.074234"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\fix_launcher_paths.py",
+      "timestamp": "2026-05-14T11:08:36.074416"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\homelab_launcher_enhanced.py",
+      "timestamp": "2026-05-14T11:08:36.076046"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Integrated_RAM_Launcher.py",
+      "timestamp": "2026-05-14T11:08:36.077423"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\sync_dashboard_launcher.py",
+      "timestamp": "2026-05-14T11:08:36.077628"
+    },
+    {
+      "action": "skipped_not_found",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\test_launcher_functionality.py",
+      "timestamp": "2026-05-14T11:08:36.077794"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Visentrix_Launcher.py",
+      "timestamp": "2026-05-14T11:08:36.078962"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\Ram clean up\\launcher.py",
+      "timestamp": "2026-05-14T11:08:36.080617"
+    },
+    {
+      "action": "deleted",
+      "file": "C:\\Users\\htsou\\Desktop\\Homelab Tools\\setup\\wireguard_installer.py",
+      "timestamp": "2026-05-14T11:08:36.082120"
+    }
+  ]
+}

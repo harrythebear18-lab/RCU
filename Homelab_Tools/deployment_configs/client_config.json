@@ -1,0 +1,64 @@
+{
+  "system": {
+    "role": "client",
+    "os": "Windows 11",
+    "hardware": {
+      "cpu": {
+        "model": "Intel i5 (Newer Gen)",
+        "cores": 6,
+        "threads": 12,
+        "base_clock_ghz": 2.5,
+        "boost_clock_ghz": 4.5
+      },
+      "memory": {
+        "total_gb": 16,
+        "local_usage_gb": 8,
+        "remote_usage_gb": 16,
+        "speed_mhz": 4800,
+        "type": "DDR5"
+      },
+      "gpu": {
+        "model": "RTX 5060",
+        "memory_gb": 8,
+        "compute_capability": 8.9,
+        "tensor_cores": true,
+        "rt_cores": true
+      },
+      "storage": {
+        "ssd_drives": [
+          {
+            "type": "NVMe",
+            "size_gb": 512,
+            "purpose": "OS/Applications"
+          }
+        ],
+        "limited_storage": true
+      }
+    },
+    "connections": {
+      "host_address": "192.168.1.100",
+      "compute_client": {
+        "enabled": true,
+        "host_port": 25565,
+        "gpu_acceleration": true,
+        "hybrid_mode": true
+      },
+      "memory_client": {
+        "enabled": true,
+        "host_port": 25566,
+        "remote_ram_gb": 16
+      },
+      "storage_client": {
+        "enabled": true,
+        "host_port": 25567,
+        "mount_point": "Z:\\",
+        "cache_enabled": true
+      },
+      "rdma_client": {
+        "enabled": true,
+        "host_port": 25568,
+        "ultra_low_latency": true
+      }
+    }
+  }
+}

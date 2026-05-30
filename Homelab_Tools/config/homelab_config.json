@@ -1,0 +1,65 @@
+{
+  "system": {
+    "name": "Homelab System",
+    "version": "1.0.0",
+    "debug": false,
+    "log_level": "INFO",
+    "max_log_size_mb": 100,
+    "backup_retention_days": 30
+  },
+  "network": {
+    "server_ip": "192.168.1.186",
+    "client_ip": "192.168.1.132",
+    "port_range": "25565-25575",
+    "timeout_seconds": 30,
+    "retry_attempts": 3,
+    "use_ipv6": false
+  },
+  "ram_sharing": {
+    "enabled": true,
+    "ram_size_gb": 4,
+    "drive_letter": "R",
+    "auto_connect": true,
+    "share_name": "RamDisk",
+    "use_iscsi": true,
+    "use_smb": true
+  },
+  "monitoring": {
+    "enabled": true,
+    "update_interval_seconds": 2,
+    "history_retention_hours": 24,
+    "alert_threshold_cpu": 80,
+    "alert_threshold_memory": 85,
+    "alert_threshold_disk": 90
+  },
+  "rdma": {
+    "enabled": true,
+    "port": 25565,
+    "buffer_size_mb": 64,
+    "latency_target_us": 10,
+    "auto_optimize": true,
+    "fault_tolerance": true
+  },
+  "security": {
+    "require_authentication": false,
+    "session_timeout_minutes": 60,
+    "max_failed_attempts": 5,
+    "encryption_enabled": false,
+    "audit_logging": true
+  },
+  "ui": {
+    "theme": "dark",
+    "auto_refresh": true,
+    "refresh_interval_seconds": 5,
+    "show_advanced_options": false,
+    "compact_mode": false
+  },
+  "test": {
+    "value": 42
+  },
+  "api": {
+    "test": {
+      "value": 42
+    }
+  }
+}

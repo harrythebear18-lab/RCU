@@ -1,0 +1,18 @@
+# Homelab Tools - Basic Dependencies Only
+# Essential packages for first-time setup
+
+# Core system monitoring
+psutil>=5.9.8
+
+# Data visualization
+matplotlib>=3.8.2
+numpy>=1.26.4
+
+# Network and web
+requests>=2.31.0
+
+# Windows-specific monitoring
+wmi>=1.5.1
+
+# GUI (built-in with Python)
+# tkinter - included with Python

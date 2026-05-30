@@ -1,0 +1,33 @@
+{
+  "name": "Homelab Tools WireGuard Package",
+  "version": "1.0.0",
+  "description": "Automatic WireGuard installation for Homelab Tools mesh VPN",
+  "supported_platforms": [
+    "Windows 10",
+    "Windows 11",
+    "Linux"
+  ],
+  "requirements": {
+    "python": ">=3.7",
+    "admin_privileges": true,
+    "internet_connection": true
+  },
+  "features": [
+    "Automatic WireGuard download and installation",
+    "Firewall configuration",
+    "Service setup and configuration",
+    "Installation verification",
+    "Cross-platform support"
+  ],
+  "installation_steps": [
+    "Run setup/install_wireguard.bat (Windows)",
+    "Follow on-screen instructions",
+    "Verify installation",
+    "Configure mesh VPN"
+  ],
+  "troubleshooting": {
+    "permission_denied": "Run as Administrator",
+    "download_failed": "Check internet connection",
+    "service_failed": "Check Windows Firewall settings"
+  }
+}

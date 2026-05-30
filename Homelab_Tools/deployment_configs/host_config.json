@@ -1,0 +1,78 @@
+{
+  "system": {
+    "role": "host",
+    "os": "Windows 10",
+    "hardware": {
+      "cpu": {
+        "model": "Intel i7-8700K",
+        "cores": 6,
+        "threads": 12,
+        "base_clock_ghz": 3.7,
+        "boost_clock_ghz": 4.7
+      },
+      "memory": {
+        "total_gb": 32,
+        "speed_mhz": 3200,
+        "type": "DDR4",
+        "channels": 2
+      },
+      "gpu": {
+        "model": "GTX 1050",
+        "memory_gb": 4,
+        "compute_capability": 6.1
+      },
+      "storage": {
+        "ssd_drives": [
+          {
+            "type": "NVMe",
+            "size_gb": 512,
+            "purpose": "OS/Applications"
+          },
+          {
+            "type": "SATA",
+            "size_gb": 1024,
+            "purpose": "Games/Active Data"
+          }
+        ],
+        "hdd_drives": [
+          {
+            "type": "SATA",
+            "size_gb": 2048,
+            "purpose": "Archive/Backup"
+          },
+          {
+            "type": "SATA",
+            "size_gb": 4096,
+            "purpose": "Media/Storage"
+          }
+        ]
+      }
+    },
+    "services": {
+      "compute_server": {
+        "enabled": true,
+        "cpu_cores": 4,
+        "ram_gb": 24,
+        "port": 25565
+      },
+      "memory_server": {
+        "enabled": true,
+        "shared_ram_gb": 16,
+        "port": 25566
+      },
+      "storage_server": {
+        "enabled": true,
+        "export_pools": [
+          "fast_pool",
+          "bulk_pool"
+        ],
+        "port": 25567
+      },
+      "rdma_server": {
+        "enabled": true,
+        "device_path": "\\\\.\\UltraDMA",
+        "port": 25568
+      }
+    }
+  }
+}
