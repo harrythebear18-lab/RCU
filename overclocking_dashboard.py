@@ -180,8 +180,21 @@ class OverclockingDashboard:
                     handle = nvml.nvmlDeviceGetHandleByIndex(0)
                     self.gpu_base_freq = nvml.nvmlDeviceGetClockInfo(handle, nvml.NVML_GRAPHICS_CLOCK) / 1000
                     self.gpu_current_freq = self.gpu_base_freq
-            except:
+            except Exception as e:
                 self.gpu_count = 0
+        elif GPU_AVAILABLE:
+            try:
+                gpus = GPUtil.getGPUs()
+                self.gpu_count = len(gpus)
+                if self.gpu_count > 0:
+                    # GPUtil doesn't provide clock info, use default
+                    self.gpu_base_freq = 1500  # Default 1500 MHz fallback
+                    self.gpu_current_freq = self.gpu_base_freq
+            except Exception as e:
+                # Don't set gpu_count to 0 if GPUtil is available - it might work in get_system_info
+                self.gpu_count = 1  # Assume 1 GPU if GPUtil is available
+        else:
+            self.gpu_count = 0
         
         # Get RAM frequency
         try:
@@ -791,7 +804,17 @@ class OverclockingDashboard:
                 
                 # Get GPU temperature
                 info['gpu']['temp'] = nvml.nvmlDeviceGetTemperature(handle, nvml.NVML_TEMPERATURE_GPU)
-            except:
+            except Exception as e:
+                pass
+        elif self.gpu_count > 0 and GPU_AVAILABLE:
+            try:
+                gpus = GPUtil.getGPUs()
+                if gpus:
+                    gpu = gpus[0]
+                    info['gpu']['usage'] = gpu.load * 100
+                    info['gpu']['freq'] = self.gpu_current_freq  # Use detected base freq
+                    info['gpu']['temp'] = gpu.temperature
+            except Exception as e:
                 pass
         
         # Get RAM info
@@ -867,7 +890,6 @@ class OverclockingDashboard:
                 self.root.after(0, self.update_display)
                 time.sleep(self.update_interval / 1000)
             except Exception as e:
-                print(f"Monitoring error: {e}")
                 break
     
     def start_monitoring(self):
@@ -894,7 +916,7 @@ class OverclockingDashboard:
                     # Merge with default profiles
                     self.profiles.update(saved_profiles)
         except Exception as e:
-            print(f"Error loading profiles: {e}")
+            pass
     
     def save_profiles(self):
         """Save overclocking profiles to file"""
@@ -902,7 +924,7 @@ class OverclockingDashboard:
             with open(self.profiles_file, 'w') as f:
                 json.dump(self.profiles, f, indent=2)
         except Exception as e:
-            print(f"Error saving profiles: {e}")
+            pass
     
     def load_current_profile(self):
         """Load current profile settings"""
@@ -921,7 +943,7 @@ class OverclockingDashboard:
                     self.on_gpu_freq_change(current_settings.get('gpu_freq', 100))
                     self.on_ram_freq_change(current_settings.get('ram_freq', 100))
         except Exception as e:
-            print(f"Error loading current profile: {e}")
+            pass
     
     def save_current_profile(self):
         """Save current profile settings"""
@@ -936,7 +958,7 @@ class OverclockingDashboard:
             with open(self.current_profile_file, 'w') as f:
                 json.dump(current_settings, f, indent=2)
         except Exception as e:
-            print(f"Error saving current profile: {e}")
+            pass
     
     def save_custom_profile(self):
         """Save current settings as a custom profile"""

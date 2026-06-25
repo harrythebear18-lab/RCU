@@ -1,0 +1,13 @@
+psutil==5.9.8
+matplotlib==3.8.2
+numpy==1.26.4
+GPUtil==1.4.0
+WMI==1.5.1
+nvidia-ml-py3==12.535.133
+pynvml==11.5.0
+scikit-learn==1.4.2
+schedule==1.2.2
+flask==3.0.0
+flask-cors==4.0.0
+pywin32==308
+pywintypes==308

@@ -17,75 +17,10 @@ from datetime import datetime
 import json
 import math
 from collections import deque
+import numpy as np
 import sys
 import pystray
 from PIL import Image, ImageDraw
-
-# Check and install dependencies
-def check_dependencies():
-    """Check and install required dependencies"""
-    missing_deps = []
-    
-    # Check for required modules
-    try:
-        import numpy as np
-    except ImportError:
-        missing_deps.append("numpy")
-    
-    try:
-        import matplotlib
-        matplotlib.use('TkAgg')  # Use TkAgg backend
-        import matplotlib.pyplot as plt
-        from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-        from matplotlib.figure import Figure
-    except ImportError:
-        missing_deps.append("matplotlib")
-    
-    try:
-        import pystray
-        from PIL import Image, ImageDraw
-    except ImportError:
-        missing_deps.extend(["pystray", "pillow"])
-    
-    # Install missing dependencies
-    if missing_deps:
-        print(f"Installing missing dependencies: {', '.join(missing_deps)}")
-        try:
-            subprocess.check_call([sys.executable, "-m", "pip", "install"] + missing_deps)
-            print("Dependencies installed successfully")
-        except subprocess.CalledProcessError as e:
-            print(f"Failed to install dependencies: {e}")
-            return False
-    
-    return True
-
-# Check administrative privileges
-def check_admin_privileges():
-    """Check if running with administrative privileges"""
-    try:
-        if platform.system() == "Windows":
-            import ctypes
-            return ctypes.windll.shell32.IsUserAnAdmin() != 0
-        else:
-            return os.geteuid() == 0
-    except:
-        return False
-
-# Request administrative privileges
-def request_admin_privileges():
-    """Request administrative privileges"""
-    if platform.system() == "Windows":
-        try:
-            import ctypes
-            if not ctypes.windll.shell32.IsUserAnAdmin():
-                # Re-run the script with admin rights
-                ctypes.windll.shell32.ShellExecuteW(
-                    None, "runas", sys.executable, " ".join(sys.argv), None, 1
-                )
-                sys.exit(0)
-        except:
-            return False
-    return True
 
 # Import monitoring modules
 try:
@@ -171,7 +106,7 @@ class ResourceOptimizer:
             snapshot = {
                 'timestamp': time.time(),
                 'cpu': {
-                    'usage': psutil.cpu_percent(interval=0.1),
+                    'usage': psutil.cpu_percent(interval=None),  # Faster - no blocking
                     'freq': psutil.cpu_freq().current if psutil.cpu_freq() else 0,
                     'temp': self.get_cpu_temperature(),
                     'load_avg': psutil.getloadavg()[0] if hasattr(psutil, 'getloadavg') else 0,
@@ -1618,6 +1553,11 @@ class ResourceOptimizerGUI:
         # System tray integration
         self.tray_app = tray_app
         
+        # Monitoring control
+        self.monitoring_active = False
+        self.monitor_thread = None
+        self.cached_snapshot = None
+        
         # Color scheme
         self.colors = {
             'bg': '#0f0f0f',
@@ -1648,6 +1588,7 @@ class ResourceOptimizerGUI:
     
     def on_closing(self):
         """Handle window closing - minimize to tray instead of closing"""
+        self.stop_monitoring()
         if self.tray_app:
             self.root.withdraw()  # Hide window
             self.tray_app.show_notification("Resource Optimizer", "Minimized to system tray")
@@ -1676,19 +1617,18 @@ class ResourceOptimizerGUI:
         main_container.pack(fill=tk.BOTH, expand=True, padx=20, pady=20)
         
         # Header
-        header_frame = tk.Frame(main_container, bg=self.colors['bg'], height=80)
+        header_frame = tk.Frame(main_container, bg=self.colors['bg'])
         header_frame.pack(fill=tk.X, pady=(0, 20))
-        header_frame.pack_propagate(False)
         
         title_label = tk.Label(header_frame, text="🧠 Windows 11 Resource Sharing Optimizer", 
                               font=('Segoe UI', 20, 'bold'), 
                               fg=self.colors['primary'], bg=self.colors['bg'])
-        title_label.pack(pady=(20, 5))
+        title_label.pack(pady=(10, 5))
         
         subtitle_label = tk.Label(header_frame, text="Intelligent Resource Management & Allocation Algorithm", 
                                  font=('Segoe UI', 11), 
                                  fg=self.colors['text_secondary'], bg=self.colors['bg'])
-        subtitle_label.pack()
+        subtitle_label.pack(pady=(0, 10))
         
         # Control panel
         control_frame = tk.Frame(main_container, bg=self.colors['card'], relief='solid', bd=1)
@@ -1814,7 +1754,7 @@ class ResourceOptimizerGUI:
         
         self.cpu_usage_label = tk.Label(cpu_frame, text="0%", font=('Segoe UI', 16, 'bold'), 
                                        fg=self.colors['text'], bg=self.colors['card'])
-        self.cpu_usage_label.pack()
+        self.cpu_usage_label.pack(expand=True)
         
         self.cpu_temp_label = tk.Label(cpu_frame, text="0°C", font=('Segoe UI', 10), 
                                       fg=self.colors['text_secondary'], bg=self.colors['card'])
@@ -1829,7 +1769,7 @@ class ResourceOptimizerGUI:
         
         self.mem_usage_label = tk.Label(mem_frame, text="0%", font=('Segoe UI', 16, 'bold'), 
                                        fg=self.colors['text'], bg=self.colors['card'])
-        self.mem_usage_label.pack()
+        self.mem_usage_label.pack(expand=True)
         
         self.mem_available_label = tk.Label(mem_frame, text="0 GB free", font=('Segoe UI', 10), 
                                            fg=self.colors['text_secondary'], bg=self.colors['card'])
@@ -1844,7 +1784,7 @@ class ResourceOptimizerGUI:
         
         self.gpu_usage_label = tk.Label(gpu_frame, text="0%", font=('Segoe UI', 16, 'bold'), 
                                        fg=self.colors['text'], bg=self.colors['card'])
-        self.gpu_usage_label.pack()
+        self.gpu_usage_label.pack(expand=True)
         
         self.gpu_temp_label = tk.Label(gpu_frame, text="0°C", font=('Segoe UI', 10), 
                                       fg=self.colors['text_secondary'], bg=self.colors['card'])
@@ -1859,7 +1799,7 @@ class ResourceOptimizerGUI:
         
         self.io_queue_label = tk.Label(io_frame, text="0", font=('Segoe UI', 16, 'bold'), 
                                       fg=self.colors['text'], bg=self.colors['card'])
-        self.io_queue_label.pack()
+        self.io_queue_label.pack(expand=True)
         
         self.io_ops_label = tk.Label(io_frame, text="0 ops/s", font=('Segoe UI', 10), 
                                     fg=self.colors['text_secondary'], bg=self.colors['card'])
@@ -2000,16 +1940,85 @@ class ResourceOptimizerGUI:
     
     def start_monitoring(self):
         """Start monitoring thread"""
+        self.monitoring_active = True
+        
         def monitor():
-            while True:
+            while self.monitoring_active:
                 try:
-                    self.root.after(0, self.update_display)
-                    time.sleep(1)
+                    # Get snapshot in background thread to avoid blocking GUI
+                    snapshot = self.optimizer.get_resource_snapshot()
+                    if snapshot and self.root.winfo_exists():
+                        self.cached_snapshot = snapshot
+                        # Update GUI from main thread
+                        self.root.after(0, lambda: self.update_display_with_snapshot(snapshot))
+                    time.sleep(2)  # Increased from 1 to 2 seconds to reduce lag
                 except:
                     break
         
-        monitor_thread = threading.Thread(target=monitor, daemon=True)
-        monitor_thread.start()
+        self.monitor_thread = threading.Thread(target=monitor, daemon=True)
+        self.monitor_thread.start()
+    
+    def update_display_with_snapshot(self, snapshot):
+        """Update display with pre-fetched snapshot (called from main thread)"""
+        if not snapshot:
+            return
+        
+        # Update resource displays
+        self.cpu_usage_label.config(text=f"{snapshot['cpu']['usage']:.1f}%")
+        self.cpu_temp_label.config(text=f"{snapshot['cpu']['temp']:.1f}°C")
+        
+        self.mem_usage_label.config(text=f"{snapshot['memory']['usage']:.1f}%")
+        self.mem_available_label.config(text=f"{snapshot['memory']['available']:.1f} GB free")
+        
+        self.gpu_usage_label.config(text=f"{snapshot['gpu']['usage']:.1f}%")
+        self.gpu_temp_label.config(text=f"{snapshot['gpu']['temp']:.1f}°C")
+        
+        self.io_queue_label.config(text=f"{snapshot['disk']['queue_length']:.1f}")
+        io_ops = snapshot['disk']['io'].get('read_ops', 0) + snapshot['disk']['io'].get('write_ops', 0)
+        self.io_ops_label.config(text=f"{io_ops} ops")
+        
+        # Update optimization status
+        if self.optimizer.optimization_active:
+            self.active_indicator.config(text="● ACTIVE", fg=self.colors['success'])
+            
+            # Calculate pressure score
+            pressure_score = self.optimizer.calculate_pressure_score(snapshot)
+            
+            # Update pressure display
+            if pressure_score >= 3:
+                self.pressure_label.config(text="Pressure: Critical", fg=self.colors['danger'])
+                self.intensity_label.config(text="Optimization: Emergency", fg=self.colors['danger'])
+            elif pressure_score >= 2:
+                self.pressure_label.config(text="Pressure: High", fg=self.colors['warning'])
+                self.intensity_label.config(text="Optimization: Aggressive", fg=self.colors['warning'])
+            elif pressure_score >= 1:
+                self.pressure_label.config(text="Pressure: Medium", fg=self.colors['primary'])
+                self.intensity_label.config(text="Optimization: Standard", fg=self.colors['primary'])
+            else:
+                self.pressure_label.config(text="Pressure: Low", fg=self.colors['success'])
+                self.intensity_label.config(text="Optimization: Maintenance", fg=self.colors['text_secondary'])
+            
+            # Update profile display
+            self.profile_display.config(text=f"Profile: {self.optimizer.current_profile.capitalize()}")
+            
+            # Log optimization activity periodically
+            if not hasattr(self, 'last_log_time'):
+                self.last_log_time = 0
+            
+            current_time = time.time()
+            if current_time - self.last_log_time > 30:  # Log every 30 seconds
+                self.log_optimization_status(snapshot, pressure_score)
+                self.last_log_time = current_time
+        else:
+            self.active_indicator.config(text="● INACTIVE", fg=self.colors['text_secondary'])
+            self.intensity_label.config(text="Optimization: Idle", fg=self.colors['text_secondary'])
+            self.pressure_label.config(text="Pressure: Low", fg=self.colors['success'])
+    
+    def stop_monitoring(self):
+        """Stop monitoring thread"""
+        self.monitoring_active = False
+        if self.monitor_thread:
+            self.monitor_thread.join(timeout=2)
 
 def main():
     """Main function with system tray support"""

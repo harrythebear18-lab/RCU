@@ -1,133 +1,237 @@
 #!/usr/bin/env python3
 """
 Comprehensive tool verification script
+Checks file existence, syntax, and import validity for all launcher tools
 """
 
 import os
+import sys
+import py_compile
 from pathlib import Path
 
-# All tools from the launcher
+# All tools from the current launcher.py
+# (name, filename, category, check_type)
+# check_type: "syntax" = py_compile only, "import" = attempt import
 all_tools = [
-    # Working Systems - Only Best Versions
-    ("⭐ Simple Unified GUI", "simple_unified_gui.PY", "#2ecc71"),
-    ("🚀 Unified Launcher GUI", "launcher_gui.py", "#3498db"),
-    ("🔐 PC Authentication GUI", "pc_auth_gui.py", "#9b59b6"),
-    ("📊 Streamlined Dashboard", "streamlined_dashboard.py", "#e67e22"),
-    ("📈 Enhanced Dashboard (Fixed)", "enhanced_dashboard_fixed.py", "#d35400"),
-    ("🌟 Fully Unified GUI", "fully_unified_gui.py", "#27ae60"),
-    
-    # Windows Server & Client
-    ("🏢 Windows 10 Homelab Server", "win10_homelab_server.py", "#27ae60"),
-    ("🚀 Windows 10 Server Launcher", "win10_server_launcher.py", "#3498db"),
-    ("💻 Windows 11 Homelab Client", "win11_homelab_client.py", "#e67e22"),
-    ("🔌 Windows 11 RDMA Client", "win11_rdma_client.py", "#f39c12"),
-    
-    # Overclocking & Performance - Only Fixed Versions
-    ("🔧 Overclocking Dashboard", "overclocking_dashboard.py", "#e67e22"),
-    ("⚡ Performance Optimizer (Fixed)", "performance_optimizer_fixed.py", "#27ae60"),
-    ("🔧 Resource Optimizer Fixed", "resource_optimizer_fixed.py", "#d35400"),
-    ("📊 Performance Reports", "performance_reports.py", "#f39c12"),
-    ("💚 System Health Scorer", "system_health_scorer.py", "#2ecc71"),
-    
-    # RDMA & Networking - Only Fixed Version
-    ("🔌 RDMA Integration (Fixed)", "rdma_integration_fixed.py", "#3498db"),
-    ("🏢 Homelab Server", "homelab_server.py", "#27ae60"),
-    ("💻 Homelab Client", "homelab_client.py", "#e67e22"),
-    ("📊 Homelab Dashboard", "homelab_dashboard.py", "#f39c12"),
-    ("🌐 Unified Homelab Dashboard", "unified_homelab_dashboard.py", "#3498db"),
-    
-    # System Cleanup & Optimization - Verified Working
-    ("🧹 Aggressive RAM Cleaner", "aggressive_ram_cleaner.py", "#c0392b"),
-    ("🧽 Soft RAM Cleaner", "soft_ram_cleaner.py", "#3498db"),
-    ("🔄 RAM Cleanup Script", "ram_cleanup_script.py", "#f39c12"),
-    ("⚡ CPU Cleanup Script", "cpu_cleanup_script.py", "#27ae60"),
-    ("🎮 GPU Cleanup Script", "gpu_cleanup_script.py", "#e67e22"),
-    ("👑 System Cleanup Master", "system_cleanup_master.py", "#9b59b6"),
-    ("⚡ Memory Jolt", "memory_jolt.py", "#c0392b"),
-    
-    # Security & Authentication - Verified Working
-    ("🔐 PC Authentication System", "pc_auth_system.py", "#9b59b6"),
-    ("🛡️ Advanced Security", "advanced_security.py", "#c0392b"),
-    ("🤖 Automated Interventions", "automated_interventions.py", "#3498db"),
-    ("📡 Automated Responses", "automated_responses.py", "#f39c12"),
-    
-    # Backup & Management - Only Fixed Versions
-    ("💾 Backup Manager (Fixed)", "backup_manager_fixed.py", "#27ae60"),
-    ("⚙️ Settings Manager (Fixed)", "settings_manager_fixed.py", "#3498db"),
-    ("🗄️ Database Schema (Fixed)", "database_schema_fixed.py", "#e67e22"),
-    ("📅 Task Scheduler (Fixed)", "task_scheduler_fixed.py", "#f39c12"),
-    
-    # Testing & Diagnostics
-    ("🎮 Test GPU Monitoring", "test_gpu_monitoring.py", "#e67e22"),
-    ("🖥️ Test GUI", "test_gui.py", "#3498db"),
-    ("🐛 Debug GPU GUI", "debug_gpu_gui.py", "#c0392b"),
-    ("🎯 Test NVIDIA SMI", "test_nvidia_smi.py", "#27ae60"),
-    
-    # Utilities & Tools - Only Fixed Versions
-    ("🖥️ Console Launcher", "console_launcher.PY", "#3498db"),
-    ("🔄 Stay Open Launcher", "stay_open_launcher.PY", "#27ae60"),
-    ("🔌 System API", "system_api.py", "#e67e22"),
-    ("❓ Help System", "help_system.py", "#f39c12"),
-    ("📧 Email Notifications", "email_notifications.py", "#9b59b6"),
-    ("🌍 Internationalization (Fixed)", "internationalization_fixed.py", "#2ecc71"),
-    ("♿ Accessibility", "accessibility.py", "#3498db"),
-    ("🤖 Machine Learning", "machine_learning.py", "#e67e22"),
-    
-    # Legacy Tools - Verified Working
-    ("🚀 System Dashboard", "system_dashboard.py", "#16a085"),
-    ("🧹 RAM Monitor", "ram_monitor_gui.py", "#f39c12"),
-    ("🎮 GPU Monitor", "gpu_monitor_gui.py", "#c0392b"),
-    ("⚡ CPU Monitor", "cpu_monitor_gui.py", "#5dade2")
+    # === Single-Device Tools (Root Directory) ===
+    ("PC Authentication GUI", "pc_auth_gui.py", "Single-Device", "syntax"),
+    ("Streamlined Dashboard", "streamlined_dashboard.py", "Single-Device", "syntax"),
+    ("Overclocking Dashboard", "overclocking_dashboard.py", "Single-Device", "syntax"),
+    ("Resource Optimizer", "resource_optimizer.py", "Single-Device", "syntax"),
+    ("Resource Optimizer (Tray)", "resource_optimizer_tray.py", "Single-Device", "syntax"),
+
+    # === Legacy Tools (Root Directory) ===
+    ("System Dashboard", "system_dashboard.py", "Legacy", "syntax"),
+    ("RAM Monitor", "ram_monitor_gui.py", "Legacy", "syntax"),
+    ("GPU Monitor", "gpu_monitor_gui.py", "Legacy", "syntax"),
+    ("CPU Monitor", "cpu_monitor_gui.py", "Legacy", "syntax"),
+    ("RAM Cleanup Script", "ram_cleanup_script.py", "Legacy", "syntax"),
+    ("Memory Jolt", "memory_jolt.py", "Legacy", "syntax"),
+    ("Soft RAM Cleaner", "soft_ram_cleaner.py", "Legacy", "syntax"),
+
+    # === Advanced Networking (Root + RDMA Directory) ===
+    ("RDMA Launcher", "rdma_launcher.py", "Advanced Networking", "syntax"),
+
+    # === Homelab Systems (Root + External) ===
+    ("Homelab Portal", "homelab_portal.py", "Homelab Systems", "syntax"),
 ]
 
+# External tools referenced by rdma_launcher.py
+rdma_tools = [
+    ("RDMA Desktop App", "rdma_desktop_app.py"),
+    ("RDMA REST API", "rdma_rest_api.py"),
+    ("Performance Profiler", "performance_profiler.py"),
+    ("Ultra Latency Benchmark", "ultra_latency_benchmark.py"),
+    ("Zero-Copy Operations", "zero_copy_rdmda.py"),
+    ("UDP Memory Bridge", "udp_memory_bridge.py"),
+    ("PCIe Tunneling", "virtual_pcie_tunnel.py"),
+    ("Network Bypass", "raw_network_bypass.py"),
+    ("Monitoring System", "monitoring_system.py"),
+]
+
+# External tools referenced by launcher.py
+external_tools = [
+    ("Homelab Tools Launcher", r"Homelab_Tools\simple_launcher.py"),
+]
+
+# Core Services directory
+core_services_dir = "Core Services"
+core_services_files = [
+    "event_bus.py", "config_manager.py", "auth_service.py",
+    "data_persistence.py", "unified_monitoring.py",
+    "bidirectional_resource_sharing.py", "windows_network_discovery.py",
+    "intel_ethernet_optimizer.py", "identical_hardware_optimizer.py",
+    "nvidia_gpu_sharing.py", "ddr4_ram_sharing.py",
+    "windows_screen_sharing.py", "system_data_connector.py",
+    "theme_config.py", "windows_assistant_integration.py",
+    "portal_api_endpoints.py", "rest_api.py", "simple_rest_api.py",
+    "analytics_engine.py", "automation_framework.py",
+    "advanced_security.py", "smart_system_sensing.py",
+    "mesh_app_communication.py", "mesh_app_integration.py",
+    "wireguard_installer.py", "admin_auto_config.py",
+    "data_abstraction_layer.py", "frontend_backend_mixer.py",
+    "frontend_backend_synchronization.py", "unified_path_manager.py",
+    "windows_version_abstraction.py",
+]
+
+
+def check_syntax(filepath):
+    """Check if a Python file compiles without syntax errors"""
+    try:
+        py_compile.compile(str(filepath), doraise=True)
+        return True, None
+    except py_compile.PyCompileError as e:
+        return False, str(e)
+    except Exception as e:
+        return False, str(e)
+
+
 def main():
-    """Verify all tool files exist"""
+    """Verify all tool files exist and have valid syntax"""
     base_path = Path(__file__).parent
+    rdma_path = Path(r"C:\Users\htsou\Desktop\RDMA")
+
     missing_files = []
+    syntax_errors = []
     existing_files = []
-    
-    print("🔍 COMPREHENSIVE TOOL VERIFICATION")
-    print("=" * 50)
-    
-    for name, filename, color in all_tools:
+    passed_syntax = []
+
+    print("=" * 70)
+    print("  COMPREHENSIVE TOOL VERIFICATION - LAUNCHER + RDMA + HOMELAB")
+    print("=" * 70)
+
+    # === Check root tools ===
+    print("\n--- Single-Device & Legacy Tools ---")
+    for name, filename, category, check_type in all_tools:
         file_path = base_path / filename
-        
         if file_path.exists():
             size = file_path.stat().st_size
             existing_files.append((name, filename, size))
-            print(f"✅ {name}: {filename} ({size:,} bytes)")
+            if check_type == "syntax":
+                ok, err = check_syntax(file_path)
+                if ok:
+                    passed_syntax.append((name, filename))
+                    print(f"  ✅ {name}: {filename} ({size:,} bytes) [syntax OK]")
+                else:
+                    syntax_errors.append((name, filename, err))
+                    print(f"  ⚠️  {name}: {filename} ({size:,} bytes) [SYNTAX ERROR]")
+            else:
+                print(f"  ✅ {name}: {filename} ({size:,} bytes)")
         else:
             missing_files.append((name, filename))
-            print(f"❌ {name}: {filename} - MISSING")
-    
-    print("\n" + "=" * 50)
-    print(f"📊 SUMMARY:")
-    print(f"   Total Tools: {len(all_tools)}")
-    print(f"   ✅ Existing: {len(existing_files)}")
-    print(f"   ❌ Missing: {len(missing_files)}")
-    
-    if missing_files:
-        print(f"\n🚨 MISSING FILES:")
-        for name, filename in missing_files:
-            print(f"   - {name}: {filename}")
+            print(f"  ❌ {name}: {filename} - MISSING")
+
+    # === Check RDMA tools ===
+    print("\n--- RDMA Tools (C:\\Users\\htsou\\Desktop\\RDMA) ---")
+    for name, filename in rdma_tools:
+        file_path = rdma_path / filename
+        if file_path.exists():
+            size = file_path.stat().st_size
+            existing_files.append((name, filename, size))
+            ok, err = check_syntax(file_path)
+            if ok:
+                passed_syntax.append((name, filename))
+                print(f"  ✅ {name}: {filename} ({size:,} bytes) [syntax OK]")
+            else:
+                syntax_errors.append((name, filename, err))
+                print(f"  ⚠️  {name}: {filename} ({size:,} bytes) [SYNTAX ERROR]")
+        else:
+            missing_files.append((name, filename))
+            print(f"  ❌ {name}: {filename} - MISSING")
+
+    # === Check external tools ===
+    print("\n--- External Tools ---")
+    for name, rel_path in external_tools:
+        file_path = base_path / rel_path
+        if file_path.exists():
+            size = file_path.stat().st_size
+            existing_files.append((name, rel_path, size))
+            ok, err = check_syntax(file_path)
+            if ok:
+                passed_syntax.append((name, rel_path))
+                print(f"  ✅ {name}: {rel_path} ({size:,} bytes) [syntax OK]")
+            else:
+                syntax_errors.append((name, rel_path, err))
+                print(f"  ⚠️  {name}: {rel_path} ({size:,} bytes) [SYNTAX ERROR]")
+        else:
+            missing_files.append((name, rel_path))
+            print(f"  ❌ {name}: {rel_path} - MISSING")
+
+    # === Check Core Services ===
+    print(f"\n--- Core Services ({core_services_dir}/) ---")
+    cs_path = base_path / core_services_dir
+    if cs_path.exists():
+        for filename in core_services_files:
+            file_path = cs_path / filename
+            if file_path.exists():
+                size = file_path.stat().st_size
+                existing_files.append((filename, f"Core Services/{filename}", size))
+                ok, err = check_syntax(file_path)
+                if ok:
+                    passed_syntax.append((filename, f"Core Services/{filename}"))
+                    print(f"  ✅ {filename} ({size:,} bytes) [syntax OK]")
+                else:
+                    syntax_errors.append((filename, f"Core Services/{filename}", err))
+                    print(f"  ⚠️  {filename} ({size:,} bytes) [SYNTAX ERROR]")
+            else:
+                missing_files.append((filename, f"Core Services/{filename}"))
+                print(f"  ❌ {filename} - MISSING")
     else:
-        print(f"\n✅ ALL FILES VERIFIED - NO MISSING FILES!")
-    
-    # Check launcher file
-    launcher_file = base_path / "working_gui_launcher_no_duplicates.py"
+        print(f"  ❌ Core Services directory MISSING")
+        missing_files.append(("Core Services", "Core Services/"))
+
+    # === Check launcher itself ===
+    print("\n--- Main Launcher ---")
+    launcher_file = base_path / "launcher.py"
     if launcher_file.exists():
-        print(f"\n✅ Launcher file exists: {launcher_file.name}")
-        print(f"   Size: {launcher_file.stat().st_size:,} bytes")
+        size = launcher_file.stat().st_size
+        ok, err = check_syntax(launcher_file)
+        if ok:
+            passed_syntax.append(("Launcher", "launcher.py"))
+            print(f"  ✅ launcher.py ({size:,} bytes) [syntax OK]")
+        else:
+            syntax_errors.append(("Launcher", "launcher.py", err))
+            print(f"  ⚠️  launcher.py ({size:,} bytes) [SYNTAX ERROR]")
     else:
-        print(f"\n❌ Launcher file MISSING: {launcher_file.name}")
-    
-    # Check syntax of launcher
-    try:
-        import py_compile
-        py_compile.compile(launcher_file, doraise=True)
-        print(f"✅ Launcher syntax check PASSED")
-    except Exception as e:
-        print(f"❌ Launcher syntax check FAILED: {e}")
+        missing_files.append(("Launcher", "launcher.py"))
+        print(f"  ❌ launcher.py - MISSING")
+
+    # === Check requirements.txt ===
+    req_file = base_path / "requirements.txt"
+    if req_file.exists():
+        print(f"  ✅ requirements.txt ({req_file.stat().st_size:,} bytes)")
+    else:
+        missing_files.append(("Requirements", "requirements.txt"))
+        print(f"  ❌ requirements.txt - MISSING")
+
+    # === SUMMARY ===
+    print("\n" + "=" * 70)
+    print("  SUMMARY")
+    print("=" * 70)
+    total = len(all_tools) + len(rdma_tools) + len(external_tools) + len(core_services_files) + 2
+    print(f"  Total Tools Checked:  {total}")
+    print(f"  ✅ Files Found:       {len(existing_files)}")
+    print(f"  ✅ Syntax Passed:     {len(passed_syntax)}")
+    print(f"  ❌ Missing Files:     {len(missing_files)}")
+    print(f"  ⚠️  Syntax Errors:    {len(syntax_errors)}")
+
+    if missing_files:
+        print(f"\n  🚨 MISSING FILES:")
+        for name, filename in missing_files:
+            print(f"     - {name}: {filename}")
+
+    if syntax_errors:
+        print(f"\n  ⚠️  SYNTAX ERRORS:")
+        for name, filename, err in syntax_errors:
+            print(f"     - {name}: {filename}")
+            print(f"       Error: {err[:200]}")
+
+    if not missing_files and not syntax_errors:
+        print(f"\n  ✅ ALL TOOLS VERIFIED - NO MISSING FILES, NO SYNTAX ERRORS!")
+
+    print("\n" + "=" * 70)
+    return 0 if (not missing_files and not syntax_errors) else 1
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

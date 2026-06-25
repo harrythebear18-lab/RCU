@@ -1,0 +1,17 @@
+{
+  "credentials": {
+    "admin": {
+      "hash": "a97cb88515ab4b20b5bffdb570b7af08b70f336475cec56a69abff990edf913f",
+      "salt": "c3b36d16efef2dcaa53e8b00c47c9f10",
+      "changed_at": "2026-06-25T16:08:35.439857"
+    },
+    "guest": {
+      "hash": "bddf62bc163dc902cc279a7be0400c6a0fcfa5eb2bc28f045e412e783c2cd322",
+      "salt": "0d20cabd0dbde8e1666f1f4f457837f7",
+      "changed_at": "2026-06-25T16:08:35.443077"
+    }
+  },
+  "api_keys": {},
+  "certificates": {},
+  "secrets": {}
+}
